@@ -41,3 +41,7 @@ usage per 🖱️ **DoubleClick** on the bat file
 *Recommended Dependencies :*
 
 - (asciidoctor-diagram)[https://docs.asciidoctor.org/diagram-extension/latest/]
+
+
+# Examples :
+- 2023 - (3D printing web interface)[https://github.com/3D-printing-Web-interface/DiplomaThesis-Lithoz-3D-Printing-WebInterface]
