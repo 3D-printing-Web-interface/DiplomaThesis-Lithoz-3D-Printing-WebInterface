@@ -1,3 +1,4 @@
 [submodule "Assets/Project"]
 	path = Assets/Project
-	url = https://github.com/PHCaesar/Spg_2223_diplom_lithoz/tree/development
+	url = https://github.com/PHCaesar/Spg_2223_diplom_lithoz.git
+	branch = development
