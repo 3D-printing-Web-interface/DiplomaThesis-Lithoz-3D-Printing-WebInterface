@@ -8,6 +8,15 @@ font:
       italic: Lato-Italic.ttf
       bold: Lato-Bold.ttf
       bold_italic: Lato-BoldItalic.ttf
+    Lato-Light: 
+      normal: Lato-Light.ttf
+      italic: Lato-LightItalic.ttf
+    Lato-Black:
+      normal: Lato-Black.ttf
+      italic: Lato-BlackItalic.ttf
+    Lato-Thin:
+      normal: Lato-Thin.ttf
+      italic: Lato-ThinItalic.ttf
 
 base:
   font-color: #000000
