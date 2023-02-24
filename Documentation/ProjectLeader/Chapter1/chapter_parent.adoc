@@ -1,6 +1,36 @@
-# Philipp Cserich
+# WebDesign Lifecycle
 In this part, the focus lies on UI and UX design. 
+
+## Planning
+## Mocking
+## Implementation
+
 
 [quote, Philipp Cserich, 2019-05-09]
 SMTH QUOTED
 
+- WebDesign Lifecycle
+    - Planning
+    - Mocking
+    - Implementation
+- Visual Design
+    - Typography
+    - Colors equal decisions
+    - Page Layout
+    - Motion
+- Interaction Design - Psychological aspects of UI design
+    - Topic compatibility
+    - Context & Attention
+- UI Frameworks
+    - Bootstrap
+    - Vuetify
+    - Tailwind CSS
+- Modern UX design
+    - Elements of UX design
+        - Surface
+        - Skeleton
+        - Structure
+        - Scope
+        - Strategy
+    - Feel & Responses
+- Responsiveness and platform-independency

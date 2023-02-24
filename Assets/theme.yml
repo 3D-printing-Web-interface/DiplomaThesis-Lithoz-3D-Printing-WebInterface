@@ -9,6 +9,8 @@ colourset:
 
 title-page:
   background-color: $colourset-white
+  margin: [center]
+  align: center
   logo:
     image: image:Images/lithoz.svg[pdfwidth=2.5in,align=center]
 
