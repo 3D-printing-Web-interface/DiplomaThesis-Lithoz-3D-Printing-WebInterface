@@ -1,5 +1,17 @@
 extends: default
 
+colourset:
+  black: #1F1F1F 
+  white: #FFFFFF 
+  link-blue: #0000ff
+  quote-gray: #B1B1B1
+
+
+title-page:
+  background-color: $colourset-white
+  logo:
+    image: image:Images/lithoz.svg[pdfwidth=2.5in,align=center]
+
 font:
   catalog:
     merge: false
@@ -19,23 +31,27 @@ font:
       italic: Lato-ThinItalic.ttf
 
 base:
-  font-color: #000000
+  font-color: $colourset-black
   font-family: Lato
 
 footer:
   recto:
     right:
-      content: A recto page
+      content: '{page-number}'
   verso:
     left:
-      content: A verso page
+      content: '{page-number}'
 
 heading:
-  font-color: #000000
+  font-color: $colourset-black
   font-size: 17
   font-style: bold
   line-height: 1.2
   margin-bottom: 10
 
 link:
-  font-color: #0000ff
+  font-color: $colourset-link-blue
+
+  
+italic:
+  font-color: $colourset-quote-gray
