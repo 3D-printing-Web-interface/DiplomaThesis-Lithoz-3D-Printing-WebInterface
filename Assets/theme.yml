@@ -1,7 +1,17 @@
 extends: default
 
+font:
+  catalog:
+    merge: false
+    Lato:
+      normal: Lato-Regular.ttf
+      italic: Lato-Italic.ttf
+      bold: Lato-Bold.ttf
+      bold_italic: Lato-BoldItalic.ttf
+
 base:
   font-color: #000000
+  font-family: Lato
 
 footer:
   recto:
