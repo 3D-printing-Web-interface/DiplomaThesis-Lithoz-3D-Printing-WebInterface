@@ -36,11 +36,15 @@ base:
 
 footer:
   recto:
+    left:
+      content: 'image:Images/PWI.png[pdfwidth=0.8in]'
     right:
-      content: '{page-number}'
+      content: 'Page - {page-number}'
   verso:
     left:
-      content: '{page-number}'
+      content: 'image:Images/lithoz.svg[pdfwidth=1in] X image:Images/PWI.png[pdfwidth=1in]'
+    right:
+      content: 'Page - {page-number}'
 
 heading:
   font-color: $colourset-black
@@ -52,6 +56,9 @@ heading:
 link:
   font-color: $colourset-link-blue
 
-  
 italic:
   font-color: $colourset-quote-gray
+
+page:
+  numbering:
+    start-at: toc
