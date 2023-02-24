@@ -59,6 +59,9 @@ heading:
 link:
   font-color: $colourset-link-blue
 
+quote:
+  border-color: #FFD700
+
 italic:
   font-color: $colourset-quote-gray
 
