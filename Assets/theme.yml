@@ -35,6 +35,7 @@ base:
   font-family: Lato
 
 footer:
+  border-color: #FFD700
   recto:
     left:
       content: 'image:Images/PWI.png[pdfwidth=0.8in]'
