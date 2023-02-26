@@ -1,3 +1,10 @@
-== Preface 
+== Preface
 
 This is the preface.
+
+Explanation of the legal obligations, concerning the diploma thesis and project
+What was the project About?
+
+Table Who is writing about which part of the Project
+Which topics are covered in the diploma thesis?
+
