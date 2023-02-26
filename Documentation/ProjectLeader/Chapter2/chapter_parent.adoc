@@ -1,9 +1,25 @@
 # Visual Design
+- More technical Approach (Dos and dont's for visual design)
+What code is considered clear for specific topics
+
+An applications visual appeal can be split up into several parts. The most important ones are:
+- Typography
+> Using different Fonts and sizes to emphasize different parts of the text 
+- Colors
+> Highlighting Elements & reflect the applications purpose
+- Layout
+> Object arrangement
+- Motion
+> Action - Reaction
 
 ## Typography
+Psychological definition of colours and how to emphasize that in your code
 
 ## Colors equal decisions
+Psychological definition of colours and how to emphasize that in your code - Psychological aspect + Code recommendation
 
 ## Page Layout
+How to you code layout in a way that is clear and easy to understand - Code readability
 
 ## Motion
+How should software act and react to user input

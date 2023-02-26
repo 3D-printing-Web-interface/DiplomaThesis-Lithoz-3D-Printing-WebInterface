@@ -10,7 +10,7 @@ include::General/cover.adoc[]
 
 include::General/preface.adoc[]
 
-// including all member contents 
+// including all members content
 <<<
 include::ProjectLeader/intro.adoc[]
 

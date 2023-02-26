@@ -1,5 +1,6 @@
 # Interaction Design - Psychological aspects of UI design
 
 ## Topic compatibility
+Apps Topic must be relected in its design and feel (mood)
 
 ## Context & Attention
