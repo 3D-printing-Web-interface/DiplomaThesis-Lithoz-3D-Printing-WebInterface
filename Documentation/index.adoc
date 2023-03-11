@@ -12,11 +12,11 @@ include::General/preface.adoc[]
 
 // including all members content
 <<<
-include::ProjectLeader/intro.adoc[]
+include::Cserich_Philipp/intro.adoc[]
 
-include::ProjectMember1/intro.adoc[]
+include::Boigner_Thomas/intro.adoc[]
 
-include::ProjectMember2/intro.adoc[]
+include::Siegl_Bernhard/intro.adoc[]
 
 include::ProjectMember3/intro.adoc[]
 
