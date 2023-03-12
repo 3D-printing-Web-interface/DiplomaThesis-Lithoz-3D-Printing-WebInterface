@@ -3,3 +3,5 @@
 - [1] Dont make me Think, a common sense approach to web usability,  Steve Krug, 2000, New Riders Publishing, ISBN 0-321-14653-0, http://www.sensible.com/dmmt.html
 - [2] Refactoring UI, Adam Wathan & Steve Schoger, https://www.refactoringui.com/
 - [3] About Face, The Essentials of Interaction Design, Fourth Edition, https://www.amazon.de/About-Face-Essentials-Interaction-Design/dp/1118766571
+- [4] Adobe XD - Web design guidelines https://xd.adobe.com/ideas/principles/web-design/web-page-design/
+- [5] UX Design.cc https://uxdesign.cc/content-strategy-in-ux-design-c2e41d19d447

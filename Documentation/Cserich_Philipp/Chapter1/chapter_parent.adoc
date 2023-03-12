@@ -10,11 +10,15 @@ UX includes UI
 - User Experience includes the feel of the product.
 Must be based on each other. UI is used to highlight and emphasize the UX.
 
+Frustration cycle
+Keep the balance between implementation and the abstract designing process
+
+image::/Assets/Images/Design_Cycle_02.png[design_cycle]
 
 ## Planning
 
 > What do you need before starting to design?
-Reference [Refactoring UI]
+~Reference~ ~-~ ~Refactoring~ ~UI~ ~[1]~
 
 In order to start designing an application, the applications shell must be built. Placing the logo, navbar and content container is the base of every application. It defines the order and position of the elements for every future page. So leaving to much or less room can negatively impact the users experience. There are several questions that can help to define the page's layout. 
 
@@ -43,8 +47,16 @@ Only then can the page be prettified with design patterns like shadows and borde
 Plan Features not design
 Softwares behaviour should exactly match the users expectations
 
+[TODO]
 
 ## Mocking
+
+Mocking is the process of creating a design prototype of an application. It is used to explore the design of the application without the implementation effort . Mocking is a very important step in the design process, since it allows to create many different desing ideas in a short period of time.
+This way, the apps visual structure can be improved before creating the production ready product.
+
+[quote,Nick Babich,Adobe XD - Web design guidelines[4]]
+"Mockups are high-fidelity design artifacts that enable designers to see what the final layout will look like."
+
 
 ## Implementation
 
