@@ -1,0 +1,13 @@
+# WebDesign Lifecycle
+In this part, the focus lies on UI and UX design. 
+
+- Differentiate in UI and UX design
+Whilst User Experience (UX) is centered around the features and the usability, User Interface (UI) is about the feel and look of your product. UX has many centered topics included, one of which beeing UI, as the Interface is part of the experience.
+
+- User Experience includes the feel of the product.
+Must be based on each other. UI is used to highlight and emphasize the UX.
+
+Frustration cycle
+Keep the balance between implementation and the abstract designing process
+
+image::/Assets/Images/Design_Cycle_02.png[design_cycle]

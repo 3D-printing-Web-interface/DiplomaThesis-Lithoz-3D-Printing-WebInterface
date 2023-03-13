@@ -1,62 +1,7 @@
-# WebDesign Lifecycle
-In this part, the focus lies on UI and UX design. 
+include::01_webdesign_lifecycle.adoc[part-01]
 
-- Differentiate in UI and UX design
-Whilst User Experience (UX) is centered around the features and the usability, User Interface (UI) is about the feel and look of your product.
+include::02_planning.adoc[part-02]
 
-[Stichwörter]
-UX includes UI
+include::03_mocking.adoc[part-03]
 
-- User Experience includes the feel of the product.
-Must be based on each other. UI is used to highlight and emphasize the UX.
-
-Frustration cycle
-Keep the balance between implementation and the abstract designing process
-
-image::/Assets/Images/Design_Cycle_02.png[design_cycle]
-
-## Planning
-
-> What do you need before starting to design?
-~Reference~ ~-~ ~Refactoring~ ~UI~ ~[1]~
-
-In order to start designing an application, the applications shell must be built. Placing the logo, navbar and content container is the base of every application. It defines the order and position of the elements for every future page. So leaving to much or less room can negatively impact the users experience. There are several questions that can help to define the page's layout. 
-
-- What is the most important part of the application?
-- Is it necessary to access other pages at an instant?
-
-image::/Assets/Images/Design-Layouts.png[layouts]
-**Reimagined picture from Refactoring UI - Chapter (Start with a feature, not a layout)*
-
-In some cases, a navbar is not necessary, since the user can any page by navigating throw the content. In this case, the content container can be placed in the center of the page, and the full window size can be used.
-
-image::/Assets/Images/ProjectPage_Layout.png[pdfwidth=2in,page_layout]
-
-> Productivity Questions
-
-Never start to design pages without knowing their purpose. 
-Only when the functionality of the page is clear, the design can be started.
-After the page's order is ready, sleak and unique design patterns can be added in a way that they do not distract the user from the main purpose of the page.
-Design should always underline and strenghten a page's functionality.
-
-Start by finding the key elements that are necessary for all the features.
-Afterwards, place them in a way that they are easy to access and understand. 
-Only then can the page be prettified with design patterns like shadows and borders.
-
-
-Plan Features not design
-Softwares behaviour should exactly match the users expectations
-
-[TODO]
-
-## Mocking
-
-Mocking is the process of creating a design prototype of an application. It is used to explore the design of the application without the implementation effort . Mocking is a very important step in the design process, since it allows to create many different desing ideas in a short period of time.
-This way, the apps visual structure can be improved before creating the production ready product.
-
-[quote,Nick Babich,Adobe XD - Web design guidelines[4]]
-"Mockups are high-fidelity design artifacts that enable designers to see what the final layout will look like."
-
-
-## Implementation
-
+include::04_implementation.adoc[part-04]

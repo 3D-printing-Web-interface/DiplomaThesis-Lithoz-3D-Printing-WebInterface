@@ -1,4 +1,6 @@
 <<<
+include::abstract.adoc[]
+<<<
 include::Chapter1/chapter_parent.adoc[]
 <<<
 include::Chapter2/chapter_parent.adoc[]

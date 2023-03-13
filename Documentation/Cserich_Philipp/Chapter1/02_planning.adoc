@@ -1,0 +1,33 @@
+## Planning
+
+> What do you need before starting to design?
+~Reference~ ~-~ ~Refactoring~ ~UI~ ~[1]~
+
+In order to start designing an application, the applications shell must be built. Placing the logo, navbar and content container is the base of every application. It defines the order and position of the elements for every future page. So leaving too much or little room can negatively impact the users experience. There are several questions that can help to define the page's layout. 
+
+- What is the most important part of the application?
+- Is it necessary to access other pages at an instant?
+
+image::/Assets/Images/Design-Layouts.png[layouts]
+**Reimagined picture from Refactoring UI - Chapter (Start with a feature, not a layout)*
+
+In some cases a navbar is not necessary, since the user can access any page by navigating throw the content. In this case, the content can be placed in the center of the page, and the full window size can be used.
+
+image::/Assets/Images/ProjectPage_Layout.png[pdfwidth=2in,page_layout]
+
+> Productivity Questions
+
+Never start to design pages without knowing their purpose. 
+Only when the functionality of the page is clear, the design can be started.
+After the element's positioning is done, sleak and unique design patterns can be added in a way that they do not distract the user from the main purpose of the page.
+Design should always underline and strenghten a page's functionality.
+
+Start by finding the key elements that are necessary for all the features.
+Afterwards, place them in a way that they are easy to access and understand. 
+Only then can the page be prettified with design patterns like shadows and borders.
+
+
+Plan Features not design
+Softwares behaviour should exactly match the users expectations.
+
+[TODO]
