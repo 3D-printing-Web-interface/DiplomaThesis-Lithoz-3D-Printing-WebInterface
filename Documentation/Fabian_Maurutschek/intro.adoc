@@ -1,2 +1,15 @@
 include::Chapter1/chapter_parent.adoc[]
+# Testing and Quality Assurance
+
+include::Chapter1/chapter_parent.adoc[]
+<<<
+include::Chapter2/chapter_parent.adoc[]
+<<<
+include::Chapter3/chapter_parent.adoc[]
+<<<
+include::Chapter4/chapter_parent.adoc[]
+<<<
+include::Chapter5/chapter_parent.adoc[]
+<<<
+include::Chapter6/chapter_parent.adoc[]
 <<<

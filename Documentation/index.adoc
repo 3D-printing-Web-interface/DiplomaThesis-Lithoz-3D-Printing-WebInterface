@@ -1,12 +1,12 @@
 include::General/cover.adoc[]
-:doctype: book 
-:preface-title: Preface 
+:doctype: book
+:preface-title: Preface
 :toc: center
 
 
 //Activating some features
 //  Mathematical Equasions
-:stem: 
+:stem:
 
 include::General/preface.adoc[]
 
@@ -18,7 +18,7 @@ include::Boigner_Thomas/intro.adoc[]
 
 include::Siegl_Bernhard/intro.adoc[]
 
-include::ProjectMember3/intro.adoc[]
+include::Fabian_Maurutschek/intro.adoc[]
 
 <<<
 include::General/abstract.adoc[]
