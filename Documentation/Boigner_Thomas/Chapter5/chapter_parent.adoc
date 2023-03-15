@@ -1,4 +1,1 @@
-= Threejs
-
-
-== Alternatives to Threejs
+= 3D rendering techniques

@@ -1,5 +1,7 @@
 = Sources
 
+== UI/UX design (Philipp Cserich)
+
 - [1] Dont make me Think, a common sense approach to web usability,  Steve Krug, 2000, New Riders Publishing, ISBN 0-321-14653-0, http://www.sensible.com/dmmt.html
 last accessed 2019-01-01
 - [2] Refactoring UI, Adam Wathan & Steve Schoger, https://www.refactoringui.com/
@@ -10,3 +12,10 @@ last accessed 2019-01-01
 last accessed 2019-01-01
 - [5] UX Design.cc https://uxdesign.cc/content-strategy-in-ux-design-c2e41d19d447
 last accessed 2019-01-01
+
+== 3D Rendering (Thomas Boigner)
+
+- [6] https://en.wikipedia.org/wiki/3D_rendering
+- [7] https://en.wikipedia.org/wiki/Real-time_computer_graphics
+- [8] https://en.wikipedia.org/wiki/Polygonal_modeling
+- [9] https://dl.acm.org/doi/pdf/10.1145/279389.279478
