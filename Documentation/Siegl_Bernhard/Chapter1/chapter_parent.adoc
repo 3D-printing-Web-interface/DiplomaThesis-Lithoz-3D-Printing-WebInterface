@@ -1,0 +1,81 @@
+= MQTT introduction
+
+== MQTT - Machine to Machine Communication
+Initial meaning "MQ Telemetry Transport"
+
+It is an OASIS standard messaging protocol for the Internet of Things. 
+It is intended to make it as easy as possible with as less as code as possible to use it. It is designed to be extremely lightweight with a publish/subrcribe concept. It uses a minimal network bandwith. Today it is used in many industries such as: automotive, manufacturing, telecommunications and so on.
+
+== Advantages of MQTT over other protocols
+=== Minimal Client requirements
+Clients require minimal recources so they can be easily installed on small microcontrollers
+
+=== Bi-directional Communication
+Allows cloud to device and device to cloud communication. This helps of broadcasting so different groups of devices. 
+
+=== Reliability 
+MQTT has three different quality of service levels  
+
+- 0 : at most once
+
+- 1 : at least once
+
+- 2 : exactly one
+
+==== When should we use QoS 0?
+You have a completely or mostly stable connection between sender and receiver. A classic use case for QoS 0 is connecting a test client or a front end application to an MQTT broker over a wired connection.
+You dont mind if a few messages are lost occasionally. The loss of some messages can be acceptable if the data is not that important or when data is sent at short intervals
+You dont need message queuing. Messages are only queued for disconnected clients if they have QoS 1 or 2 and a persistent session.
+
+==== When should we use QoS 1?
+You need to get every message and your use case can handle duplicates. QoS level 1 is the most frequently used service level because it guarantees the message arrives at least once but allows for multiple deliveries. Of course, your application must tolerate duplicates and be able to process them accordingly.
+You cant bear the overhead of QoS 2. QoS 1 delivers messages much faster than QoS 2.
+
+==== When should we use QoS 2?
+It is critical to your application to receive all messages exactly once. This is often the case if a duplicate delivery can harm application users or subscribing clients. Be aware of the overhead and that the QoS 2 interaction takes more time to complete.
+
+=== Security
+The traffic is being encrypted by using TSL and for authentication purposes it uses modern protocols, such as OAuth.
+TSL -
+
+== MQTT Broker Architecture (Public/Subscribe)
+It basically works with a simple subscribe and public architecture.
+You can subscribe to a topic such as “temperature” in this case. Then the publisher “Temperature Sensor” informs any one that subscribed to the topic “temperature”, that the value of this topic changed. The MQTT Client that subscribed to the topic receives the value anytime it changes.
+
+image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[Publish/Broker Architecture]
+
+Source: https://mqtt.org/assets/img/mqtt-publish-subscribe.png
+
+== MQTT Use Cases
+There are several use-cases for the MQTT protocol. Especially in the sectors of logistics, automotive, manufacturing, oil & gas, transportation. It is also necessary in the smart home sector.
+
+Source: https://mqtt.org/use-cases/
+
+== History of MQTT
+
+== Implementation of MQTT in our project
+=== Alternatives to MQTT:
+==== RabbitMQ
+It is one the most deployed open source message broker arround the world. RabbitMQ has a similar purpose as the MQTT protocol.
+
+==== Features
+===== Asynchronous Messaging 
+Supports multiple messaging protocols, delivery acknowledgement, message queuing, flexible routing to queues, multiple exchange type.
+
+===== Developer Experience 
+Deplayable with Kubernetes, BOSH, Chef, Docker and Puppet.
+
+===== Enterprise and Cloud Ready
+Easy deplayable in public and privat clouds. Supports TLS and LDAP.
+
+===== Monitoring
+Provides an UI for managing and monitoring RabbitMQ.
+
+==== XMPP
+==== Kafka
+
+=== Why did we choose MQTT in our diploma project?
+
+The answer is quite simple, our project partners provided the MQTT connection so this decicion was out of our hands.
+...
+

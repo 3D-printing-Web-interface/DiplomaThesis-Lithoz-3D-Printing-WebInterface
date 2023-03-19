@@ -1,0 +1,7 @@
+= Sources
+
+Sources:
+https://mqtt.org
+https://stackshare.io/mqtt/alternatives
+https://ieeexplore.ieee.org/abstract/document/4554519
+https://www.rabbitmq.com
