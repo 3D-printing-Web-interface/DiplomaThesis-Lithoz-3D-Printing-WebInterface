@@ -1,1 +1,36 @@
-## Testing nowadays
+== Testing nowadays
+
+Every software engineer/programmer had to test his/her programm. Even for small projects testing is nowadays required. Without any, developers can not find bugs or check if certain features are working. Every project have at least ine testing framework/library. Automatic tests help programmers to improve time that they dont have to test features manually. _TODO: rewrite + longer_
+
+=== Most common used Frameworks and Libraries
+
+Depending on the technology which is used to create the programm there are several different testing solutions:
+
+
+* Cypress
+** Generall frontend testing
+** Used in Javascript/Typescript applications
+** Virtualises a real broswer with events (click, keyinput,...)
+
+* Vitest
+** Used with vite
+** Frontend testing
+** Used in Code
+
+* JUNIT (JAVA)
+** Testing Java code
+** JavaUnit tests
+** Has setup/tear down methods
+** Used with annotions
+
+* Pytest
+** Testing in Python
+** _TODO_
+
+* XUNIT
+** Used in the .NET Foundation (C#, F#, VB.NET)
+** Similar to JUNIT
+
+=== Usage of testing technologies in the web interface
+
+At the beginning of the project we decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration we came to the limits of Vitest. Due to asynchronos functions/events the unit-tests could not work properly and we had to switch or testing framework/library to cypress with the cocumber API. _TODO_

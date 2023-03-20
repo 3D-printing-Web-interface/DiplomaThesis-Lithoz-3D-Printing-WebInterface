@@ -1,1 +1,9 @@
-## Cypress testing
+== Cypress testing
+
+The project uses Cypress to virtualise actions (button clicks, key inputs, ...) the web interface and test certain features.
+
+=== Adding cypress and configuartion
+
+=== Cocumber API
+
+Additionally to Cypress we use a plugin or add-on _TODO_
