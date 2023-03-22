@@ -1,2 +1,46 @@
-= History of 3D rendering
+= History of Computer Graphics
 
+== 1940s and 1950s
+
+During the 1940s John Whitney, Sr, who is often credited as the father of computer animation, created a series of experiments together with his brother James. Those include the animated intros sequence from Alfred Hitchcock's film Vertigo, released in 1958.
+
+In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.
+
+image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[first digital image] 
+~Reference~ ~-~ ~first~ ~digital~ ~image~ ~[12]~
+
+== 1960s
+
+In 1960 the first first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
+
+Meanwhile one of the first computer generated films, titled _A Two Gravity Gradient attitude control System_ was produced in 1963 by Edward Zajac at Bell Labs. Bell Labs also developed the Belflix animation system that was used to create dozens of animation films. This program didn't rely on raw programming alone, but provided support for simple prompts like draw a line, fill an area or zoom an area.
+
+In 1964 William Fetter created the first ergonomic description of the human body that are adaptable and accurate to different environments. This resulted in the first 3D animated wire-frame figures. 
+
+The first Graphical user interface (GUI) was created in 1962 by Ivan Sutherland at the Massachusetts Institute of Technologies (MIT). This program was called _Sketchpad I_ and allowed the user to interact directly with the images portrayed at the screen. 
+
+In the mid to late 60s a lot of new 3D computer graphic techniques were developed at the University of Utah. These techniques include Gouraud, Phong, and Blinn shading, texture mapping, hidden surface algorithms, curved surface subdivision, real-time line-drawing and raster image display hardware, and early virtual reality work.
+
+In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.
+
+== 1970s
+
+In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
+
+The first feature film using digital animation was called "Westworld" and was released in 1973. The Sequel of the movie, called "Future World", released in 1976 then used wire frame imagery to create a computer generated hand and face. This technology was later used in the short film "Great" and the movie "Star Wars".
+
+In 1974 Evans & Sutherland produced the first commercial framebuffer, that made 8-bit grayscale colors possible. The New York Institute of Technology Computer Graphics Lab (NYIT) then used 3 of these framebuffers to create their own 24-bit frame buffer that was capable of displaying true colors. In the late 70s personal computers like the Apple II made cheap framebuffers available for the average computer user.
+
+The development of "fractals" in 1975, algorithms that can create organic looking shapes, was a major step towards realistic 3d animations.
+
+The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.
+
+== 1980s
+
+In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
+
+In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a milestone in the industry for its use of 3D CGI. The CGI was mainly used to show digital terrain and vehicles such as Light Cycles, tanks and ships. After Tron _The Last Starfighter_ raised the bar in terms of 3D graphics, with a total of 27 minutes of CGI footage.
+
+Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
+
+3D animation programs from the 1980s include Autodesk, Alias Research, Wavefront, TDI, Sogitech Audiovisuel, Softimage and Side Effects Software.
