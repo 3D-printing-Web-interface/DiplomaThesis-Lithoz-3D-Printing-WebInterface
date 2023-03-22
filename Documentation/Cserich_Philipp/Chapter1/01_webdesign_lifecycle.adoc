@@ -1,13 +1,62 @@
-# WebDesign Lifecycle
-In this part, the focus lies on UI and UX design. 
+== WebDesign Lifecycle
 
-- Differentiate in UI and UX design
-Whilst User Experience (UX) is centered around the features and the usability, User Interface (UI) is about the feel and look of your product. UX has many centered topics included, one of which beeing UI, as the Interface is part of the experience.
+- Differences in UI and UX development
+
+As many people are not fully aware of the differences between UI and UX, the seperation of the two is always a good starting point.
+While the User Experience (UX) is centered around features and the usability, the User Interface (UI) is about the feel and look of your product. UX has many centered topics included, one of which beeing UI, as the Interface is part of the products experience.
 
 - User Experience includes the feel of the product.
-Must be based on each other. UI is used to highlight and emphasize the UX.
 
-Frustration cycle
-Keep the balance between implementation and the abstract designing process
+A Products User Experience is its greatest Asset. The general functionality is never enough to create great Web Pages. Without the right feel and an Intuitive Design, it can be really hard to deal with. This will scare new customers as their learning curve is way too steep in the beginning. 
 
-image::/Assets/Images/Design_Cycle_02.png[design_cycle]
+- Different Development Cycles
+
+**Hoffer, George and Valaich SDLC**
+
+1. Identification and selection
+A Companies needs and goals are defined too select a project path.
+2. Initiation and planning
+A detailed plan and a potential project is presented to the company. 
+3. Analysis
+Analysing the current state as well as proposing different replacements and new solutions.
+4. Logical design
+Describing the imagined system and its features.
+5. Physical design
+The description is extended in technological specifications.
+6. Implementation
+This step includes the development, testing and implementation of the newly created system.
+7. Maintenance
+
+**The Whitten and  Bentley SDLC**
+
+1. Planning
+2. Analysis
+3. Design
+4. Implementation
+5. Support
+
+[https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false - Page 12 - User Centered Web Development]
+
+The so called *"Frustration cycle"* describes the interchanging process of implementing and designing individual pages. This cycle should be kept as short as possible, because as the development progresses, more and more design problems will be discovered by implementation. If either of the processes takes too long, applying changes will get gradually more time expensive. 
+
+image::/Assets/Images/Cserich_Philipp/Design_Cycle_02.png[design_cycle]
+
+[1]This picture should visualize the above mentioned development cycle, which should be maintained as the main development strategy for the implementation process.
+
+
+
+**Software star pattern**
+
+The more user inclusive development "Star Lifecycle", includes its users in all of the developments steps, which is a great way to ensure that the product is actually usable. It's name is derived from the 5 points of the star, which represent.
+
+- Implementation
+- Conceptual design
+- Task / Function analysis
+- Requirements specification
+- Prototyping
+
+image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=4in,star-model,title="Source - https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png"]
+
+https://liacs.leidenuniv.nl/~verbeekfj/courses/hci/hci2014-09.pdf
+
+To make the star principle work, a deep user analysis has to be done. Consisting of Stakeholder analysis, Personas, User stories, User stories and problem statements, which are all used to create a very detailed user-profile. As each and every part of this User analysis is also an essential part in project management, the interconnection between development and project management is getting clearer. 

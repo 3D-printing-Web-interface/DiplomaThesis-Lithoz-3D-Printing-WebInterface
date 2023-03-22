@@ -1,3 +1,9 @@
+== Implementation
 
-## Implementation
+> What is included in the implementation process?
 
+- Coding
+    - Design
+    - Functionality
+- Testing
+- Documentation

@@ -1,10 +1,12 @@
-## UI Frameworks
+== UI Component Libraries
 
-### Bootstrap
 
-### Vuetify
+
+=== Bootstrap
+
+=== Vuetify
 Vue specific Framework
 Dont recommend
 
-### Tailwind CSS
+=== Tailwind CSS
 

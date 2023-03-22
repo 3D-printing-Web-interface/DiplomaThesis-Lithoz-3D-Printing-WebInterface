@@ -1,15 +1,15 @@
-# Modern UX design
+= Modern UX design
 
-## Elements of UX design
+== Elements of UX design
 
-### Surface
+=== Surface
 
-### Skeleton
+=== Skeleton
 
-### Structure
+=== Structure
 
-### Scope
+=== Scope
 
-### Strategy
+=== Strategy
 
-## Feel & Responses
+== Feel & Responses

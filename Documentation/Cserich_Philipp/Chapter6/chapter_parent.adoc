@@ -1,2 +1,2 @@
 
-# Responsiveness and platform-independency
+== Responsiveness and platform-independency

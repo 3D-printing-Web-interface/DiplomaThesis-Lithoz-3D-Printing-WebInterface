@@ -10,6 +10,9 @@ include::General/cover.adoc[]
 
 include::General/preface.adoc[]
 
+<<<
+include::General/abstract.adoc[]
+
 // including all members content
 <<<
 include::Cserich_Philipp/intro.adoc[]
@@ -21,6 +24,5 @@ include::Siegl_Bernhard/intro.adoc[]
 include::Fabian_Maurutschek/intro.adoc[]
 
 <<<
-include::General/abstract.adoc[]
-
+    
 include::General/sources.adoc[]

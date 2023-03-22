@@ -1,5 +1,4 @@
-
-## Mocking
+== Mocking
 
 Mocking is the process of creating a design prototype of an application. It is used to explore the design of the application without the implementation effort . Mocking is a very important step in the design process, since it allows to create many different design ideas in a short period of time.
 This way, the apps visual structure can be improved before creating the production ready product.
@@ -12,25 +11,29 @@ There are several tools to choose from, when creating a mockup.
 
 The most popular ones are Adobe XD, Figma and Sketch.
 
-[%header,cols="1,5,4"]
+[%header,cols="1,6,5,4"]
 |===
 | **Nr** 
 | **Name** 
 | **Feature**
+| **Collaboration Features**
 
 | 1 
 | Adobe XD 
 | Paid 
+| Yes
 
 | 2 
 | Figma 
 | Free 
+| Yes
 
 | 3 
 | Sketch
 | Free 
+| Yes
 |=== 
 
-Figma
-The team of four chose figma, because it is very powerful, browser based and free. 
-Additionally, the power of Adobe XD is not needed for basic mocking.
+Figmas powerful environment allows for easy mockup creations for several industries. The fact that it is free, makes it the most attractive option for most developers.
+It also provides great collaboration features and a series of ad-ons, which can help to create mocks in teams. 
+
