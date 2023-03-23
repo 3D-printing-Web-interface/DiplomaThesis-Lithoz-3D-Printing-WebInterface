@@ -1,3 +1,1 @@
-= HTTP introduction
-
-1. Introduction to the Hyper Text Transfer Protocol (HTTP) 2. Overview of HTTP Versions 3. Features of HTTP 4. HTTP Message Structure 5. Different HTTP Methods 6. TCP/IP and HTTP 7. HTTP and SSL/TLS 8. HTTP Status Codes and their Significance 9. HTTP Caching 10. HTTP Headers 11. HTTP Cookies 12. HTTP Authentication 13. HTTP Compression 14. HTTP Performance Optimization 15. HTTP Load Balancing 16. HTTP Security 17. HTTP Proxies 18. HTTP Error Handling 19. HTTP Programming 20. Future of HTTP
+= Alternatives to MQTT
