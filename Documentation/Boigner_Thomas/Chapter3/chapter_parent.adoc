@@ -43,4 +43,27 @@ In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a miles
 
 Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
 
-3D animation programs from the 1980s include Autodesk, Alias Research, Wavefront, TDI, Sogitech Audiovisuel, Softimage and Side Effects Software.
+3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.
+
+== 1990s
+
+At the beginning of the 1990s there was a large expansion of CGI media. Films such as _Terminator 2:Judgment Day_, Disney's _Beauty and the Beast_ and _Jurassic Park_ showed what is possible with CGI.
+
+The increase of computer power made a technique called flocking possible. Flocking allows the simulation of birds or other animals moving together in a groupe. It was used in movies like _Jurassic Park_ and _The Lion King_.
+
+In 1995 the first fully animated feature film _Toy Story_ was released. This movie was produced by Pixar and was a big commercial success.
+
+Motion capturing became a lot more common in the 90s. Motion capturing is used to capture the movement of real objects and use this data to create 3D animations. This technique is mainly used in CGI movie scenes and computer games. Another CGI technique developed in the 90s was Match moving that allowed for the tracking of positions across multiple frames. It is used to insert CGI elements at specific point and have it keep its correct position, rotation and scale through movement.
+
+Another 3D technique developed in the 1990s were Machinimas, that allowed users to create 3D animations using real-time rendering.
+
+3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.
+
+== 2000s
+
+In the 2000s photorealism became the new goal of 3D rendering. One major breakthrough was the simulation of the reflectance field over the human face using the simplest of light stages.
+
+In the 2000s the first fully virtual cinematography was produced. Those movies used CGI on such a high level that it became almost impossible to tell which scene was animated on a computer and which was not.
+
+3D animation programs from the 2000s include Blender, Poser and Pointstream Software.
+

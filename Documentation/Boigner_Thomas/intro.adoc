@@ -1,6 +1,5 @@
 = 3D rendering
 
-<<<
 include::Chapter1/chapter_parent.adoc[leveloffset=+1]
 <<<
 include::Chapter2/chapter_parent.adoc[leveloffset=+1]
@@ -13,3 +12,4 @@ include::Chapter5/chapter_parent.adoc[leveloffset=+1]
 <<<
 include::Chapter6/chapter_parent.adoc[leveloffset=+1]
 <<<
+include::Chapter7/chapter_parent.adoc[leveloffset=+1]
