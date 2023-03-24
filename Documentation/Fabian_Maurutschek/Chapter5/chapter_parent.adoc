@@ -1,3 +1,76 @@
 == Quality assurance techniques
 
-=== Basics
+Test
+
+=== Writing clean code
+
+> How do I become a good programmer?
+
+Many many aspects and much practise has to be done to write good and clean code. From naming conventions to domain design everything is important to become a good software engineer. Nobody is and can be perfect. Also there is always a way to improve.
+
+To improve the quality of code there are some simple aspects:
+
+==== 1. Naming Conventions
+
+Certain programming languages have different ruiles of the naming conventions. But it is
+
+*Naming Conventions in JAVA*
+
+- Fields are small and in camel case with small leading letter
+[,java]
+----
+private int myInt;
+public int myInt;
+----
+
+
+- Classes are in camel case with big leading letter
+----
+public class MyInterestingClass{int
+	...
+};
+----
+
+- Constants are capitalized
+----
+public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
+----
+
+*Naming Conventions in C#*
+
+- Private attributes are leading with an underscore
+----
+private int _myInt;
+----
+
+- Properties and classes are in camel case with big leading letter
+----
+public class MyInterestingClass{int
+	public int MyProp {get; set;} = 0;
+};
+----
+
+- Constants are capitalized
+----
+public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
+----
+
+=== Programming style
+
+There are two different types of code: Declarative (Fuctional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming stlye is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
+
+> Declarative Programming is: *What* the programm has to do.
+
+> Imperative Programming is: *How* the programm should do it.
+
+In high level programming lanuages such as JAVA, C#, ... it is prefered to use the declarative Programming, while in more hardware-near programming imperative is more common.
+
+==== Imperative programming
+
+Making projects imperative is easier then declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
+
+==== Declarative programming
+
+The
+
+==== Examples

@@ -33,3 +33,8 @@ last accessed 2023-03-23
 - [14] https://books.google.at/books?hl=en&lr=&id=XVBxDQAAQBAJ&oi=fnd&pg=PT16&dq=openGL+Vulkan&ots=zEWFRhy5we&sig=rKy_R9QaBL6Yf7f8CPqeepDNWv8&redir_esc=y#v=onepage&q&f=false
 last accessed 2023-03-16
 - [15] https://www.google.at/books/edition/WebGL_Programming_Guide/3c-jmWkLNwUC?hl=en&gbpv=1&dq=WebGL&pg=PR18&printsec=frontcover
+
+== Testing & Quality Assurance (Fabian Maurutschek)
+
+- [] Declartaive vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
+- [] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
