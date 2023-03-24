@@ -1,0 +1,31 @@
+
+=== Colors equal decisions
+Psychological definition of colours and how to emphasize that in your code - Psychological aspect + Code recommendation
+
+CIE S 017/E:2020 -  *International Lighting Vocabulary* (2011 | 2013 | 2022)
+
+> Color: characteristic of a visual perception that can be described by attributes of hue, brightness (or lightness), and colorfulness (or saturation or chroma).
+
+This definition is a good starting point for understanding the different aspects of color and how they can be used to emphasize on different application elements. The definition claims, that color is a visual perception. This means that color is not a physical property of an object, but rather a subjective experience. This is important to keep in mind when designing an application, as it means that a colors perception can change depending on the observer.
+But there is not only a subjective aspect to color, but also a physical one. 
+Therefore the distinction between **related** and **unrelated** colors is the first step in understanding color. Related colors are colors that are physically close to each other on the color wheel. These colors are perceived as similar and can be used to create a harmonious color scheme. Unrelated colors are colors that are physically far away from each other on the color wheel. These colors are perceived as different and can be used to create a contrasting color scheme. 
+
+image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,align=center]
+
+==== **Apply**
+
+With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
+
+The image shows an example of a cancel button that is highlighted by using a contrasting color.
+
+image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in]
+
+On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.
+
+In the following example, the textboxes are integrated into the scene by using related colors.
+
+image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in]
+
+
+
+

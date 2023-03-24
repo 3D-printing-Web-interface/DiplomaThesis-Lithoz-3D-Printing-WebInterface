@@ -16,7 +16,7 @@ title-page:
 
 font:
   catalog:
-    merge: false
+    merge: true
     Lato:
       normal: Lato-Regular.ttf
       italic: Lato-Italic.ttf

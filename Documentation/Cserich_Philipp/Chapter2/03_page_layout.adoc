@@ -1,0 +1,6 @@
+
+=== Page Layout
+How to you code layout in a way that is clear and easy to understand - Code readability
+
+Seperating Pages in vue.js into components.
+Code Readability.
