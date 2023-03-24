@@ -28,3 +28,7 @@ last accessed 2023-03-16
 - [11] https://en.wikipedia.org/wiki/History_of_computer_animation
 last accessed 2023-03-16
 - [12] https://en.wikipedia.org/wiki/Digital_image
+- [13] https://books.google.at/books?hl=en&lr=&id=xPu3mN2FPl4C&oi=fnd&pg=PT24&dq=openGl&ots=mRb0aqa4qs&sig=w2pXtwQOGbDoRoF9IxDqgtRB57I&redir_esc=y#v=onepage&q&f=false
+last accessed 2023-03-23
+- [14] https://books.google.at/books?hl=en&lr=&id=XVBxDQAAQBAJ&oi=fnd&pg=PT16&dq=openGL+Vulkan&ots=zEWFRhy5we&sig=rKy_R9QaBL6Yf7f8CPqeepDNWv8&redir_esc=y#v=onepage&q&f=false
+last accessed 2023-03-16
