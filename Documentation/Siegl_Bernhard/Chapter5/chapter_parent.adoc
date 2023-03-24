@@ -1,7 +1,8 @@
 = Sources
-
-Sources:
 https://mqtt.org
 https://stackshare.io/mqtt/alternatives
 https://ieeexplore.ieee.org/abstract/document/4554519
 https://www.rabbitmq.com
+https://xmpp.org
+https://kafka.apache.org
+https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/

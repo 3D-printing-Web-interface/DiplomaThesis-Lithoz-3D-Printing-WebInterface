@@ -4,11 +4,11 @@
 Initial meaning "MQ Telemetry Transport"
 
 It is an OASIS standard messaging protocol for the Internet of Things. 
-It is intended to make it as easy as possible with as less as code as possible to use it. It is designed to be extremely lightweight with a publish/subrcribe concept. It uses a minimal network bandwith. Today it is used in many industries such as: automotive, manufacturing, telecommunications and so on.
+It is intended to make it as easy as possible with as less as code as possible to use it. It is designed to be extremely lightweight with a publish/subscribe concept. It uses a minimal network bandwidth. Today it is used in many industries such as: automotive, manufacturing, telecommunications and so on.
 
 == Advantages of MQTT over other protocols
 === Minimal Client requirements
-Clients require minimal recources so they can be easily installed on small microcontrollers
+Clients require minimal recourses so they can be easily installed on small micro-controllers
 
 === Bi-directional Communication
 Allows cloud to device and device to cloud communication. This helps of broadcasting so different groups of devices. 
@@ -23,24 +23,45 @@ MQTT has three different quality of service levels
 - 2 : exactly one
 
 ==== When should we use QoS 0?
-You have a completely or mostly stable connection between sender and receiver. A classic use case for QoS 0 is connecting a test client or a front end application to an MQTT broker over a wired connection.
-You dont mind if a few messages are lost occasionally. The loss of some messages can be acceptable if the data is not that important or when data is sent at short intervals
-You dont need message queuing. Messages are only queued for disconnected clients if they have QoS 1 or 2 and a persistent session.
+You have a mostly stable connection between sender and receiver. 
+A classic example for Quality of Service 0 is connecting a front end application to an MQTT broker over a wired connection.
+It is okay to loos some messages if the data that is lost is not important.
+Messages are only queued for disconnected clients if they have Quality of Service one or two and a persistent session.
 
 ==== When should we use QoS 1?
-You need to get every message and your use case can handle duplicates. QoS level 1 is the most frequently used service level because it guarantees the message arrives at least once but allows for multiple deliveries. Of course, your application must tolerate duplicates and be able to process them accordingly.
-You cant bear the overhead of QoS 2. QoS 1 delivers messages much faster than QoS 2.
+You need to get every message.
+QoS 1 is the most commonly used service level because it guarantees that the message arrives at least once or multiple times if necessary.
+QoS 1 delivers messages much faster than QoS 2.
 
 ==== When should we use QoS 2?
-It is critical to your application to receive all messages exactly once. This is often the case if a duplicate delivery can harm application users or subscribing clients. Be aware of the overhead and that the QoS 2 interaction takes more time to complete.
+This service level is for critical applications that need every message exactly one time.
 
 === Security
 The traffic is being encrypted by using TSL and for authentication purposes it uses modern protocols, such as OAuth.
-TSL -
+
+==== What is TSL?
+TSL means Transport Layer Security and is a cryptographic protocol which provides a communication security over a network.
+
+I will go further into detail in the next topic "http".
 
 == MQTT Broker Architecture (Public/Subscribe)
 It basically works with a simple subscribe and public architecture.
 You can subscribe to a topic such as “temperature” in this case. Then the publisher “Temperature Sensor” informs any one that subscribed to the topic “temperature”, that the value of this topic changed. The MQTT Client that subscribed to the topic receives the value anytime it changes.
+
+=== Terms
+==== Publisher
+Publishing messages to a topic is the publisher's responsibility. It does not need to worry about whether the subscribers are online when publishing a message because it can only send data to one topic at a time.
+
+==== Subscriber
+The subscriber can subscribe to several topics at once to receive messages. The protocol also supports load-balancing among multiple subscriber trough shared subscriptions.
+
+==== Broker
+Receiving messages from publishers and sending them to the relevant subscribers are the broker's responsibilities. The broker also responds to customer requests for connection, disconnections, subscriptions, and unsubscriptions.
+
+==== Topic 
+Messages are routed through MQTT based on subjects. Similar to URL routes, a topic is often leveled and split with a slash (/) between the levels. A topic might be sensor/1/temperature, for instance. The broker will forward all messages on a particular topic to any subscribers that have subscribed for it. Moreover, many publishers may send messages to the same topic, and the broker will route these messages to the clients who have subscribed in the order in which they are received.
+
+With topic wildcards, MQTT subscribers can subscribe to many subjects at once. As a result, they can subscribe once to receive communications on many subjects.
 
 image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[Publish/Broker Architecture]
 
@@ -53,26 +74,7 @@ Source: https://mqtt.org/use-cases/
 
 == History of MQTT
 
-== Implementation of MQTT in our project
-=== Alternatives to MQTT:
-==== RabbitMQ
-It is one the most deployed open source message broker arround the world. RabbitMQ has a similar purpose as the MQTT protocol.
-
-==== Features
-===== Asynchronous Messaging 
-Supports multiple messaging protocols, delivery acknowledgement, message queuing, flexible routing to queues, multiple exchange type.
-
-===== Developer Experience 
-Deplayable with Kubernetes, BOSH, Chef, Docker and Puppet.
-
-===== Enterprise and Cloud Ready
-Easy deplayable in public and privat clouds. Supports TLS and LDAP.
-
-===== Monitoring
-Provides an UI for managing and monitoring RabbitMQ.
-
-==== XMPP
-==== Kafka
+== Implementation of MQTT
 
 === Why did we choose MQTT in our diploma project?
 

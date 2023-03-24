@@ -1,3 +1,16 @@
 = HTTP introduction
 
+== What is the difference between TLS and HTTPS?
+
+
+== MQTT vs HTTP Request and Response
+HTTP is a widely-used communication protocol on the World Wide Web due to its simplicity and ease of use. It does not require a specific client and can be used in a variety of industries, including the Internet of Things (IoT) field. In IoT, HTTP can be used to connect IoT devices and web servers, enabling remote monitoring and control of devices.
+
+Although HTTP is simple to use and has a fast development cycle, it has some limitations when used in IoT applications. One disadvantage is that HTTP messages have more network overhead compared to MQTT at the protocol level. Additionally, HTTP is a stateless protocol, meaning that the server does not retain information about the client's state when processing requests and cannot recover from abnormal disconnections. Finally, the request-response model of HTTP requires polling to retrieve updates, while MQTT can provide real-time updates through subscriptions.
+
+The MQTT publish-subscribe pattern has some inherent limitations due to its loosely coupled nature. For example, the publisher has no information about the state of the subscriber and therefore cannot know if the subscriber has received the message or processed it correctly. To address this issue, MQTT 5.0 introduces a request-response feature that allows a subscriber to send a reply to the topic after receiving a message, and for the publisher to follow up after receiving the reply.
+
+
+https://www.emqx.com/en/blog/mqtt-5-introduction-to-publish-subscribe-model
+
 1. Introduction to the Hyper Text Transfer Protocol (HTTP) 2. Overview of HTTP Versions 3. Features of HTTP 4. HTTP Message Structure 5. Different HTTP Methods 6. TCP/IP and HTTP 7. HTTP and SSL/TLS 8. HTTP Status Codes and their Significance 9. HTTP Caching 10. HTTP Headers 11. HTTP Cookies 12. HTTP Authentication 13. HTTP Compression 14. HTTP Performance Optimization 15. HTTP Load Balancing 16. HTTP Security 17. HTTP Proxies 18. HTTP Error Handling 19. HTTP Programming 20. Future of HTTP
