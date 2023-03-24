@@ -1,9 +1,30 @@
-== Implementation
+== Design Implementation
+
+
+*In this Chapter, a bare explanation of the implementation process is given. The actual implementation of the explained concepts is done in the following chapters.*
 
 > What is included in the implementation process?
 
-- Coding
-    - Design
-    - Functionality
-- Testing
-- Documentation
+The implementation can split up to several steps: 
+
+**Coding**
+
+    - **Design - UI/UX**
+
+Creating the HTML and CSS code for Pages and Elements. This is merely for positioning, sizing and styling. Usability is not one of the main concerns of this point. 
+
+    - **Functionality - UX**
+
+It has the purpose of filling the code with functionality. Connecting the dots between designs and including life into the site, making it interactive. 
+
+**Testing**
+
+Testing as it is today, is always known as an extra step in code, that will be checked mostly every time the code is built. It is a necessary step to assure quality in any software development project. However, in the design process, testing has a totally different meaning. Instead of measuring an actual Feature, it is used to measure the usability of the design and the users perception of it. Customer tests assure that the product is getting support by the targeted audience, which assures that the implemented design and user experience is a success.
+
+**Documentation**
+
+Software should always be written in the most intuitive way possible, so that it is easy to understand and maintain. Because of that, documentation like user manuals should be avoided, and the design related code should be written in a way that it is self-explanatory.
+
+Those steps are necessary peaces of software. They are not specifically related to design, but rather on the whole application.
+As this is all about the design process, I will not go into details about the steps Testing and Documentation. 
+
