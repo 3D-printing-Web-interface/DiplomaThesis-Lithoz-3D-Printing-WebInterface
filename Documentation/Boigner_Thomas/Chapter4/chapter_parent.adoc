@@ -4,7 +4,7 @@
 
 === What is OpenGL
 
-OpenGL serves as a interface to the graphics hardware. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications. 
+OpenGL serves as a interface to the graphics hardware and is developed by the Khronos Group. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications. 
 
 Because of its platform independence it provides only the most basic operations and excludes features such as windowing tasks and getting user inputs. OpenGl only provides the basic building blocks for 3D rendering, that the programmer can use to create their own implementations of higher-level commands. A library that provides these features would be the _OpenGL Utility Library_ (GLU).
 
@@ -31,6 +31,22 @@ Major graphics operations supported by OpenGL:
 
 Vulkan is the successor of OpenGL and like OpenGL Vulkan is also a application interface used to communicate with the graphics processing unit (GPU). But unlike OpenGL Vulkan is very verbose and requires a lot of code to write any 3D application. Vulkan is designed to build the foundation of complex 3D rendering application, like game engines and large rendering packages. 
 
+Compared to OpenGL the Vulkan drivers do not manage everything for the programmers. Things like the state of Objects, memory management and synchronization need to be managed manually. This has the advantage, that less CPU time is wasted. This results in Vulkan being very hard to get it to run well, but on the other side it gives the developer more control over the hardware. Vulkan can be used to program various devices including graphics processing units (GPUs), digital signal processors (DSPs) and fixed function hardware. The functionality of Vulkan is divided into three categories, transfer, which is responsible for copying data around, compute which is responsible for running shaders over the compute workloads and the graphics category, which is responsible for rasterization, primitive assembly, blending, depth and stencil tests. The support for each category is optional and depends on the device.
 
+The architecture of Vulkan is split into a hierarchy of functionality that starts at the top level with multiple instances, which themselves contain multiple Vulkan-capable devices, that are separated into logical devices on which various queues, that perform the work that the application requests, are executed.
 
 == WebGL
+
+WebGL makes it possible to render 2D and 3D graphics in a browser with the use of JavaScript. It is supported by any major browser. This allows developers to create more sophisticated user interfaces. WebGL makes 3D graphics accessible to more developers, because they are no longer required to build a stand-alone application using languages such as C or C++. Furthermore it is platform independent and can be run on PCs, laptops, tablets and Smartphones.
+
+At the beginning HTML only offered support for static content, JavaScript then made more complex interactions possible. HTML canvas then added support for 2D graphic to browsers and WebGL took it a step further offering full 3D graphics support.
+
+Major advantages of WebGL are:
+
+* Low entry barrier to development: For WebGL development only a browser and a text editor are needed.
+* Applications can be published easily.
+* The full power browser related features can be used.
+
+Even if the name suggests it WebGL is not directly based on OpenGL, but on a version of OpenGL specifically designed for embedded computers such as smart phones and video game consoles, called OpenGL ES. The development of OpenGL ES started in 2003 and major updates came in 2007 (ES 2.0) and 2012 (ES 3.0). WebGL is based on OpenGL ES 2.0 and was first released in 2012 by the Khronos group.
+
+The structure of WebGl applications differs from dynamic webpages by being based on 3 languages, HTML, JavaScript and GLSL ES, instead of the usual 2 languages, HTML and JavaScript. GLSL ES is a shader language needed to run WebGL. But, GLSL ES is written in JavaScript, so there will only be HTML and JavaScript files. 
