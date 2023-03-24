@@ -1,4 +1,4 @@
-== WebDesign Lifecycle
+== WebDesign Lifecycle 
 
 - Differences in UI and UX development
 
@@ -27,6 +27,9 @@ The description is extended in technological specifications.
 This step includes the development, testing and implementation of the newly created system.
 7. Maintenance
 
+The Hoffer, George and Valaich SDLC is very detailed and complex, because it describes the whole process of creating a new system in great detail. On one hand, this is a great way to ensure that the system is well thought out and that no important steps are missed. On the other hand, it is very time consuming and can be very expensive. The clear seperation of steps makes it easier to trace problems and follow all of the progress.
+
+
 **The Whitten and  Bentley SDLC**
 
 1. Planning
@@ -35,7 +38,11 @@ This step includes the development, testing and implementation of the newly crea
 4. Implementation
 5. Support
 
+The Hoffer, George, and Valaich SDLC has been greatly simplified by Whitten and Bentley. Although much less thorough, it is much simpler to understand and put into practice. This makes it much simpler to put into practice, but it also makes it much simpler to overlook crucial tasks.
+
 [https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false - Page 12 - User Centered Web Development]
+
+<<<
 
 The so called *"Frustration cycle"* describes the interchanging process of implementing and designing individual pages. This cycle should be kept as short as possible, because as the development progresses, more and more design problems will be discovered by implementation. If either of the processes takes too long, applying changes will get gradually more time expensive. 
 

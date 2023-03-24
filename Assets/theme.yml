@@ -35,6 +35,7 @@ font:
 base:
   font-color: $colourset-black
   font-family: Lato
+  font-size: 11
 
 footer:
   border-color: #FFD700

@@ -1,3 +1,5 @@
+
+
 == Visual Design
 
 - More technical Approach (Dos and dont's for visual design)
@@ -76,6 +78,9 @@ image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in]
 
 === Page Layout
 How to you code layout in a way that is clear and easy to understand - Code readability
+
+Seperating Pages in vue.js into components.
+Code Readability.
 
 === Motion
 How should software act and react to user input

@@ -2,6 +2,35 @@
 
 == OpenGL
 
+=== What is OpenGL
+
+OpenGL serves as a interface to the graphics hardware. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications. 
+
+Because of its platform independence it provides only the most basic operations and excludes features such as windowing tasks and getting user inputs. OpenGl only provides the basic building blocks for 3D rendering, that the programmer can use to create their own implementations of higher-level commands. A library that provides these features would be the _OpenGL Utility Library_ (GLU).
+
+=== How does OpenGL work? 
+
+Steps used to create a scene using OpenGL:
+
+. Draw a wireframe model of the object: The wireframe model only consists of the points and edges of the solid model.
+. Create a depth-cued version of the wireframe model: The edges further away from the camera are drawn dimmer to create the illusion of depth.  
+. Add anti-aliasing: anti-aliasing reduces jagged edges.
+. Flat-shade the wireframe model: In this step the polygons between the edges are rendered, but they only use one color. 
+. Add lighting and smooth shading: Light sources are added and the 3D objects are shaded to respond to the light causing them to appear smoothly rounded.
+. Add shadows and textures 
+
+Major graphics operations supported by OpenGL:
+
+* Construction of shapes using geometric primitives such as points, lines, polygons, images and bitmaps.
+* Arrangement of the different 3D objects in 3D space.
+* Calculation of colors. Either static colors or colors that are influenced by lighting conditions.
+* Conversion of mathematical descriptions of 3D objects and their color information to pixels on a 2D screen.
+
+
 == Vulkan
+
+Vulkan is the successor of OpenGL and like OpenGL Vulkan is also a application interface used to communicate with the graphics processing unit (GPU). But unlike OpenGL Vulkan is very verbose and requires a lot of code to write any 3D application. Vulkan is designed to build the foundation of complex 3D rendering application, like game engines and large rendering packages. 
+
+
 
 == WebGL

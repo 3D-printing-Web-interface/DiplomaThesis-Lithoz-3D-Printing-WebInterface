@@ -15,6 +15,8 @@ In some cases a navbar is not necessary, since the user can access any page by n
 
 image::/Assets/Images/Cserich_Philipp/ProjectPage_Layout.png[pdfwidth=2in,page_layout]
 
+<<<
+
 > Productivity Questions
 
 Never start to design pages without knowing their purpose. 

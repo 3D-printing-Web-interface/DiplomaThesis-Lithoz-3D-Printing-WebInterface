@@ -25,7 +25,7 @@ The most popular ones are Adobe XD, Figma and Sketch.
 
 | 2 
 | Figma 
-| Free 
+| (3 Free projects)  
 | Yes
 
 | 3 
@@ -34,6 +34,8 @@ The most popular ones are Adobe XD, Figma and Sketch.
 | Yes
 |=== 
 
-Figmas powerful environment allows for easy mockup creations for several industries. The fact that it is free, makes it the most attractive option for most developers.
-It also provides great collaboration features and a series of ad-ons, which can help to create mocks in teams. 
+Figma in particular includes Wireframing, Prototyping, and Mocking in one combined online application.
+Its powerful environment allows for easy mockup creations for several industries. The fact that it is free, makes it the most attractive option for most developers.
+With the great collaboration features and a series of ad-ons, it is an intuitive choice to create mocks in teams. 
+
 
