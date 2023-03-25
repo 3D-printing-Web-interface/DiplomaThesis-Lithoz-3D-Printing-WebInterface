@@ -86,11 +86,9 @@ Example
 
 [source,java]
 ----
-
 public int Calc(int number1, int number2){
 	return number1 % number2;
 }
-
 ----
 
 Comment that explains *WHAT* the code is doing:

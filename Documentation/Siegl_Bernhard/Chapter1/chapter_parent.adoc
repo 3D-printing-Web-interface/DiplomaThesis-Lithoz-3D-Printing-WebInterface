@@ -108,7 +108,7 @@ mqttClient.on("connect", () => {
 			createConnectionModal("Successfully connected!", "success")
 		applicationConnected.value = true;
 	})
-    ----
+----
 
 === Why did we choose MQTT in our diploma project?
 The answer is quite simple, our project partners provided the MQTT connection so this decision was out of our hands.
