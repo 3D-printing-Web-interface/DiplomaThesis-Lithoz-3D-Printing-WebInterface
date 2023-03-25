@@ -1,2 +1,23 @@
-== Chapter
-Test
+== Cypress testing
+
+The project uses Cypress to virtualise actions (button clicks, key inputs, ...) the web interface and test certain features.
+
+=== Adding cypress and configuartion
+
+=== Testing Types
+
+==== E2E Testing
+
+==== Component Testing
+
+=== Core Concepts of Cypress
+
+
+
+=== Cocumber API
+
+Additionally to Cypress we use a plugin or add-on _TODO_
+
+LOL
+
+

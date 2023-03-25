@@ -33,4 +33,6 @@ Depending on the technology which is used to create the programm there are sever
 
 === Usage of testing technologies in the web interface
 
-At the beginning of the project we decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration we came to the limits of Vitest. Due to asynchronos functions/events the unit-tests could not work properly and we had to switch or testing framework/library to cypress with the cocumber API. _TODO_
+At the beginning of the project it is decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration there were certain problemes encountering testing with Vitest. Due to asynchronos functions/events the unit-tests could not work properly and the team had to switch or testing framework/library to cypress with the cocumber API. _TODO_
+
+

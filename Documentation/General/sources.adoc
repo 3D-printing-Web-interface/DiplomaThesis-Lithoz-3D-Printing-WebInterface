@@ -70,7 +70,12 @@ last accessed 2023-03-16
 == Testing & Quality Assurance (Fabian Maurutschek)
 
 - [] Declartaive vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
+last accessed 2023-03-25
 - [] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
+last accessed 2023-03-25
+- [] Cocumber API https://www.baeldung.com/cucumber-rest-api-testing
+last accessed 2023-03-25
+
 
 
 == MQTT and HTTP (Bernhard Siegl)

@@ -17,7 +17,8 @@ Certain programming languages have different ruiles of the naming conventions. B
 *Naming Conventions in JAVA*
 
 - Fields are small and in camel case with small leading letter
-[,java]
+
+[source,java]
 ----
 private int myInt;
 public int myInt;
@@ -25,13 +26,15 @@ public int myInt;
 
 
 - Classes are in camel case with big leading letter
+[source,java]
 ----
-public class MyInterestingClass{int
+public class MyInterestingClass{
 	...
 };
 ----
 
 - Constants are capitalized
+[source,java]
 ----
 public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
 ----
@@ -39,21 +42,83 @@ public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
 *Naming Conventions in C#*
 
 - Private attributes are leading with an underscore
+[source,Csharp]
 ----
 private int _myInt;
 ----
 
 - Properties and classes are in camel case with big leading letter
+[source,Csharp]
 ----
-public class MyInterestingClass{int
+public class MyInterestingClass{
 	public int MyProp {get; set;} = 0;
 };
 ----
 
 - Constants are capitalized
+[source,Csharp]
 ----
 public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
 ----
+
+==== 2. Variable Scope
+
+The first way to make code better readable is to name the variables legible. Avoid using simple letters or words for import variables.
+
+[source, java]
+----
+public class MyInterestingClass{
+	private int a;
+}
+----
+
+Learning to name variables properly is not an easy thing, because other team-members have 0 relation to the own code.
+
+==== 3. Comments
+
+Additionally to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
+
+- Comments that explain *WHAT* the code is doing.
+
+- Comments that explain *HOW* the code is working.
+
+Example
+
+[source,java]
+----
+
+public int Calc(int number1, int number2){
+	return number1 % number2;
+}
+
+----
+
+Comment that explains *WHAT* the code is doing:
+
+> This method takes the modulo of number1 and number2
+
+Comments that explain *HOW* the code is working:
+
+> This method devides number1 and number2 and subtracts the result of the devision with number1
+
+_Everybody knows what the modulo operator does. Do not comment such things really!_
+
+==== 4. Modularity
+
+Theoratically every programm can be writtin in one line in one class. But having all of the code in one _chunk_ with big projects and version management that will make life hard.
+
+The same goes for methods and classes:
+
+- Keep methods small, easy to understand and mudular (more useable)
+
+That will help testing the method and it could be better extendable and refractorable afterwards.
+
+==== 5. Exception & Error handling
+
+
+
+==== 6. Performance
+
 
 === Programming style
 
