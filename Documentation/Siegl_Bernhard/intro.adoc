@@ -1,4 +1,5 @@
 = MQTT and HTTP
+by Bernhard Siegl
 
 <<<
 include::Chapter1/chapter_parent.adoc[leveloffset=+1]

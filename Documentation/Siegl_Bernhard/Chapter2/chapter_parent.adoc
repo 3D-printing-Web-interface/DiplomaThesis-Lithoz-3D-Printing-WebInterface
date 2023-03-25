@@ -4,6 +4,7 @@
 It is one the most deployed open source message broker around the world. RabbitMQ has a similar purpose as the MQTT protocol.
 
 === Features
+
 ==== Asynchronous Messaging 
 Supports multiple messaging protocols, delivery acknowledgement, message queuing, flexible routing to queues, multiple exchange type.
 
@@ -21,6 +22,8 @@ Before reaching queues, messages are routed through exchanges. Many built-in exc
 
 ==== Reliability 
 Persistence, delivery acknowledgements, publisher confirms, and high availability are just a few of the capabilities that RabbitMQ provides to allow you trade off performance with reliability.
+
+<<<
 
 == XMPP
 Extensible Messaging and Presence Protocol (XMPP) is a collection of open standards for instant messaging, presence, group chat, phone and video conversations, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.
@@ -50,25 +53,35 @@ Beyond instant messaging, XMPP applications include cloud computing, network man
 ==== Widely used 
 You can create and distribute real-time apps and services from a variety of businesses and open-source initiatives. You won't ever be "locked in" while using the XMPP technology.
 
+<<<
+
 == Kafka
 Several businesses use Apache Kafka it is an open-source distributed event streaming platform, for mission-critical applications, high-performance data pipelines, streaming analytics, and data integration.
 
 === Core capabilities
+
 ==== High throughput
 Send messages using a cluster of devices with latencies as low as 2ms at network-limited throughput.
+
 ==== Scalability 
 Up to 1,000 brokers, billions of messages a day, petabytes of data, and hundreds of thousands of partitions can be handled by large production clusters. Storage and processing should be dynamic in size.
+
 ==== Permanent storage
 Safely store data streams in a fault-tolerant, distributed, and long-lasting cluster.
+
 ==== High availability
 Clusters can be efficiently extended over availability zones or linked together across geographical regions.
 
 === Ecosystem
+
 ==== Built-in stream processing
 Using event-time and exactly-once processing, handle streams of events with joins, aggregations, filters, transformations, and more.
+
 ==== Connection
 The Kafka Connect interface's out-of-the-box integrations with hundreds of event sinks and sources, including Postgres, JMS, Elasticsearch, AWS S3, and others.
+
 ==== Client libraries
 Streams of events can be read, written, and processed in a wide variety of computer languages.
+
 ==== Open Source Tools
 There is a large amount of open source tools available.
