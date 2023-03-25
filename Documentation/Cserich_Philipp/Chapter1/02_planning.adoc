@@ -29,7 +29,5 @@ Afterwards, place them in a way that they are easy to access and understand.
 Only then can the page be prettified with design patterns like shadows and borders.
 
 
-Plan Features not design
+Plan Features not design!
 Softwares behaviour should exactly match the users expectations.
-
-[TODO]

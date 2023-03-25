@@ -1,14 +1,15 @@
 <<<
 
 === Page Layout
-How to you code layout in a way that is clear and easy to understand - Code readability
+
+The topic of this section is how to you create a webpages layout in a way that is clear and easy to understand.
 
 Seperating Pages in vue.js into components.
 Code Readability.
 
 ==== Visual Hierarchy
 
-Create a Hirarchy with all of the previosly mentioned techniques such as fonts, color and positioning. Not every hierarchy needs to be indicated through size!  
+Create a Hirarchy with all of the previously mentioned techniques such as fonts, color and positioning. Not every hierarchy needs to be indicated through size!  
 
 It needs to be differentiated from the document history, since many many people are mis
 difference visual hierarchy and document hierarchy
