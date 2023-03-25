@@ -1,16 +1,33 @@
 = HTTP introduction
+The HTTP protocol is used to retrieve resources like HTML documents. It is a client-server protocol, requests are made by the recipient, which is in most cases the web browser, and it serves as the basis for all data communication on the Internet. The various sub-documents that are retrieved, such as text, layout descriptions, photos, videos, scripts, and more, are combined to form a complete document.
+
+image::/Assets/Images/Siegl_Bernhard/http-layers.png[HTTP Layers]
+
+Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png
+
+The HTTP protocol, which was created in the early 1990s, has developed through time. It is an application layer protocol that is transmitted over TCP or over a TCP connection that is encrypted with TLS. It can be used to send material to servers, such as HTML form results, or to fetch not only hypertext pages but also images and videos. In order to instantly update Web pages, HTTP can also be used to fetch portions of documents.
+
+== HTTP-based systems
+
+HTTP is a client-server protocol, and the user-agent is the only thing that sends requests (or a proxy on behalf of it). The user-agent is often a web browser, although it can be anything, such as a robot that crawls the internet to build and maintain search engine indices.
 
 == What is the difference between TLS and HTTPS?
+Hypertext Transfer Protocol Secure (HTTPS) and Transport Layer Security (TLS) are two terminologies that are commonly mixed up and used interchangeably. They are two separate methods, though, and they have different goals. Data that is communicated over the internet is kept secure throughout conversation thanks to the cryptographic technology known as TLS. It is in charge of confirming the legitimacy of the websites you visit and guaranteeing the security and integrity of the data supplied and received. Contrarily, HTTPS is an application layer protocol that secures data sent over the internet. A secure connection between two endpoints is made possible by the combination of HTTP and TLS.
 
+The security protocal uses encryption to safeguard data being sent over the internet. By building a secure tunnel for data exchange, it is in charge of establishing a secure connection between two destinations. It accomplishes this by encrypting the data sent across the connection and authenticating the endpoints identities using public key cryptography. Email, FTP, and online browsing are just a few examples for the apps that employ the TLS protocol.
+
+Contrarily, the protocol HTTPS is used to secure web traffic. It creates a secure connection between two endpoints by combining HTTP and TLS. It authenticates the legitimacy of the websites you visit while also encrypting the data being sent and received. This guarantees the security and integrity of any sent data. Additionally, HTTPS offers extra security safeguards like certificate pinning and domain validation that can help defend against man in the middle attacks.
+
+TLS and HTTPS are both vital technologies for safeguarding data that is transferred and received over the internet. They are two distinct protocols that have different functions, despite the fact that they are frequently mixed together and used interchangeably. Between two endpoints, TLS is in charge of establishing a secure connection, whereas HTTPS is used to secure web traffic. Both protocols are required to guarantee the security and integrity of data sent over the internet.
 
 == MQTT vs HTTP Request and Response
-HTTP is a widely-used communication protocol on the World Wide Web due to its simplicity and ease of use. It does not require a specific client and can be used in a variety of industries, including the Internet of Things (IoT) field. In IoT, HTTP can be used to connect IoT devices and web servers, enabling remote monitoring and control of devices.
+Due to its simplicity and ease of use, HTTP is a widely used communication protocol on the World Wide Web. It can be utilized in a range of businesses, including the Internet of Things (IoT) sector, and it is not client-specific. IoT allows for the remote monitoring and control of equipment through the use of HTTP connections between IoT devices and web servers.
 
-Although HTTP is simple to use and has a fast development cycle, it has some limitations when used in IoT applications. One disadvantage is that HTTP messages have more network overhead compared to MQTT at the protocol level. Additionally, HTTP is a stateless protocol, meaning that the server does not retain information about the client's state when processing requests and cannot recover from abnormal disconnections. Finally, the request-response model of HTTP requires polling to retrieve updates, while MQTT can provide real-time updates through subscriptions.
+The adoption of HTTP in IoT applications is constrained despite its ease of use and quick development cycle. One drawback is that, from a protocol standpoint, HTTP messages have more network overhead than MQTT. Additionally, because HTTP is a stateless protocol, the server cannot recover from unexpected disconnections and does not keep track of the client's state when processing requests. And finally, whereas MQTT may deliver real-time updates through subscribers, the HTTP request-response mechanism necessitates polling to retrieve updates.
 
-The MQTT publish-subscribe pattern has some inherent limitations due to its loosely coupled nature. For example, the publisher has no information about the state of the subscriber and therefore cannot know if the subscriber has received the message or processed it correctly. To address this issue, MQTT 5.0 introduces a request-response feature that allows a subscriber to send a reply to the topic after receiving a message, and for the publisher to follow up after receiving the reply.
+Because to its weak coupling, the publish-subscribe MQTT design has several inherent drawbacks. For instance, the publisher is unable to determine if the subscriber has received or correctly interpreted the message because it is unaware of the subscriber's status. To solve this problem, MQTT 5.0 adds a request-response functionality that enables a publisher to follow up after getting a reply from a subscriber who want to respond to a subject after receiving a message.
 
 
-https://www.emqx.com/en/blog/mqtt-5-introduction-to-publish-subscribe-model
 
+-Structure-
 1. Introduction to the Hyper Text Transfer Protocol (HTTP) 2. Overview of HTTP Versions 3. Features of HTTP 4. HTTP Message Structure 5. Different HTTP Methods 6. TCP/IP and HTTP 7. HTTP and SSL/TLS 8. HTTP Status Codes and their Significance 9. HTTP Caching 10. HTTP Headers 11. HTTP Cookies 12. HTTP Authentication 13. HTTP Compression 14. HTTP Performance Optimization 15. HTTP Load Balancing 16. HTTP Security 17. HTTP Proxies 18. HTTP Error Handling 19. HTTP Programming 20. Future of HTTP

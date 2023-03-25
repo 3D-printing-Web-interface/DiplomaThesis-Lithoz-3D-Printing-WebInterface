@@ -33,7 +33,7 @@ In order to provide an open, decentralized alternative to the closed instant mes
 The XMPP protocols are free to use and easy understandable.
 
 ==== Proven 
-Jeremie Miller created the first Jabber/XMPP technologies in 1998, and they are now quite stable. Hundreds of developers are currently working on these technologies, and millions of people use XMPP for instant messaging through open platforms like Google Talk and XMPP deployments at businesses around the world.
+Jeremie Miller created the first Jabber/XMPP technologies in 1998. Hundreds of developers are currently working on these technologies, and millions of people use XMPP for instant messaging through open platforms like Google Talk.
 
 ==== Decentralized
 The XMPP network is similar to the email architecture; anyone can host their own XMPP server, enabling individuals and organizations to take control of their communications experience.
@@ -48,10 +48,10 @@ Anybody can add additional functionality on top of the core protocols by utilizi
 Beyond instant messaging, XMPP applications include cloud computing, network management, content syndication, collaboration tools, file sharing, gaming, remote system monitoring, and many more.
 
 ==== Widely used 
-You can create and distribute real-time apps and services from a variety of businesses and open-source initiatives; you won't ever be "locked in" while using the XMPP technology.
+You can create and distribute real-time apps and services from a variety of businesses and open-source initiatives. You won't ever be "locked in" while using the XMPP technology.
 
 == Kafka
-Several businesses use Apache Kafka, an open-source distributed event streaming platform, for mission-critical applications, high-performance data pipelines, streaming analytics, and data integration.
+Several businesses use Apache Kafka it is an open-source distributed event streaming platform, for mission-critical applications, high-performance data pipelines, streaming analytics, and data integration.
 
 === Core capabilities
 ==== High throughput
@@ -71,4 +71,4 @@ The Kafka Connect interface's out-of-the-box integrations with hundreds of event
 ==== Client libraries
 Streams of events can be read, written, and processed in a wide variety of computer languages.
 ==== Open Source Tools
-Large amount of open source tools.
+There is a large amount of open source tools available.
