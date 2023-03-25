@@ -81,7 +81,36 @@ Source: https://mqtt.org/assets/img/mqtt-publish-subscribe.png
 == MQTT Use Cases
 There are several use-cases for the MQTT protocol. Especially in the sectors of logistics, automotive, manufacturing, oil & gas, transportation. It is also necessary in the smart home sector.
 
+== MQTT code examples
+
+Here is an example of how to subscribe to a specific given topic in type script.
+
+- The "machineStateTopic" variable stores the path for the machine.
+
+[source, typescript]
+----
+export function startMQTTInformationHandling(){
+	mqttClient?.subscribe(machineStateTopic + "/#", (err, granted) => {
+		if(err && applicationConfig.modalOptions.showSubscribingError)
+			createModal("Connection!", "Subscribing error Information:" + halParentTopic + "#", "#DC3545")
+		if(granted && applicationConfig.modalOptions.showSubscribingSuccess)
+			createModal("Connection!", "Subscribing successful:" + halParentTopic + "#", "#28A745")
+	})
+}
+----
+
+- Here is the implementation of what happens on a specific event such as "connect", "error", "close", "offline". In this case we call the method "createConnmectionModal()" which creates the modal with the given context.
+
+[source, typescript]
+----
+mqttClient.on("connect", () => {
+		if(applicationConfig.modalOptions.showConnectionSuccess)
+			createConnectionModal("Successfully connected!", "success")
+		applicationConnected.value = true;
+	})
+    ----
+
 === Why did we choose MQTT in our diploma project?
-The answer is quite simple, our project partners provided the MQTT connection so this decicion was out of our hands.
+The answer is quite simple, our project partners provided the MQTT connection so this decision was out of our hands.
 
 
