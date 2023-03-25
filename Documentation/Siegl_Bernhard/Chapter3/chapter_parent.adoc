@@ -21,7 +21,7 @@ A request consists of the following parameter:
 - Path-URL
 - HTTP protocol version
 - Headers (additional information for the server)
-- Body (containing the recource request - media files, videos, images etc.)
+- Body (containing the resource request - media files, videos, images etc.)
 
 === Ports
 80 : is the standard port for http
