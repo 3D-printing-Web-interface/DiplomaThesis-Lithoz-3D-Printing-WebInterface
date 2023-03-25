@@ -14,7 +14,7 @@ The project uses Cypress to virtualise actions (button clicks, key inputs, ...) 
 
 
 
-=== Cocumber API
+=== Cockumber API
 
 Additionally to Cypress we use a plugin or add-on _TODO_
 

@@ -113,9 +113,10 @@ That will help testing the method and it could be better extendable and refracto
 
 ==== 5. Exception & Error handling
 
+Do not see exceptions as bad inventaion! Proper use of errors and exceptions have a really good advatage if it is used whisely.
 
-
-==== 6. Performance
+- Keep the messages understandable
+- Use the correct type of exception (NullReferenceE./NullPointerE., InvalidArgumentE.,...)
 
 
 === Programming style
@@ -134,6 +135,43 @@ Making projects imperative is easier then declarative. The first code will be ve
 
 ==== Declarative programming
 
-The
+The most know declarative language is SQL it is also the best example.:
+
+[source, sql]
+----
+SELECT *
+FROM myTable
+WHERE id = 34
+----
+
+Everybody (Who knows SQL) is able to read that statement. Also it is easy to understand and tells exactly what to do.
+
+It commands directly what the process has to do and not how to do it (for expample with for loops)
 
 ==== Examples
+
+To better understand the difference of imperative and declarative programming there is a example provided in JAVA:
+
+These examples provide the same return value.
+
+*Imperative*
+[source,java]
+----
+
+List<Integer> arr = List.of(1,2,3,4,5,6,7,8,9,10,11,12,13);
+
+for(int i = 0; i < arr.length; i++)
+	if(arr[i] == "d")
+		return arr[i];
+----
+
+*Declarative*
+[source,java]
+----
+
+List<Integer> arr = List.of(1,2,3,4,5,6,7,8,9,10,11,12,13);
+
+return arr.stream().filter(integer -> integer.intValue() == 3).findAny().get();
+----
+
+As you can see the stream api helps a lot to make use of functional programming.
