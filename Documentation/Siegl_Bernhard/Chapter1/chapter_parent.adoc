@@ -99,7 +99,7 @@ export function startMQTTInformationHandling(){
 }
 ----
 
-- Here is the implementation of what happens on a specific event such as "connect", "error", "close", "offline". In this case we call the method "createConnmectionModal()" which creates the modal with the given context.
+- Here is the implementation of what happens on a specific event such as "connect", "error", "close", "offline". In this case we call the method "createConnectionModal()" which creates the modal with the given context.
 
 [source, typescript]
 ----
