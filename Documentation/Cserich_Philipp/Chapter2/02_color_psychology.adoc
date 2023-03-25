@@ -33,7 +33,7 @@ Examples, mocked by Philipp Cserich (Figma)
 The NCS was developed 1981 in Sweden .
 It is used to describe colors for designers, architects and many more. It is one way to keep the exact definition of one color in the defined spectrum clear. Other metrics were mostly inaccurate at the time of development.
 
-image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=NCS Notation]
+image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=1 - NCS Notation]
 
 image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space]
 

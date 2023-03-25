@@ -111,5 +111,51 @@ After configuring and installing tailwind, it has to be imported into your main 
 @tailwind utilities;
 ----
 
+An example of tailwinds flexible classes, is the following code snippet. It creates a flexbox with three elements. The first element has a fixed width of 14rem, while the other two elements have a flexible width. The "flex-initial" class indicates that the element is able to shrink dependent on the available space in the flexbox, but is not able to grow.
+
+[source,html]
+----
+<div class="flex">
+  <div class="flex-none w-14 h-14">
+    01
+  </div>
+  <div class="flex-initial w-64 ...">
+    02
+  </div>
+  <div class="flex-initial w-32 ...">
+    03
+  </div>
+</div>
+----
+
 === MUI - Material UI
-[TODO]
+
+Material UI is a UI library made for the React framework. It is a very popular library, that is used by many companies. It is also very well documented and has a lot of prebuilt components. MUI is based on the material design guidelines, which are a set of guidelines for the design of websites and applications. The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
+
+[source, terminal]
+----
+npm install @mui/material @emotion/react @emotion/styled
+----
+
+[source, terminal]
+----
+yarn add @mui/material @emotion/react @emotion/styled
+----
+
+These commands just include the default library. There are also versions online that automatically include styled components, icons and other libraries. These can be found on the official website of MUI.
+
+MUIs usage is very similar to bootstrap. It is based on preconfigured CSS classes. These can be used to style your HTML elements, regardless of the framework you are using. An official example of such a component can be found quoted below.
+
+[source, js]
+----
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+export default function MyApp() {
+  return (
+    <div>
+      <Button variant="contained">Hello World</Button>
+    </div>
+  );
+}
+----

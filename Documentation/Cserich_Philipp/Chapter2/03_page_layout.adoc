@@ -10,7 +10,7 @@ Code Readability.
 
 Create a Hirarchy with all of the previosly mentioned techniques such as fonts, color and positioning. Not every hierarchy needs to be indicated through size!  
 
-
+It needs to be differentiated from the document history, since many many people are mis
 difference visual hierarchy and document hierarchy
 
 Start with too much whitespace
