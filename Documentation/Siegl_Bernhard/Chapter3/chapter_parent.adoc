@@ -1,7 +1,7 @@
 = HTTP introduction
 The HTTP protocol is used to retrieve resources like HTML documents. It is a client-server protocol, requests are made by the recipient, which is in most cases the web browser, and it serves as the basis for all data communication on the Internet. The various sub-documents that are retrieved, such as text, layout descriptions, photos, videos, scripts, and more, are combined to form a complete document.
 
-image::/Assets/Images/Siegl_Bernhard/http-layers.png[HTTP Layers]
+image::/Assets/Images/Siegl_Bernhard/http-layers.png[HTTP Layers ,80%,80%]
 
 Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png
 
@@ -14,12 +14,19 @@ First of all, let us talk about the HTTP request/response pair. Normally the req
 
 As a result, each session starts with a request from the client to the entity that keeps the resource, often the server (plus any additional requests for media files, etc.). The URL helps to identify the server.
 
-A request consisnts of the following parameter:
+
+A request consists of the following parameter:
+
 - HTTP method - GET,POST,PUT,DELETE
 - Path-URL
 - HTTP protocol version
 - Headers (additional information for the server)
 - Body (containing the recource request - media files, videos, images etc.)
+
+=== Ports
+80 : is the standard port for http
+
+443 : is the standard port for the more secure version HTTPS (Hyper Text Transfer Protocol Secure)
 
 <<<
 
