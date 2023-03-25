@@ -8,3 +8,5 @@ https://kafka.apache.org
 https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 https://www.emqx.com/en/blog/mqtt-5-introduction-to-publish-subscribe-model
+https://www.rfc-editor.org/rfc/rfc1945.html
+https://cedalo.com/blog/http-vs-mqtt-for-iot/

@@ -72,12 +72,9 @@ There are several use-cases for the MQTT protocol. Especially in the sectors of 
 
 Source: https://mqtt.org/use-cases/
 
-== History of MQTT
-
 == Implementation of MQTT
 
 === Why did we choose MQTT in our diploma project?
-
 The answer is quite simple, our project partners provided the MQTT connection so this decicion was out of our hands.
-...
+
 
