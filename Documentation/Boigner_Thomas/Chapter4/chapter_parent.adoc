@@ -1,52 +1,69 @@
-= Modern 3D rendering APIs
+= History of Computer Graphics
 
-== OpenGL
+== 1940s and 1950s
 
-=== What is OpenGL
+During the 1940s John Whitney, Sr, who is often credited as the father of computer animation, created a series of experiments together with his brother James. Those include the animated intros sequence from Alfred Hitchcock's film Vertigo, released in 1958.
 
-OpenGL serves as a interface to the graphics hardware and is developed by the Khronos Group. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications. 
+In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.
 
-Because of its platform independence it provides only the most basic operations and excludes features such as windowing tasks and getting user inputs. OpenGl only provides the basic building blocks for 3D rendering, that the programmer can use to create their own implementations of higher-level commands. A library that provides these features would be the _OpenGL Utility Library_ (GLU).
+image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[first digital image] 
+~Reference~ ~-~ ~first~ ~digital~ ~image~ ~[12]~
 
-=== How does OpenGL work? 
+== 1960s
 
-Steps used to create a scene using OpenGL:
+In 1960 the first first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
 
-. Draw a wireframe model of the object: The wireframe model only consists of the points and edges of the solid model.
-. Create a depth-cued version of the wireframe model: The edges further away from the camera are drawn dimmer to create the illusion of depth.  
-. Add anti-aliasing: anti-aliasing reduces jagged edges.
-. Flat-shade the wireframe model: In this step the polygons between the edges are rendered, but they only use one color. 
-. Add lighting and smooth shading: Light sources are added and the 3D objects are shaded to respond to the light causing them to appear smoothly rounded.
-. Add shadows and textures 
+Meanwhile one of the first computer generated films, titled _A Two Gravity Gradient attitude control System_ was produced in 1963 by Edward Zajac at Bell Labs. Bell Labs also developed the Belflix animation system that was used to create dozens of animation films. This program didn't rely on raw programming alone, but provided support for simple prompts like draw a line, fill an area or zoom an area.
 
-Major graphics operations supported by OpenGL:
+In 1964 William Fetter created the first ergonomic description of the human body that are adaptable and accurate to different environments. This resulted in the first 3D animated wire-frame figures. 
 
-* Construction of shapes using geometric primitives such as points, lines, polygons, images and bitmaps.
-* Arrangement of the different 3D objects in 3D space.
-* Calculation of colors. Either static colors or colors that are influenced by lighting conditions.
-* Conversion of mathematical descriptions of 3D objects and their color information to pixels on a 2D screen.
+The first Graphical user interface (GUI) was created in 1962 by Ivan Sutherland at the Massachusetts Institute of Technologies (MIT). This program was called _Sketchpad I_ and allowed the user to interact directly with the images portrayed at the screen. 
 
+In the mid to late 60s a lot of new 3D computer graphic techniques were developed at the University of Utah. These techniques include Gouraud, Phong, and Blinn shading, texture mapping, hidden surface algorithms, curved surface subdivision, real-time line-drawing and raster image display hardware, and early virtual reality work.
 
-== Vulkan
+In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.
 
-Vulkan is the successor of OpenGL and like OpenGL Vulkan is also a application interface used to communicate with the graphics processing unit (GPU). But unlike OpenGL Vulkan is very verbose and requires a lot of code to write any 3D application. Vulkan is designed to build the foundation of complex 3D rendering application, like game engines and large rendering packages. 
+== 1970s
 
-Compared to OpenGL the Vulkan drivers do not manage everything for the programmers. Things like the state of Objects, memory management and synchronization need to be managed manually. This has the advantage, that less CPU time is wasted. This results in Vulkan being very hard to get it to run well, but on the other side it gives the developer more control over the hardware. Vulkan can be used to program various devices including graphics processing units (GPUs), digital signal processors (DSPs) and fixed function hardware. The functionality of Vulkan is divided into three categories, transfer, which is responsible for copying data around, compute which is responsible for running shaders over the compute workloads and the graphics category, which is responsible for rasterization, primitive assembly, blending, depth and stencil tests. The support for each category is optional and depends on the device.
+In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
 
-The architecture of Vulkan is split into a hierarchy of functionality that starts at the top level with multiple instances, which themselves contain multiple Vulkan-capable devices, that are separated into logical devices on which various queues, that perform the work that the application requests, are executed.
+The first feature film using digital animation was called "Westworld" and was released in 1973. The Sequel of the movie, called "Future World", released in 1976 then used wire frame imagery to create a computer generated hand and face. This technology was later used in the short film "Great" and the movie "Star Wars".
 
-== WebGL
+In 1974 Evans & Sutherland produced the first commercial framebuffer, that made 8-bit grayscale colors possible. The New York Institute of Technology Computer Graphics Lab (NYIT) then used 3 of these framebuffers to create their own 24-bit frame buffer that was capable of displaying true colors. In the late 70s personal computers like the Apple II made cheap framebuffers available for the average computer user.
 
-WebGL makes it possible to render 2D and 3D graphics in a browser with the use of JavaScript. It is supported by any major browser. This allows developers to create more sophisticated user interfaces. WebGL makes 3D graphics accessible to more developers, because they are no longer required to build a stand-alone application using languages such as C or C++. Furthermore it is platform independent and can be run on PCs, laptops, tablets and Smartphones.
+The development of "fractals" in 1975, algorithms that can create organic looking shapes, was a major step towards realistic 3d animations.
 
-At the beginning HTML only offered support for static content, JavaScript then made more complex interactions possible. HTML canvas then added support for 2D graphic to browsers and WebGL took it a step further offering full 3D graphics support.
+The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.
 
-Major advantages of WebGL are:
+== 1980s
 
-* Low entry barrier to development: For WebGL development only a browser and a text editor are needed.
-* Applications can be published easily.
-* The full power browser related features can be used.
+In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
 
-Even if the name suggests it WebGL is not directly based on OpenGL, but on a version of OpenGL specifically designed for embedded computers such as smart phones and video game consoles, called OpenGL ES. The development of OpenGL ES started in 2003 and major updates came in 2007 (ES 2.0) and 2012 (ES 3.0). WebGL is based on OpenGL ES 2.0 and was first released in 2012 by the Khronos group.
+In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a milestone in the industry for its use of 3D CGI. The CGI was mainly used to show digital terrain and vehicles such as Light Cycles, tanks and ships. After Tron _The Last Starfighter_ raised the bar in terms of 3D graphics, with a total of 27 minutes of CGI footage.
 
-The structure of WebGl applications differs from dynamic webpages by being based on 3 languages, HTML, JavaScript and GLSL ES, instead of the usual 2 languages, HTML and JavaScript. GLSL ES is a shader language needed to run WebGL. But, GLSL ES is written in JavaScript, so there will only be HTML and JavaScript files. 
+Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
+
+3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.
+
+== 1990s
+
+At the beginning of the 1990s there was a large expansion of CGI media. Films such as _Terminator 2:Judgment Day_, Disney's _Beauty and the Beast_ and _Jurassic Park_ showed what is possible with CGI.
+
+The increase of computer power made a technique called flocking possible. Flocking allows the simulation of birds or other animals moving together in a groupe. It was used in movies like _Jurassic Park_ and _The Lion King_.
+
+In 1995 the first fully animated feature film _Toy Story_ was released. This movie was produced by Pixar and was a big commercial success.
+
+Motion capturing became a lot more common in the 90s. Motion capturing is used to capture the movement of real objects and use this data to create 3D animations. This technique is mainly used in CGI movie scenes and computer games. Another CGI technique developed in the 90s was Match moving that allowed for the tracking of positions across multiple frames. It is used to insert CGI elements at specific point and have it keep its correct position, rotation and scale through movement.
+
+Another 3D technique developed in the 1990s were Machinimas, that allowed users to create 3D animations using real-time rendering.
+
+3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.
+
+== 2000s
+
+In the 2000s photorealism became the new goal of 3D rendering. One major breakthrough was the simulation of the reflectance field over the human face using the simplest of light stages.
+
+In the 2000s the first fully virtual cinematography was produced. Those movies used CGI on such a high level that it became almost impossible to tell which scene was animated on a computer and which was not.
+
+3D animation programs from the 2000s include Blender, Poser and Pointstream Software.
+

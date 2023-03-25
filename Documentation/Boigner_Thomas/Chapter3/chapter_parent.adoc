@@ -1,69 +1,41 @@
-= History of Computer Graphics
+= 3D rendering techniques
 
-== 1940s and 1950s
+In this chapter we will take a closer look at some of the more advanced techniques used to create photorealistic 3D scenes.
 
-During the 1940s John Whitney, Sr, who is often credited as the father of computer animation, created a series of experiments together with his brother James. Those include the animated intros sequence from Alfred Hitchcock's film Vertigo, released in 1958.
+== Rasterization
 
-In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.
+Rasterization describes the process of displaying three-dimensional objects on a two-dimensional screen. To create the two-dimensional images the vertices of the meshes and polygons are taken and with the use the information that they save turned into pixels. Then a color is assigned to those pixels based on how the light hits it and a texture is applied.^[11]^
 
-image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[first digital image] 
-~Reference~ ~-~ ~first~ ~digital~ ~image~ ~[12]~
+== Direct & indirect lighting
 
-== 1960s
+There are two types of lighting, direct and indirect lighting. Direct lighting is light that shines directly on a object, while indirect lighting bounces of another object before reaching the object it shines on. Indirect lighting requires more computing power to be calculated, because there are more possibilities where the light could be reflected before reaching an object.^[10]^
 
-In 1960 the first first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
+== Global illumination
 
-Meanwhile one of the first computer generated films, titled _A Two Gravity Gradient attitude control System_ was produced in 1963 by Edward Zajac at Bell Labs. Bell Labs also developed the Belflix animation system that was used to create dozens of animation films. This program didn't rely on raw programming alone, but provided support for simple prompts like draw a line, fill an area or zoom an area.
+Global illumination is now the process of calculating both, indirect and direct lighting that is visible on surfaces in a scene. Because a lot of computing power is needed to achieve that, especially when the scene is rendered in real-time, the global illumination is limited to a subset of indirect lighting. 
 
-In 1964 William Fetter created the first ergonomic description of the human body that are adaptable and accurate to different environments. This resulted in the first 3D animated wire-frame figures. 
+To combat the expense of rendering global illumination multiple shading techniques have been developed, among those are deferred and clustered shading that reduce the number of surface and light interactions.^[10]^
 
-The first Graphical user interface (GUI) was created in 1962 by Ivan Sutherland at the Massachusetts Institute of Technologies (MIT). This program was called _Sketchpad I_ and allowed the user to interact directly with the images portrayed at the screen. 
+== Path Tracing
 
-In the mid to late 60s a lot of new 3D computer graphic techniques were developed at the University of Utah. These techniques include Gouraud, Phong, and Blinn shading, texture mapping, hidden surface algorithms, curved surface subdivision, real-time line-drawing and raster image display hardware, and early virtual reality work.
+Path Tracing is a form of indirect lighting, that simulates random paths for each surface and the calculates if these paths reach other objects and contribute to the to the finished scene or not. Path Tracing is the most accurate and precise method of calculating indirect lighting, but at the same time very expansive to calculate.^[10][11]^
 
-In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.
+== Ray Tracing
 
-== 1970s
+Ray Tracing is a form of Path Tracing, that needs less computing power. It traces the path of light from the standpoint of the camera, through the 2D plane and then back to the camera. Ray tracing can simulate all of the interactions the light may have with different objects, like being blocked by an object or passing through an transparent object. With special hardware it is even possible t^ render Ray Tracing in real time.^[11]^
 
-In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
+== Ray Casting
 
-The first feature film using digital animation was called "Westworld" and was released in 1973. The Sequel of the movie, called "Future World", released in 1976 then used wire frame imagery to create a computer generated hand and face. This technology was later used in the short film "Great" and the movie "Star Wars".
+Ray Casting describes the process of shooting out rays from the position of the camera to see if they intersect with any objects in the scene. If the ray hits an object, the distance of the gap between the object and the camera is calculated. This information is then used to determine the color of the pixel is illuminated. These rays can also bounce of objects and hit other objects.^[11]^
 
-In 1974 Evans & Sutherland produced the first commercial framebuffer, that made 8-bit grayscale colors possible. The New York Institute of Technology Computer Graphics Lab (NYIT) then used 3 of these framebuffers to create their own 24-bit frame buffer that was capable of displaying true colors. In the late 70s personal computers like the Apple II made cheap framebuffers available for the average computer user.
+== Radiosity
 
-The development of "fractals" in 1975, algorithms that can create organic looking shapes, was a major step towards realistic 3d animations.
+When simulating lighting with the Radiosity method the illumination values are stored on the surface of objects. To speed up the calculation stochastic methods were invented.^[14]^
 
-The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.
+== Scanline Rendering
 
-== 1980s
+Scanline Rendering works on a row-by-row basis, rather then a polygon-by-polygon or pixel-by-pixel basis. To render an image, all of the objects are sorted by their position on the y axis first and then drawn row by row using the data from their polygons that are in front of the sorted list. The polygons that are no longer in the visible area are then removed from the list. This reduces the amount of comparisons between edges that need to take place.^[12]^
 
-In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
+== The Z-Buffer
 
-In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a milestone in the industry for its use of 3D CGI. The CGI was mainly used to show digital terrain and vehicles such as Light Cycles, tanks and ships. After Tron _The Last Starfighter_ raised the bar in terms of 3D graphics, with a total of 27 minutes of CGI footage.
-
-Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
-
-3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.
-
-== 1990s
-
-At the beginning of the 1990s there was a large expansion of CGI media. Films such as _Terminator 2:Judgment Day_, Disney's _Beauty and the Beast_ and _Jurassic Park_ showed what is possible with CGI.
-
-The increase of computer power made a technique called flocking possible. Flocking allows the simulation of birds or other animals moving together in a groupe. It was used in movies like _Jurassic Park_ and _The Lion King_.
-
-In 1995 the first fully animated feature film _Toy Story_ was released. This movie was produced by Pixar and was a big commercial success.
-
-Motion capturing became a lot more common in the 90s. Motion capturing is used to capture the movement of real objects and use this data to create 3D animations. This technique is mainly used in CGI movie scenes and computer games. Another CGI technique developed in the 90s was Match moving that allowed for the tracking of positions across multiple frames. It is used to insert CGI elements at specific point and have it keep its correct position, rotation and scale through movement.
-
-Another 3D technique developed in the 1990s were Machinimas, that allowed users to create 3D animations using real-time rendering.
-
-3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.
-
-== 2000s
-
-In the 2000s photorealism became the new goal of 3D rendering. One major breakthrough was the simulation of the reflectance field over the human face using the simplest of light stages.
-
-In the 2000s the first fully virtual cinematography was produced. Those movies used CGI on such a high level that it became almost impossible to tell which scene was animated on a computer and which was not.
-
-3D animation programs from the 2000s include Blender, Poser and Pointstream Software.
-
+The Z-Buffer is used to represent depth information in a scene. It compares the depth value of a object to the values of other objects it stored previously and replaces the stored value if the object is closer than the other objects. This value is then used by the rasterizer to calculate the color values of the object.^[13]^

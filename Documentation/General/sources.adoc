@@ -40,29 +40,32 @@ last accessed 2019-01-01
 
 == 3D Rendering (Thomas Boigner)
 
-- [6] https://en.wikipedia.org/wiki/3D_rendering
+- [1] https://en.wikipedia.org/wiki/3D_rendering
 last accessed 2023-03-16
-- [7] https://en.wikipedia.org/wiki/Real-time_computer_graphics
+- [2] https://en.wikipedia.org/wiki/Real-time_computer_graphics
 last accessed 2023-03-16
-- [8] https://en.wikipedia.org/wiki/Polygonal_modeling
+- [3] https://en.wikipedia.org/wiki/Polygonal_modeling
 last accessed 2023-03-16
-- [9] https://dl.acm.org/doi/pdf/10.1145/279389.279478
+- [4] https://dl.acm.org/doi/pdf/10.1145/279389.279478
 last accessed 2023-03-16
-- [10] https://books.google.at/books?hl=en&lr=&id=136myWlKpwEC&oi=fnd&pg=PA1&dq=history+of+computer+graphics&ots=Np50HBsAGG&sig=PAJbtl2hz68anCgxyEZfBpZxRCk&redir_esc=y#v=onepage&q&f=false
+- [5] https://books.google.at/books?hl=en&lr=&id=136myWlKpwEC&oi=fnd&pg=PA1&dq=history+of+computer+graphics&ots=Np50HBsAGG&sig=PAJbtl2hz68anCgxyEZfBpZxRCk&redir_esc=y#v=onepage&q&f=false
 last accessed 2023-03-16
-- [11] https://en.wikipedia.org/wiki/History_of_computer_animation
+- [6] https://en.wikipedia.org/wiki/History_of_computer_animation
 last accessed 2023-03-16
-- [12] https://en.wikipedia.org/wiki/Digital_image
-- [13] https://books.google.at/books?hl=en&lr=&id=xPu3mN2FPl4C&oi=fnd&pg=PT24&dq=openGl&ots=mRb0aqa4qs&sig=w2pXtwQOGbDoRoF9IxDqgtRB57I&redir_esc=y#v=onepage&q&f=false
+- [7] https://books.google.at/books?hl=en&lr=&id=xPu3mN2FPl4C&oi=fnd
 last accessed 2023-03-23
-- [14] https://books.google.at/books?hl=en&lr=&id=XVBxDQAAQBAJ&oi=fnd&pg=PT16&dq=openGL+Vulkan&ots=zEWFRhy5we&sig=rKy_R9QaBL6Yf7f8CPqeepDNWv8&redir_esc=y#v=onepage&q&f=false
+- [8] https://books.google.at/books?hl=en&lr=&id=XVBxDQAAQBAJ&oi=fnd
 last accessed 2023-03-16
-- [15] https://www.google.at/books/edition/WebGL_Programming_Guide/3c-jmWkLNwUC?hl=en&gbpv=1&dq=WebGL&pg=PR18&printsec=frontcover
-- [16] https://blogs.nvidia.com/blog/2022/08/04/direct-indirect-lighting/
-- [17] https://developer.nvidia.com/discover/ray-tracing
-- [18] https://handwiki.org/wiki/Scanline_rendering
-- [19] https://handwiki.org/wiki/Z-buffering
-- [20] https://www.cg.tuwien.ac.at/research/rendering/rays-radio/
+- [9] https://www.google.at/books/edition/WebGL_Programming_Guide/3c-jmWkLNwUC?hl=en
+- [10] https://blogs.nvidia.com/blog/2022/08/04/direct-indirect-lighting/
+- [11] https://developer.nvidia.com/discover/ray-tracing
+- [12] https://handwiki.org/wiki/Scanline_rendering
+- [13] https://handwiki.org/wiki/Z-buffering
+- [14] https://www.cg.tuwien.ac.at/research/rendering/rays-radio/
+
+=== Pictures
+
+- [1] first digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
 
 == Testing & Quality Assurance (Fabian Maurutschek)
 

@@ -1,41 +1,52 @@
-= 3D rendering techniques
+= Modern 3D rendering APIs
 
-In this chapter we will take a closer look at some of the more advanced techniques used to create photorealistic 3D scenes.
+== OpenGL
 
-== Rasterization
+=== What is OpenGL
 
-Rasterization describes the process of displaying three-dimensional objects on a two-dimensional screen. To create the two-dimensional images the vertices of the meshes and polygons are taken and with the use the information that they save turned into pixels. Then a color is assigned to those pixels based on how the light hits it and a texture is applied.^[17]^
+OpenGL serves as a interface to the graphics hardware and is developed by the Khronos Group. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications.^[7]^
 
-== Direct & indirect lighting
+Because of its platform independence it provides only the most basic operations and excludes features such as windowing tasks and getting user inputs. OpenGl only provides the basic building blocks for 3D rendering, that the programmer can use to create their own implementations of higher-level commands. A library that provides these features would be the _OpenGL Utility Library_ (GLU).^[7]^
 
-There are two types of lighting, direct and indirect lighting. Direct lighting is light that shines directly on a object, while indirect lighting bounces of another object before reaching the object it shines on. Indirect lighting requires more computing power to be calculated, because there are more possibilities where the light could be reflected before reaching an object.^[16]^
+=== How does OpenGL work? 
 
-== Global illumination
+Steps used to create a scene using OpenGL:
 
-Global illumination is now the process of calculating both, indirect and direct lighting that is visible on surfaces in a scene. Because a lot of computing power is needed to achieve that, especially when the scene is rendered in real-time, the global illumination is limited to a subset of indirect lighting. 
+. Draw a wireframe model of the object: The wireframe model only consists of the points and edges of the solid model.
+. Create a depth-cued version of the wireframe model: The edges further away from the camera are drawn dimmer to create the illusion of depth.  
+. Add anti-aliasing: anti-aliasing reduces jagged edges.
+. Flat-shade the wireframe model: In this step the polygons between the edges are rendered, but they only use one color. 
+. Add lighting and smooth shading: Light sources are added and the 3D objects are shaded to respond to the light causing them to appear smoothly rounded.
+. Add shadows and textures 
 
-To combat the expense of rendering global illumination multiple shading techniques have been developed, among those are deferred and clustered shading that reduce the number of surface and light interactions.^[16]^
+Major graphics operations supported by OpenGL:
 
-== Path Tracing
+* Construction of shapes using geometric primitives such as points, lines, polygons, images and bitmaps.
+* Arrangement of the different 3D objects in 3D space.
+* Calculation of colors. Either static colors or colors that are influenced by lighting conditions.
+* Conversion of mathematical descriptions of 3D objects and their color information to pixels on a 2D screen.
 
-Path Tracing is a form of indirect lighting, that simulates random paths for each surface and the calculates if these paths reach other objects and contribute to the to the finished scene or not. Path Tracing is the most accurate and precise method of calculating indirect lighting, but at the same time very expansive to calculate.^[16][17]^
 
-== Ray Tracing
+== Vulkan
 
-Ray Tracing is a form of Path Tracing, that needs less computing power. It traces the path of light from the standpoint of the camera, through the 2D plane and then back to the camera. Ray tracing can simulate all of the interactions the light may have with different objects, like being blocked by an object or passing through an transparent object. With special hardware it is even possible to render Ray Tracing in real time.^[17]^
+Vulkan is the successor of OpenGL and like OpenGL Vulkan is also a application interface used to communicate with the graphics processing unit (GPU). But unlike OpenGL Vulkan is very verbose and requires a lot of code to write any 3D application. Vulkan is designed to build the foundation of complex 3D rendering application, like game engines and large rendering packages.^[8]^ 
 
-== Ray Casting
+Compared to OpenGL the Vulkan drivers do not manage everything for the programmers. Things like the state of Objects, memory management and synchronization need to be managed manually. This has the advantage, that less CPU time is wasted. This results in Vulkan being very hard to get it to run well, but on the other side it gives the developer more control over the hardware. Vulkan can be used to program various devices including graphics processing units (GPUs), digital signal processors (DSPs) and fixed function hardware. The functionality of Vulkan is divided into three categories, transfer, which is responsible for copying data around, compute which is responsible for running shaders over the compute workloads and the graphics category, which is responsible for rasterization, primitive assembly, blending, depth and stencil tests. The support for each category is optional and depends on the device.^[8]^
 
-Ray Casting describes the process of shooting out rays from the position of the camera to see if they intersect with any objects in the scene. If the ray hits an object, the distance of the gap between the object and the camera is calculated. This information is then used to determine the color of the pixel is illuminated. These rays can also bounce of objects and hit other objects.^[17]^
+The architecture of Vulkan is split into a hierarchy of functionality that starts at the top level with multiple instances, which themselves contain multiple Vulkan-capable devices, that are separated into logical devices on which various queues, that perform the work that the application requests, are executed.^[8]^
 
-== Radiosity
+== WebGL
 
-When simulating lighting with the Radiosity method the illumination values are stored on the surface of objects. To speed up the calculation stochastic methods were invented. 
+WebGL makes it possible to render 2D and 3D graphics in a browser with the use of JavaScript. It is supported by any major browser. This allows developers to create more sophisticated user interfaces. WebGL makes 3D graphics accessible to more developers, because they are no longer required to build a stand-alone application using languages such as C or C++. Furthermore it is platform independent and can be run on PCs, laptops, tablets and Smartphones.^[9]^
 
-== Scanline Rendering
+At the beginning HTML only offered support for static content, JavaScript then made more complex interactions possible. HTML canvas then added support for 2D graphic to browsers and WebGL took it a step further offering full 3D graphics support.^[9]^
 
-Scanline Rendering works on a row-by-row basis, rather then a polygon-by-polygon or pixel-by-pixel basis. To render an image, all of the objects are sorted by their position on the y axis first and then drawn row by row using the data from their polygons that are in front of the sorted list. The polygons that are no longer in the visible area are then removed from the list. This reduces the amount of comparisons between edges that need to take place.^[18]^
+Major advantages of WebGL are:
 
-== The Z-Buffer
+* Low entry barrier to development: For WebGL development only a browser and a text editor are needed.
+* Applications can be published easily.
+* The full power browser related features can be used.
 
-The Z-Buffer is used to represent depth information in a scene. It compares the depth value of a object to the values of other objects it stored previously and replaces the stored value if the object is closer than the other objects. This value is then used by the rasterizer to calculate the color values of the object.^[19]^
+Even if the name suggests it WebGL is not directly based on OpenGL, but on a version of OpenGL specifically designed for embedded computers such as smart phones and video game consoles, called OpenGL ES. The development of OpenGL ES started in 2003 and major updates came in 2007 (ES 2.0) and 2012 (ES 3.0). WebGL is based on OpenGL ES 2.0 and was first released in 2012 by the Khronos group.^[9]^
+
+The structure of WebGl applications differs from dynamic webpages by being based on 3 languages, HTML, JavaScript and GLSL ES, instead of the usual 2 languages, HTML and JavaScript. GLSL ES is a shader language needed to run WebGL. But, GLSL ES is written in JavaScript, so there will only be HTML and JavaScript files.^[9]^
