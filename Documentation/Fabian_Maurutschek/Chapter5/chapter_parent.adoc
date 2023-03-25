@@ -1,8 +1,8 @@
-== Quality assurance techniques
+= Quality assurance techniques
 
 Test
 
-=== Writing clean code
+== Writing clean code
 
 > How do I become a good programmer?
 
@@ -10,7 +10,7 @@ Many many aspects and much practise has to be done to write good and clean code.
 
 To improve the quality of code there are some simple aspects:
 
-==== 1. Naming Conventions
+=== 1. Naming Conventions
 
 Certain programming languages have different ruiles of the naming conventions. But it is
 
@@ -61,7 +61,7 @@ public class MyInterestingClass{
 public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
 ----
 
-==== 2. Variable Scope
+=== 2. Variable Scope
 
 The first way to make code better readable is to name the variables legible. Avoid using simple letters or words for import variables.
 
@@ -74,7 +74,7 @@ public class MyInterestingClass{
 
 Learning to name variables properly is not an easy thing, because other team-members have 0 relation to the own code.
 
-==== 3. Comments
+=== 3. Comments
 
 Additionally to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
 
@@ -101,7 +101,7 @@ Comments that explain *HOW* the code is working:
 
 _Everybody knows what the modulo operator does. Do not comment such things really!_
 
-==== 4. Modularity
+=== 4. Modularity
 
 Theoratically every programm can be writtin in one line in one class. But having all of the code in one _chunk_ with big projects and version management that will make life hard.
 
@@ -111,7 +111,7 @@ The same goes for methods and classes:
 
 That will help testing the method and it could be better extendable and refractorable afterwards.
 
-==== 5. Exception & Error handling
+=== 5. Exception & Error handling
 
 Do not see exceptions as bad inventaion! Proper use of errors and exceptions have a really good advatage if it is used whisely.
 
@@ -119,7 +119,7 @@ Do not see exceptions as bad inventaion! Proper use of errors and exceptions hav
 - Use the correct type of exception (NullReferenceE./NullPointerE., InvalidArgumentE.,...)
 
 
-=== Programming style
+== Programming style
 
 There are two different types of code: Declarative (Fuctional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming stlye is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
 
@@ -129,11 +129,11 @@ There are two different types of code: Declarative (Fuctional) and Imperative Co
 
 In high level programming lanuages such as JAVA, C#, ... it is prefered to use the declarative Programming, while in more hardware-near programming imperative is more common.
 
-==== Imperative programming
+=== Imperative programming
 
 Making projects imperative is easier then declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
 
-==== Declarative programming
+=== Declarative programming
 
 The most know declarative language is SQL it is also the best example.:
 
@@ -148,7 +148,7 @@ Everybody (Who knows SQL) is able to read that statement. Also it is easy to und
 
 It commands directly what the process has to do and not how to do it (for expample with for loops)
 
-==== Examples
+=== Examples
 
 To better understand the difference of imperative and declarative programming there is a example provided in JAVA:
 

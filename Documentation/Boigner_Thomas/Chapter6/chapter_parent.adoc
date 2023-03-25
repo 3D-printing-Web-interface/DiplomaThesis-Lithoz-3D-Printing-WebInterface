@@ -1,4 +1,110 @@
-= Threejs
+= Three.js
+
+Three.js is a JavaScript library that allows developers to display 3D graphics in the browser. Three.js is build on WebGL and provides developers with all the tools that they need to build 3D scenes in the browser. It was originally developed by Ricardo Cabello.^[15]^
+
+== Alternatives to Three.js
+Here are some of the alternatives to Three.js that also use WebGL:
 
 
-== Alternatives to Threejs
+[cols="1,1"]
+|===
+| Name | Difference to Three.js
+| Babylon.js | Has an integrated physics engine, focus on building games 
+| A-Frame | Focus on building vr applications
+| PlayCanvas | Has an integrated physics engine and integrated networking, focus on building games 
+| Unity | Has an integrated physics engine and integrated networking, focus on building games 
+| Verge3D | Artist friendly framework with support for 3D modeling tools like Blender and Maya
+|=== 
+Reference^[16]^
+
+== Three.js basic example
+
+Lets take a look at a basic three.js example:
+
+[source, HTML]
+----
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script type="module">
+			import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+
+			const scene = new THREE.Scene();
+			const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+			const renderer = new THREE.WebGLRenderer();
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+
+			const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+			const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+			const cube = new THREE.Mesh( geometry, material );
+			scene.add( cube );
+
+			camera.position.z = 5;
+
+			function animate() {
+				requestAnimationFrame( animate );
+
+				cube.rotation.x += 0.01;
+				cube.rotation.y += 0.01;
+
+				renderer.render( scene, camera );
+			}
+
+			animate();
+		</script>
+	</body>
+</html>
+----
+
+First of all you need to import three.js from somewhere and declare some html code where it can attach itself to. You can either import it the way it is shown in this example with an import from a CDN or use npm to install it with `npm install three`. Then you need to instantiate a scene, camera and renderer:
+
+[source, javascript]
+----
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+----
+
+In this example a PerspectiveCamera is being used. To instantiate the Camera you have to pass the field of view in degrees into the first attribute and the aspect ratio as the second. It is advisable to use the window width divided by the window height for this, because otherwise it could result in the image looking squished. The last two attributes are the near and far clipping plane, which determines the area in which objects will be rendered. The size of rhe canvas in pixels is passed into the renderer when it is instantiated. And then the renderer is added to the dom element.
+
+But how can you display an 3D object?
+
+[source, javascript]
+----
+    const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+    const cube = new THREE.Mesh( geometry, material );
+    scene.add( cube );
+----
+
+This code snippet creates a new cube out of a mesh, assigns it a material with a red color and adds it to the scene.
+
+But how can we animate the cube?
+
+[source, javascript]
+----
+    function animate() {
+        requestAnimationFrame( animate );
+
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+
+        renderer.render( scene, camera );
+    }
+
+    animate();
+----
+
+To animate the scene we need to declare an animation loop. We do that by calling the requestAnimationFrame() method and passing a method in. This will execute the method every time the screen is refreshed. Then we can manipulate the rotation of the cube so that it will rotate a bit every frame. By calling renderer.render() we render the whole scene with the new rotation of the cube. And this is how to create a cube and animate it using Three.js.

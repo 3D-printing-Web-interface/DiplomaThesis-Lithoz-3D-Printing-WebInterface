@@ -1,8 +1,8 @@
-== Testing nowadays
+= Testing nowadays
 
 Every software engineer/programmer had to test his/her programm. Even for small projects testing is nowadays required. Without any, developers can not find bugs or check if certain features are working. Every project have at least ine testing framework/library. Automatic tests help programmers to improve time that they dont have to test features manually. _TODO: rewrite + longer_
 
-=== Most common used Frameworks and Libraries
+== Most common used Frameworks and Libraries
 
 Depending on the technology which is used to create the programm there are several different testing solutions:
 

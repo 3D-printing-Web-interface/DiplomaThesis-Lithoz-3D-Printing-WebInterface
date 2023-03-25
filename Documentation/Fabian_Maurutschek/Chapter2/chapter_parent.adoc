@@ -1,7 +1,7 @@
-== Correct and Clean Testing
+= Correct and Clean Testing
 
 
-=== Test Driven Development / Test Driven Design (TDD)
+== Test Driven Development / Test Driven Design (TDD)
 
 Test driven development is trying to achive clean and reliable code. The main difference is that the code is based on tests. Usually developers are writing the code first and afterwards testing it with unit/integration tests.
 
@@ -23,5 +23,5 @@ Source: https://en.wikipedia.org/wiki/Test-driven_development
 
 Keep in mind that test driven development is not the standard and best style to develop on projects. It could be not perfect for every group/team also it is more common used in agile development.
 
-=== Section
+== Section
 

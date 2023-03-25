@@ -8,13 +8,14 @@ Bootstrap is the most well known and used UI library in the world.
 ==== Installation
 There are two separate ways to use Bootstrap in your project. 
 
-1. Installing the newest version of Bootstrap - **5.3.0-alpha1**
+. Installing the newest version of Bootstrap - **5.3.0-alpha1**
 [source, terminal]
 ----
 > npm install bootstrap@5.3.0-alpha1
 ----
 
-2. Include via links in your HTML file
+[start=2]
+. Include via links in your HTML file
 *Bootstrap requires the usage of an HTML5 doctype, for complete usage of their features.*
 
 [source, html]

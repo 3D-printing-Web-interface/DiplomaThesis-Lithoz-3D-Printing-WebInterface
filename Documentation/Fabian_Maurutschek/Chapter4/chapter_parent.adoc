@@ -1,20 +1,20 @@
-== Cypress testing
+= Cypress testing
 
 The project uses Cypress to virtualise actions (button clicks, key inputs, ...) the web interface and test certain features.
 
-=== Adding cypress and configuartion
+== Adding cypress and configuartion
 
-=== Testing Types
+== Testing Types
 
-==== E2E Testing
+=== E2E Testing
 
-==== Component Testing
+=== Component Testing
 
-=== Core Concepts of Cypress
+== Core Concepts of Cypress
 
 
 
-=== Cockumber API
+== Cockumber API
 
 Additionally to Cypress we use a plugin or add-on _TODO_
 
