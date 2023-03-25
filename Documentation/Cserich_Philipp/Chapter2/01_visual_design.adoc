@@ -24,7 +24,9 @@ Action - Reaction
 === Languages
 
 The languages used to implement visual tweaks are:
+
 - HTML
+- XHTML
 - XML
 - CSS
 - SCSS
@@ -71,6 +73,24 @@ body {
   color: $primary-color;
 }
 ----
+
+Additionally SCSS is able to interpret multiple line comments and nested design configurations, which are not supported by the base css language.
+Therefore, an example for a **nav ul** class would the following:
+
+[source,scss]
+----
+nav {
+  background-color:#333;
+  padding:1em;
+  ul {
+    margin:0;
+    padding:0;
+  }
+}
+----
+
+Modern web pages try to avoid spending time on custom css classes but rather use a framework that has prebuilt classes or components. These frameworks and libraries are described in one of the following chapters.
+
 
 <<<
 

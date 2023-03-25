@@ -12,6 +12,31 @@ last accessed 2019-01-01
 last accessed 2019-01-01
 - [5] UX Design.cc https://uxdesign.cc/content-strategy-in-ux-design-c2e41d19d447
 last accessed 2019-01-01
+- [] Beautiful interfaces. From user experience to user interface design (tandfonline.com) - https://www.tandfonline.com/doi/epdf/10.1080/14606925.2017.1352649?needAccess=true&role=button
+- [] Handbook of Color Psychology - Google Books - https://books.google.at/books?hl=de&lr=&id=9I69CwAAQBAJ&oi=fnd&pg=PT38&dq=color+theory+and+psychology&ots=9fHnOMsu72&sig=Y3eNzrytMgwIBUfqNXYmLO9eNuI#v=onepage&q=color%20theory%20and%20psychology&f=false
+- [] Bootstrap · The most popular HTML, CSS, and JS library in the world. (getbootstrap.com) - https://getbootstrap.com/
+- [] Tailwind CSS - Rapidly build modern websites without ever leaving your HTML. - https://tailwindcss.com/
+- [] MUI: The React component library you always wanted - https://mui.com/
+- [] Vuetify — A Vue Component Framework (vuetifyjs.com) - https://vuetifyjs.com/en/
+- [] Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/
+- [] Figma | The all-in-one design tool built for collaboration - https://www.figma.com/collaboration/
+- [] HTML Standard (whatwg.org) - https://html.spec.whatwg.org/multipage/
+- [] HTML & CSS - W3C - https://www.w3.org/standards/webdesign/htmlcss
+- [] Introduction | Vue.js (vuejs.org) - https://vuejs.org/guide/introduction.html#what-is-vue
+- [] Cascading Style Sheets (w3.org) - https://www.w3.org/Style/CSS/
+- [] Sass: Syntax (sass-lang.com) - https://sass-lang.com/documentation/syntax
+- [] The definitive guide to SCSS - LogRocket Blog - https://blog.logrocket.com/the-definitive-guide-to-scss/
+- [] NCS color specification - https://ncscolour.com/de/ncs/
+- [] Color meaning and symbolism: How to use the power of color (canva.com) - https://www.canva.com/learn/color-meanings-symbolism/
+- [] Color Psychology - https://www.colorpsychology.org/
+
+
+=== Pictures
+
+- [1] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg
+- [2] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg
+- [3] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg
+- [4] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg
 
 == 3D Rendering (Thomas Boigner)
 

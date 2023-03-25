@@ -36,8 +36,10 @@ Bootstrap is all about preconfigured CSS classes. These can be used to style you
 <<<
 
 === Vuetify
-Vue specific Framework
-Dont recommend
+
+Vuetify is an UI library designed to be used in Vue.js projects. Since it is a newer library, it is not as well known than bootstrap , material UI or tailwind CSS. However, it is a very powerful library that can be used to create beautiful and responsive websites. It is also very easy to use and has a lot of prebuilt components. The bad side about its fresh start into the design industry, is its lack of documentation. Not all functions and components are fully documented, and some of them are even unfinished. However, the company behind vuetify is very active and is constantly working on improving the library.
+
+The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
 [source, terminal]
 ----

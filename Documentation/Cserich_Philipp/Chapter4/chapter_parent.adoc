@@ -13,5 +13,3 @@ VUE iwie einbringen pls
 === Scope
 
 === Strategy
-
-== Feel & Responses

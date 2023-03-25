@@ -15,24 +15,67 @@ image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,a
 ==== **Apply**
 
 With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
-
 The image shows an example of a cancel button that is highlighted by using a contrasting color.
 
 image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in]
 
-Example, mocked by Philipp Cserich (Figma)
 
 On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.
-
 In the following example, the textboxes are integrated into the scene by using related colors.
 
 image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in]
 
-Example, mocked by Philipp Cserich (Figma)
+Examples, mocked by Philipp Cserich (Figma)
 
+==== NCS - Natural Color System
+
+
+The NCS was developed 1981 in Sweden .
+It is used to describe colors for designers, architects and many more. It is one way to keep the exact definition of one color in the defined spectrum clear. Other metrics were mostly inaccurate at the time of development.
+
+image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=NCS Notation]
+
+image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space]
+
+image::/Assets/Images/Cserich_Philipp/trangleandcircle_NCS.png[pdfwidth=3in,align=center,title=Color Triangle and Circle]
+
+The above visualized color space, defined by NCS, is a 3 Dimensional space, where every point represents one color in the system.
+Cutting the figure up in a horizontal and vertical pane, creates two 2-Dimensional spaces, that can be represented as a circle and a triangle. The NCS color circle, is the horizontal cut, which almost looks like the original color wheel. The NCS color triangle is the vertical cut and shows the gray scale as well as the saturation of the color.
+
+
+
+==== HEX & RGB Colors
+
+In the digital world, colors are represented by a combination of red, green and blue values. The format of these values can differ in many ways, but the most common ones are HEX and RGB. With HEX standing for Hexadecimal, as the values are represented by hexadecimal numbers. And RGB standing for Red, Green and Blue values.
+
+Every Color of the NC system can be also represented in a digital format. The following example shows the color **"NCS S 0502-Y"** in HEX and RGB format. 
+
+RGB : **rgb(255, 253, 246)**
+
+HEX : **#fffdf6**
+
+==== Human Color Processing
 
 The human anatomy behind the perception of color is mostly conceptionalized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
 
-image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in]
+image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in,align=center]
 
-[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png}
+[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png]
+
+The steps of processing can be grouped to sections. Consisting of:
+
+- physical
+- physiological
+- psychological
+
+Definitions and separations of those sections differ dependent on the source.
+
+As vision processing takes place in several of stages at a time this model is just a simple representation and should not be used to accurately explain the human color perception. Therefore, the interchanging steps between the physical, psychological and physiological aspects cannot be accurately separated.
+
+Every step is influenced by the higher-order psychological processes, such as memories, prejudice and personal experiences. This means that even if the reception of color is a physical process, psychological factors are evenly important and can be used to influence and predict the users actions.
+
+==== Conclusion and Usage
+
+All of these detail help to understand that design is not only making something look good, but rather creating an experience. Influencing behaviour and emotions are just one part of the journey that should be delivered in the best possible way.
+
+Correctly using colors like red can have strong impact on what feelings will be emitted by the user. Especially strong colors like red have an important meaning and origin. Keeping the example RED, which is the color of Power, Love, Danger and Passion, evokes really strong feelings and emotions. Looking at a red button, instantly catches the eyes attention not only because of its brightness and the saturation level but rather, because the brain is trained associate it with strong interconnected emotions. When used right, red buttons can imitate the feeling of danger, trying to warn the user and keeping them away from the awaited "threat". This colors impulsive and aggressive nature is also used in marketing to attract attention and to create a sense of urgency.
