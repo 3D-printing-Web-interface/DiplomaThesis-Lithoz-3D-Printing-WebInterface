@@ -1,10 +1,13 @@
 = MQTT introduction
 
 == MQTT - Machine to Machine Communication
-Initial meaning "MQ Telemetry Transport"
+MQTT also known as "Message Queuing Telemetry Transport", is a lightweight standard OASIS messaging protocol for the Internet of Things (IoT). 
 
-It is an OASIS standard messaging protocol for the Internet of Things. 
-It is intended to make it as easy as possible with as less as code as possible to use it. It is designed to be extremely lightweight with a publish/subscribe concept. It uses a minimal network bandwidth. Today it is used in many industries such as: automotive, manufacturing, telecommunications and so on.
+The protocol uses publish/subscribe architecture which allows a device to receive and send data. The publisher sends messages to the broker and the broker passes the message on to all of the topics, subscribers.
+
+It is intended to make it as easy as possible with as less as code as possible to use it. It uses a minimal network bandwidth. Today it is used in many industries such as: automotive, manufacturing, telecommunications and so on.
+
+image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[MQTT Introduction]
 
 <<<
 
@@ -69,7 +72,7 @@ With topic wildcards, MQTT subscribers can subscribe to many subjects at once. A
 
 <<<
 
-image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[Publish/Broker Architecture]
+image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[Publish/Broker Architecture ,70%,70%]
 
 Source: https://mqtt.org/assets/img/mqtt-publish-subscribe.png
 
