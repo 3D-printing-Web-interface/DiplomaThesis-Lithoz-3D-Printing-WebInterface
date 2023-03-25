@@ -37,8 +37,8 @@ Bootstrap is all about preconfigured CSS classes. These can be used to style you
 
 === Vuetify
 
-Vuetify is an UI library designed to be used in Vue.js projects. Since it is a newer library, it is not as well known than bootstrap , material UI or tailwind CSS. However, it is a very powerful library that can be used to create beautiful and responsive websites. It is also very easy to use and has a lot of prebuilt components. The bad side about its fresh start into the design industry, is its lack of documentation. Not all functions and components are fully documented, and some of them are even unfinished. However, the company behind vuetify is very active and is constantly working on improving the library.
-
+Vuetify is an UI library designed to be used in Vue.js projects. Since it is a newer library, it is not as well known than bootstrap , material UI or tailwind CSS. However, it is a very powerful library that can be used to create beautiful and responsive websites. It is also very easy to use and has a lot of prebuilt components. The bad side about its newest version "vuetify 3", is its lack of documentation. Not all functions and components are fully documented, and some of them are even unfinished. However, the company behind vuetify is very active and is constantly working on improving the library.
+ 
 The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
 [source, terminal]
@@ -80,7 +80,36 @@ An example for such a component can be found in the project "Lithoz 3D printing 
 ----
 
 === Tailwind CSS
-[TODO]
+Tailwind is an open source css framework, that is used to create designs faster. In contrast to other frameworks, it does not provide any prebuilt components. Instead, it provides a set of utility classes that can be used to mix and match for the styling of HTML elements. This allows for a lot of flexibility and customization. This concept is called *"utility-first"*.
+
+[source,terminal]
+----
+> npm install -D tailwindcss
+> npx tailwindcss init
+----
+
+Adding your own template files can be achieved by adding the paths of those files into the tailwind.config.js file.
+
+[source,js]
+----
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+----
+
+After configuring and installing tailwind, it has to be imported into your main html file.
+
+[source,html]
+----
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+----
 
 === MUI - Material UI
 [TODO]
