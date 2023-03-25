@@ -1,17 +1,2 @@
-= Modern UX design
 
-VUE iwie einbringen pls
-
-== Elements of UX design
-
-=== Surface
-
-=== Skeleton
-
-=== Structure
-
-=== Scope
-
-=== Strategy
-
-== Feel & Responses
+== Responsiveness and platform-independency

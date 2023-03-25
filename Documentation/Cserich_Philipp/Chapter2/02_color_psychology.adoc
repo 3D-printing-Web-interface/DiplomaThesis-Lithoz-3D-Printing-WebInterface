@@ -20,12 +20,19 @@ The image shows an example of a cancel button that is highlighted by using a con
 
 image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in]
 
+Example, mocked by Philipp Cserich (Figma)
+
 On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.
 
 In the following example, the textboxes are integrated into the scene by using related colors.
 
 image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in]
 
+Example, mocked by Philipp Cserich (Figma)
 
 
+The human anatomy behind the perception of color is mostly conceptionalized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
 
+image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in]
+
+[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png}

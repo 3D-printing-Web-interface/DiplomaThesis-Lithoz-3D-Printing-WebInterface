@@ -2,7 +2,7 @@ include::General/cover.adoc[]
 :doctype: book
 :preface-title: Preface
 :toc: center
-:source-highlighter:
+:source-highlighter: highlight.js
 
 
 //Activating some features

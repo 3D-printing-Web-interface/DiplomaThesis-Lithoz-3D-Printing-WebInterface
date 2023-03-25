@@ -1,18 +1,25 @@
 
 == Visual Design
 
-- More technical Approach (Dos and dont's for visual design)
-What code is considered clear for specific topics
-
 An applications visual appeal can be split up into several parts. The most important ones are:
+
 - Typography
-> Using different Fonts and sizes to emphasize different parts of the text 
+
+Using different Fonts and sizes to emphasize different parts of the text 
+Typography is the art to emphasize on text. Highlighting, Quoting and maintaining text readability are the challenges typography faces.
+
 - Colors
-> Highlighting Elements & reflect the applications purpose
+
+Highlighting Elements & reflect the applications purpose
+Making several peaces blend together to create one harmonious whole and creating a visual hierarchy 
+
 - Layout
-> Object arrangement
+
+The Page Layout is the implicit Object arrangement and positioning of elements. The visual representation of the information must be ordered and spaced in a way that it is easy to read and understand. Creating a flow of information is the key to create an outstanding web layout for any project.
+
 - Motion
-> Action - Reaction
+
+Action - Reaction
 
 === Languages
 
@@ -27,12 +34,45 @@ The languages used to implement visual tweaks are:
 HTML also known as Hypertext Markup Language is the World wide web's standard markup language. HTML was developed by the World Wide Web Consortium in 1989 to semantically describe scientific documents for exchange on the Internet. But its purpose has changed since the start. HTMLs general design enabled it to be adapted over the years. It is now the most common language for describing a web page's structure and serves as the foundation for the modern web.
 The newest version HTML 5.2 has been released in 2017 by W3C and WHATWG which continuously work on updating the language.
 
+<<<
+    
 ==== CSS / SCSS
 
 **CSS**
+Cascading Style Sheets are used to describe the look of Web pages including coloring of elements, fonts and alignment. The presentation of a document can be controlled for every size and format by CSS. This results in configurable varying layouts for different devices.
+
+[source,css]
+----
+body {
+  background-color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  color: #333333;
+}
+
+----
 
 
 **SCSS**
+SCSS is a CSS preprocessor. It is a scripting language that is compiled into CSS. SCSS has been developed to extend the CSS language, adding nested rules, variables, mixins, selector inheritance, and more. organizing and maintaining stylesheets is way faster and easier than its predecessor CSS, as it completely removes the repetitiveness of CSS code.
+
+
+[source,scss]
+----
+$font-stack: Arial, sans-serif;     
+$primary-color: #333333;
+
+//Variable definition
+
+body {
+  background-color: #ffffff;
+  font-family: $font-stack;
+  font-size: 16px;
+  color: $primary-color;
+}
+----
+
+<<<
 
 === Typography
 Psychological definition of colours and how to emphasize that in your code
@@ -61,5 +101,19 @@ html {
     font-size: 1.5vmin;
 }
 ==== 
+
+The actual consideration of the fonts is its own expertise. But there are some general rules that are applicable most of the time, and should be considered when choosing a font for an element.
+
+Firstly, applications that try to provide an easy usability should consider to include as little text as possible. Intuition cannot be created through fonts and text. 
+
+While phrases written in Capital letters can be utilized to highlight important information, it is way harder to read than a combination of upper and lower case letters. As an example, the phrase **"HELLO WORLD"** can be also written in the more readable form of **"Hello world"**. 
+
+Additionally, the text-color should be chosen to be in contrast with its background. The general rule of thumb is to chose an 80% contrasting color, to avoid the text from being too hard to read.
+
+Readability can also be improved by choosing a text size and its typeface that appears to by really crisp on screen.  For that purpose, 
+Alan Cooper,
+Robert Reimann and
+David Cronin recommend to use a font size of 10px or higher as well as a font family that is equally readable as Tahoma or Verdana.
+
 
 <<<
