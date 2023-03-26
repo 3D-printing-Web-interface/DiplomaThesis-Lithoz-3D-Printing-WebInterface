@@ -1,4 +1,19 @@
 = Testing and Quality Assurance
+
+Project-specific scientific thesis for the diploma examination in
+the department of HTL Spengergasse for
+Computer Science and Information Technology
+
+**Author :** Fabian Maurutschek
+
+**Class :** 5BHIF
+
+**School year :** 2022/23
+
+**Supervisor :** Dipl.-Ing. Martin Schrutek
+
+**Date of submission :** 31.03.2023
+
 include::abstract.adoc[]
 <<<
 include::Chapter1/chapter_parent.adoc[leveloffset=+1]

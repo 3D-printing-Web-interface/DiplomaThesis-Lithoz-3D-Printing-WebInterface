@@ -1,8 +1,4 @@
 == Abstract
+This part of the diploma thesis is about testing solutions and quality assurance techniques. These topics reach a many smaller topic which are hard to summarize and write here. Starting with general tools, libraries and frameworks for testing it reaches until clean-code-writing tips for developers.
 
-Fabian >>>> Alles
-
-
-DIE GURKEN REGIEREN DIE REGIERUNG. SIE HABEN DIE GEWRKSCHAFT INFILTRIERT UND SIND JETZT HINTER UNSS HER. LAUFET UM EUER LEBEN!
-
-:cucumber: :cucumber: :cucumber: :cucumber: :cucumber: :cucumber: :cucumber: :cucumber: :cucumber: :cucumber cucumber: :cucumber: :cucumber: :cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber: :cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber::cucumber:
+Tools used in the 3D printing web interface as Vitest, Cypress and Cucumber API are explained more in detail. 

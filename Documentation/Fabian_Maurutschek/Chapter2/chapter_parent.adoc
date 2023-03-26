@@ -25,3 +25,44 @@ Keep in mind that test driven development is not the standard and best style to 
 
 == Behaviour Driven Development
 
+BDD is a development style that is designed to make the communication between stakeholders, team-members and other developers easier and more simple.
+
+Focuses of Behaviour Driven Development:
+
+> * Where to start in the process
+* What to test and what not to test
+* How much to test in one go
+* What to call the tests
+* How to understand why a test fails
+
+Source: https://en.wikipedia.org/wiki/Behavior-driven_development
+
+=== Issue and Description Structure
+
+Behaviour Driven Development has certain _keywords_ that are used in user stories, descriptions, bug issues and comments.
+
+Keywords of Issues:
+
+[source, text]
+----
+As a <name> (...)
+I want (...)
+so that (...)
+----
+
+Example:
+
+`*As a* buyer *I want* to select and split revenue during checkout *so that* multiple NGOs will be supported.`
+
+Keywords of Scenarios:
+
+> * *Given*: the initial context at the beginning of the scenario, in one or more clauses;
+* *When*: the event that triggers the scenario;
+* *Then*: the expected outcome, in one or more clauses.
+
+Source: https://en.wikipedia.org/wiki/Behavior-driven_development
+
+=== Ubiquitous Language
+
+
+

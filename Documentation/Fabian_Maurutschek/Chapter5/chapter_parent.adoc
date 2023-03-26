@@ -1,7 +1,5 @@
 = Quality assurance techniques
 
-Test
-
 == Writing clean code
 
 > How do I become a good programmer?
@@ -69,6 +67,7 @@ The first way to make code better readable is to name the variables legible. Avo
 ----
 public class MyInterestingClass{
 	private int a;
+	private int thisVariableIsUsedForThat;
 }
 ----
 
@@ -93,13 +92,13 @@ public int calc(int number1, int number2){
 
 Comment that explains *WHAT* the code is doing:
 
-> This method takes the modulo of number1 and number2
+`This method takes the modulo of number1 and number2.`
 
 Comments that explain *HOW* the code is working:
 
-> This method devides number1 and number2 and subtracts the result of the devision with number1
+`This method devides number1 and number2 and subtracts number1 with the result of the devision.`
 
-_Everybody knows what the modulo operator does. Do not comment such things really!_
+_Most developer know what the modulo operator does. Do not comment such things extra!_
 
 === 4. Modularity
 

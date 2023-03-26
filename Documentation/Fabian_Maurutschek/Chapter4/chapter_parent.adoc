@@ -104,12 +104,8 @@ Component Tests are comparable to unit tests. They are made for a specific part 
 
 Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
-== Core Concepts of Cypress
-
-
-
 == Cucumber API
-
+image::../../../Assets/Images/Fabian_Maurutschek/cucumber-open-icon.svg[]
 Cucumber is a modern Behavior-Driven Development tool used in the 3D printing web interface for testing purposes.
 
 Features of cucumber:

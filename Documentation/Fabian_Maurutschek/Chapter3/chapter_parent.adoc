@@ -48,7 +48,7 @@ yarn add -D vitest
 
 The Api of vitest can be accessed anywhere in the code by import. Basic tests are structured all the same:
 
-`[source, typescript]`
+[source, typescript]
 ----
 import { expect, test } from 'vitest'
 
