@@ -9,7 +9,7 @@ It is intended to make it as easy as possible with as less as code as possible t
 
 
 
-image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[MQTT Introduction ,80%,80%,align="center"]
+image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[title="MQTT introduction footnote:[https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F10%2FIot-MQTT.jpg&f=1&nofb=1&ipt=7c24aab7226503db6a35ea522b67496ee3879ce54538da6a3ff9b0d32f3c22af&ipo=images]" ,80%,80%,align="center"]
 
 <<<
 
@@ -74,9 +74,7 @@ With topic wildcards, MQTT subscribers can subscribe to many subjects at once. A
 
 
 
-image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[Publish/Broker Architecture]
-
-Source: https://mqtt.org/assets/img/mqtt-publish-subscribe.png
+image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[title="Publish/Broker Architecture footnote:[https://mqtt.org/assets/img/mqtt-publish-subscribe.png]"]
 
 <<<
 
