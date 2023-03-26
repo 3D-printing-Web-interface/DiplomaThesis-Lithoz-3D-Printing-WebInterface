@@ -1,22 +1,60 @@
 <<<
 
 === Page Layout
+The following components are often required for a web page layout:
 
-The topic of this section is how to you create a webpages layout in a way that is clear and easy to understand.
 
-Seperating Pages in vue.js into components.
-Code Readability.
+1. Header: The header is the area at the top of the page where the website's logo, navigation menu, and other significant site-wide components are often located.
+
+2. Main content area: This is where the page's main material, such as articles, photographs, or product listings, is shown.
+
+3. Sidebar: An optional section that is typically positioned to the left or right of the main content area and contains more relevant or supplemental navigation.
+
+4. Footer: The bottom portion of the page that includes less significant items like copyright information and secondary navigation.
+
+Especially for highly dynamic websites, footers or headers may not be required. One example being the Lihtoz 3D printing web interface, where header and footer do not exist. The main content area is the only area that is used, by switching out the rendered components when an action is triggered.
+
+The dynamic component renderering can be achieved by using the "component" element, and referring to a variable that will be changed in state when an action is triggered.
+
+
+[source,html]
+----
+    <v-col cols="12">
+		<component :is="topLeftPanelSmall"
+			@liveViewer="openPanel(LiveViewer)"
+			@settings="openPanel(Settings)"
+			machineName="MACHINENAME"
+			machineCaption="LTZ1">
+		</component>
+	</v-col>
+----
+
+[source,javascript]
+----
+//Define the component variable :
+const topLeftPanel = shallowRef<any | undefined>(MachineDescription)
+----
+
+
+The JavaScript framework Vue.js, streamlines the process of creating user interfaces by grouping your code into reusable components. You can develop a component for each in Vue.js.
+
 
 ==== Visual Hierarchy
 
-Create a Hirarchy with all of the previously mentioned techniques such as fonts, color and positioning. Not every hierarchy needs to be indicated through size!  
+Visual hierarchy is the concept of organizing and prioritizing design elements in a way that guides the user's attention and understanding of the content. In the book "Refactoring UI" visual hierarchy is emphasized as a crucial aspect of effective user interface design.
 
-It needs to be differentiated from the document history, since many many people are mis
-difference visual hierarchy and document hierarchy
+According to the book, a well-established visual hierarchy helps users to understand the relationships between different elements, by using visual cues like size, color, and position, you can indicate which elements are more important, related, or subordinate to one another.
+Secondly, Users should be able to easily identify and locate important information by scanning the layout, thanks to the clear visual organization.
+And lastly, a consistent visual hierarchy across different pages or sections of a website or application makes it easier for users to navigate and understand the content.
 
-Start with too much whitespace
--> then remove whitespace as needed
+To achieve a strong visual hierarchy, "Refactoring UI" suggests various techniques, such as:
 
-Creating a scale system
+- Using size and scale to emphasize the importance of an element.
+- Employing color and contrast to draw attention to specific elements.
+- Utilizing whitespace to separate or group related elements.
+- Leveraging typography, such as font-weight, style, and size, to distinguish headings, subheadings, and body text.
+- Organizing elements in a logical order or grid, making it easier for users to follow the flow of the content.
+
+By applying these principles and techniques, you can create a well-structured and visually appealing interface that helps users engage with and understand your content more effectively.
 
 <<<

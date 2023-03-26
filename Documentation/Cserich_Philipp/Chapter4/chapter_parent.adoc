@@ -1,15 +1,57 @@
-= Modern UX design
+== Modern UX design
 
-VUE iwie einbringen pls
+Todays digital world has changed, everthing must be user friendly, and easy to use. There it is a crucial part of web development to plan and create an appropriate user experience. 
 
-== Elements of UX design
+=== Elements of UX design
 
-=== Surface
+The User Experience (UX) design process includes the UX layers, which stand for various degrees of design abstraction: **Surface, Skeleton, Structure, Scope, and Strategy**. These components, sometimes known as the "5S" or "Layers of UX," assist designers in conceptualizing and developing user-centered experiences. Starting with high-level strategic objectives and concluding with the refined aesthetic design, each layer builds upon the one before it.
 
-=== Skeleton
+==== Strategy
 
-=== Structure
+The UX design process is built upon the strategy layer. It focuses on outlining the overarching aims, targets, and vision of the project. These objectives must to be in line with both user requirements and corporate targets. During this stage, stakeholders and designers work together to define a clear project direction, determine the target audience, and perform market research.
 
-=== Scope
 
-=== Strategy
+During the strategy phase, it's important to: 
+
+- Define target users and develop personas.
+- Outlining user needs, problems, and objectives
+- Undertaking a study of the competition
+- Determining project goals and success metrics
+
+==== Scope
+
+Defining the precise features and functionalities necessary to achieve the project's strategic goals falls under the scope layer. In order to prioritize features, designers take into account user needs, corporate goals, and practical considerations. By establishing a defined project roadmap, this stage makes sure that the finished result is in line with the overall goal.
+
+A list of features and functionalities should be created, and features should be prioritized according to user needs and corporate objectives.
+
+- Creating use cases or user stories
+- Setting up a project schedule and milestones
+
+==== Structure
+
+The content organization and creation of a logical, user-friendly navigation system are the main goals of the structure layer. By organizing and categorizing content in a way that makes sense to consumers, designers create the information architecture (IA). Designing user flows and interaction patterns is another step in this process that makes sure users can easily achieve their goals.
+
+The following are important tasks for the structure phase: 
+
+- Designing user flows and interaction patterns 
+- Building sitemaps and content hierarchies
+- Creating menus and navigational systems
+- Determining important user pathways and touchpoints
+
+==== Surface
+
+The surface layer is the final visual representation of the design, encompassing typography, colors, imagery, and other aesthetic elements. This layer focuses on creating an attractive, consistent, and polished interface that resonates with users and reinforces the brand identity. Designers use visual design principles and guidelines to ensure that the interface is not only visually appealing but also enhances the overall user experience.
+
+- Developing a visual design language and style guide
+- Applying typography, color schemes, and other design elements
+- Designing UI components and icons
+- Creating high-fidelity mockups and final assets
+
+==== Skeleton
+
+The skeleton layer involves creating wireframes and prototypes that represent the layout and basic structure of the interface. Designers use wireframes to visualize the placement of elements and to test the functionality and usability of the design. Interactive prototypes help gather user feedback and validate design decisions before moving into the final visual design phase.
+
+- Designing wireframes for key screens and layouts
+- Creating interactive prototypes
+- Conducting usability tests and gathering user feedback
+- Iterating on designs based on testing results

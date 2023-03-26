@@ -4,5 +4,3 @@ include::01_visual_design.adoc[]
 include::02_color_psychology.adoc[]
 
 include::03_page_layout.adoc[]
-
-include::04_motion.adoc[]

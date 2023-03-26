@@ -29,6 +29,8 @@ last accessed 2019-01-01
 - [] NCS color specification - https://ncscolour.com/de/ncs/
 - [] Color meaning and symbolism: How to use the power of color (canva.com) - https://www.canva.com/learn/color-meanings-symbolism/
 - [] Color Psychology - https://www.colorpsychology.org/
+- [] - Responsive web design - https://books.google.at/books?hl=de&lr=&id=fcfarreMQ9sC&oi=fnd&pg=PT12&dq=responsive+web+design&ots=Zubh0j-ROj&sig=TLn7Km6-b3fDRTWqni6e6szUgs0#v=onepage&q=responsive%20web%20design&f=false
+- [] - VUE3 MQ - https://vue3-mq.info/
 
 
 === Pictures

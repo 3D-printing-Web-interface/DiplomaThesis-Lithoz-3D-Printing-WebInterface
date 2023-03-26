@@ -1,14 +1,25 @@
 = UI & UX Development
-<<<
+
 include::abstract.adoc[]
+
 <<<
+
 include::Chapter1/chapter_parent.adoc[]
+
 <<<
+
 include::Chapter2/chapter_parent.adoc[]
+
 <<< 
+
 include::Chapter3/chapter_parent.adoc[]
+
 <<<
+
 include::Chapter4/chapter_parent.adoc[]
+
 <<<
+
 include::Chapter5/chapter_parent.adoc[]
+
 <<<
