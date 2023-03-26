@@ -62,7 +62,6 @@ Keywords of Scenarios:
 
 Source: https://en.wikipedia.org/wiki/Behavior-driven_development
 
-=== Ubiquitous Language
 
 
 
