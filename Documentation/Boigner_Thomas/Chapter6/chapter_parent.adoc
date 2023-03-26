@@ -107,4 +107,4 @@ But how can we animate the cube?
     animate();
 ----
 
-To animate the scene we need to declare an animation loop. We do that by calling the requestAnimationFrame() method and passing a method in. This will execute the method every time the screen is refreshed. Then we can manipulate the rotation of the cube so that it will rotate a bit every frame. By calling renderer.render() we render the whole scene with the new rotation of the cube. And this is how to create a cube and animate it using Three.js.
+To animate the scene we need to declare an animation loop. We do that by calling the requestAnimationFrame() method and passing a method in. This will execute the method every time the screen is refreshed. Then we can manipulate the rotation of the cube so that it will rotate a bit every frame. By calling renderer.render() we render the whole scene with the new rotation of the cube. And this is how to create a cube and animate it using Three.js.^[15]^
