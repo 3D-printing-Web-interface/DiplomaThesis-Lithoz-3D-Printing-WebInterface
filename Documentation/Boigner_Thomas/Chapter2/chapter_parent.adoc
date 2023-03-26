@@ -8,45 +8,46 @@ In the following section some of the most important terms associated with 3D ren
 
 === Vertex
 
-A Vertex is a point in a three-dimensional space. Vertices form the basis of a 3D object.  
+A Vertex is a point in a three-dimensional space. Vertices form the basis of a 3D object.^[2]^^[5]^
 
 === Edge
 
-Two vertices connected by a line are called an edge.
+Two vertices connected by a line are called an edge.^[2]^^[5]^
 
 === Triangles
 
-Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object.
+Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object.^[2]^^[5]^
 
 === Polygons
 
-A polygon has a varying amount of vertices and edges. Polygons are the building blocks of 3D objects. 
+A polygon has a varying amount of vertices and edges. Polygons are the building blocks of 3D objects.^[2]^^[5]^
 
 === Framerate
 
-The Framerate describes the amount of images of the 3D models that can be rendered per second. It is measured in frames per second (fps). The frame rate usually depends on the power of the hardware that is used and the complexity of the 3D model that is rendered.
+The Framerate describes the amount of images of the 3D models that can be rendered per second. It is measured in frames per second (fps). The frame rate usually depends on the power of the hardware that is used and the complexity of the 3D model that is rendered.^[1]^
 
 === Real-time rendering
 
-Real-time computer graphics are all 3D graphics that are calculated in real time. It often refers to interactive 3D computer graphics, like user interfaces or video games. Usually real-time rendered content has a varying framerate, because the complexity of the frames that are being generated can vary depending of the amount of polygons that are visible. Real-time rendering needs at least a framerate of 24 fps to create the illusion of moving objects. The main advantage of the real-time rendering is that it allows interaction with the user. 
+Real-time computer graphics are all 3D graphics that are calculated in real time. It often refers to interactive 3D computer graphics, like user interfaces or video games. Usually real-time rendered content has a varying framerate, because the complexity of the frames that are being generated can vary depending of the amount of polygons that are visible. Real-time rendering needs at least a framerate of 24 fps to create the illusion of moving objects. The main advantage of the real-time rendering is that it allows interaction with the user.^[1]^
 
 === Rendering pipeline
 
-The rendering pipeline forms the foundation of the real time rendering process, by generating an 2D image from the perspective of an virtual camera. To generate the image, it also has to calculate all of the three-dimensional objects, the light sources, the light models, the textures and more.
+The rendering pipeline forms the foundation of the real time rendering process, by generating an 2D image from the perspective of an virtual camera. To generate the image, it also has to calculate all of the three-dimensional objects, the light sources, the light models, the textures and more.^[2]^
 
-This process can be separated into 3 stages. The first stage is the _application stage_. In this stage the scene is generated and drawn to the 2D display. In this stage a lot of performance optimizations take place. Furthermore calculation such as collision detection, speed-up techniques, animations and the handling of user inputs take place. During the second stage, the _geometry stage_, the polygons and vertices are drawn. This stage relies on the computing power of the gpu. Depending on the implementation this stage is often separated into multiple smaller stages. Examples for these smaller stages are the _model and view transformation stage_, the _lighting stage_, the _projection stage_ and the _clipping stage_. The last of the 3 stages is the _rasterization stage_. This stage applies colors and converts the 3D objects into pixels or picture elements.
+This process can be separated into 3 stages. The first stage is the _application stage_. In this stage the scene is generated and drawn to the 2D display. In this stage a lot of performance optimizations take place. Furthermore calculation such as collision detection, speed-up techniques, animations and the handling of user inputs take place. During the second stage, the _geometry stage_, the polygons and vertices are drawn. This stage relies on the computing power of the gpu. Depending on the implementation this stage is often separated into multiple smaller stages. Examples for these smaller stages are the _model and view transformation stage_, the _lighting stage_, the _projection stage_ and the _clipping stage_. The last of the 3 stages is the _rasterization stage_. This stage applies colors and converts the 3D objects into pixels or picture elements.^[2]^
+
 
 === Non-real-time rendering
 
-Non-real-time rendering is used for non-interactive media, like feature film and 3D animations. Due to it not being rendered in real-time there is no need for powerful hardware, because the image can take as much time to render as it needs. Non-real-time rendering uses a fixed framerate, usually 30 to 60 fps. Those traits, together with techniques such as ray tracing, path tracing and photon mapping make photorealism easier to achieve with non-real-time rendering.
+Non-real-time rendering is used for non-interactive media, like feature film and 3D animations. Due to it not being rendered in real-time there is no need for powerful hardware, because the image can take as much time to render as it needs. Non-real-time rendering uses a fixed framerate, usually 30 to 60 fps. Those traits, together with techniques such as ray tracing, path tracing and photon mapping make photorealism easier to achieve with non-real-time rendering.^[1]^
 
 === Reflection
 
-Reflections describe the appearance of a surface area and are the relationship between incoming and outgoing illumination on the surface of an object.
+Reflections describe the appearance of a surface area and are the relationship between incoming and outgoing illumination on the surface of an object.^[2]^
 
 === Shading
 
-Shading also describes the appearance of a surface area. It is used to define the diffuse color at each point on a surface. The program with the instructions for a effect of this kind are called shaders. 
+Shading also describes the appearance of a surface area. It is used to define the diffuse color at each point on a surface. The program with the instructions for a effect of this kind are called shaders.^[2]^
 
 === Graphics Processing Unit (GPU)
 

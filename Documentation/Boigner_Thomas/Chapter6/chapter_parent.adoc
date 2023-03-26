@@ -6,7 +6,7 @@ Three.js is a JavaScript library that allows developers to display 3D graphics i
 Here are some of the alternatives to Three.js that also use WebGL:
 
 
-[cols="1,1"]
+[cols="1,1" title=Three.js alternatives^[16]^]
 |===
 | Name | Difference to Three.js
 | Babylon.js | Has an integrated physics engine, focus on building games 
@@ -15,7 +15,6 @@ Here are some of the alternatives to Three.js that also use WebGL:
 | Unity | Has an integrated physics engine and integrated networking, focus on building games 
 | Verge3D | Artist friendly framework with support for 3D modeling tools like Blender and Maya
 |=== 
-Reference^[16]^
 
 == Three.js basic example
 

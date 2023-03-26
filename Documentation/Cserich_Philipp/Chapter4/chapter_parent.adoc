@@ -1,6 +1,6 @@
 == Modern UX design
 
-Todays digital world has changed, everthing must be user friendly, and easy to use. There it is a crucial part of web development to plan and create an appropriate user experience. 
+Todays digital world has changed, everything must be user friendly, and easy to use. There it is a crucial part of web development to plan and create an appropriate user experience. 
 
 === Elements of UX design
 

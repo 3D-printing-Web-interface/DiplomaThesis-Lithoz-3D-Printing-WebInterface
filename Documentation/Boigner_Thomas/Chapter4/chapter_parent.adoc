@@ -4,10 +4,9 @@
 
 During the 1940s John Whitney, Sr, who is often credited as the father of computer animation, created a series of experiments together with his brother James. Those include the animated intros sequence from Alfred Hitchcock's film Vertigo, released in 1958.
 
-In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.
+In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.^[4]^^[6]^
 
-image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[first digital image] 
-~Reference~ ~-~ ~first~ ~digital~ ~image~ ~[12]~
+image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[align=center title=first digital image footnote:[https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg]]
 
 == 1960s
 
@@ -21,7 +20,7 @@ The first Graphical user interface (GUI) was created in 1962 by Ivan Sutherland 
 
 In the mid to late 60s a lot of new 3D computer graphic techniques were developed at the University of Utah. These techniques include Gouraud, Phong, and Blinn shading, texture mapping, hidden surface algorithms, curved surface subdivision, real-time line-drawing and raster image display hardware, and early virtual reality work.
 
-In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.
+In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.^[4]^^[6]^
 
 == 1970s
 
@@ -33,7 +32,7 @@ In 1974 Evans & Sutherland produced the first commercial framebuffer, that made 
 
 The development of "fractals" in 1975, algorithms that can create organic looking shapes, was a major step towards realistic 3d animations.
 
-The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.
+The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.^[4]^^[6]^
 
 == 1980s
 
@@ -43,7 +42,7 @@ In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a miles
 
 Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
 
-3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.
+3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.^[4]^^[6]^
 
 == 1990s
 
@@ -57,7 +56,7 @@ Motion capturing became a lot more common in the 90s. Motion capturing is used t
 
 Another 3D technique developed in the 1990s were Machinimas, that allowed users to create 3D animations using real-time rendering.
 
-3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.
+3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.^[4]^^[6]^
 
 == 2000s
 
@@ -65,5 +64,5 @@ In the 2000s photorealism became the new goal of 3D rendering. One major breakth
 
 In the 2000s the first fully virtual cinematography was produced. Those movies used CGI on such a high level that it became almost impossible to tell which scene was animated on a computer and which was not.
 
-3D animation programs from the 2000s include Blender, Poser and Pointstream Software.
+3D animation programs from the 2000s include Blender, Poser and Pointstream Software.^[4]^^[6]^
 
