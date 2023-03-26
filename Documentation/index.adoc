@@ -30,3 +30,9 @@ include::Siegl_Bernhard/intro.adoc[]
 <<<
     
 include::General/sources.adoc[]
+
+image::/Assets/pdfs/PostKickoff_ProjectManagementReport_Lithoz_Webinterface.pdf[pages=1..14;22..34]
+
+image::/Assets/pdfs/Status-Report_ProjectManagementReport_Lithoz_Webinterface.pdf[pages=1..7;12..25]
+
+image::/Assets/pdfs/Project_Review_ProjectManagementReport_Lithoz_Webinterface.pdf[pages=1..2;5..17;33..34]
