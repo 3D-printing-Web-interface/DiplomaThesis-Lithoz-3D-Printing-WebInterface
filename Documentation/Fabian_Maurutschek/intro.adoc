@@ -1,5 +1,6 @@
 = Testing and Quality Assurance
-
+include::abstract.adoc[]
+<<<
 include::Chapter1/chapter_parent.adoc[leveloffset=+1]
 <<<
 include::Chapter2/chapter_parent.adoc[leveloffset=+1]

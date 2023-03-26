@@ -1,2 +1,111 @@
 = Vitest
 
+With vitest the 3D printing webinterface has used to test components of the application. Due to the integration of networking and asynchronous data-fetching it has been replaced with cypress.
+
+Features of Vitest:
+
+> * Vite's config, transformers, resolvers, and plugins.
+* Use the same setup from your app to run the tests!
+* Smart & instant watch mode, like HMR for tests!
+* Component testing for Vue, React, Svelte, Lit and more
+* Out-of-the-box TypeScript / JSX support
+* ESM first, top level await
+* Workers multi-threading via Tinypool
+* Benchmarking support with Tinybench
+* Filtering, timeouts, concurrent for suite and tests
+* Jest-compatible Snapshot
+* Chai built-in for assertions + Jest expect compatible APIs
+* Tinyspy built-in for mocking
+* happy-dom or jsdom for DOM mocking
+* Code coverage via c8 or istanbul
+* Rust-like in-source testing
+* Type Testing via expect-type
+
+Source: https://vitest.dev/guide/features.html
+
+== Vite
+Vite is a newer build and development server management-tool especially used for JavaScript frameworks (React, Vue, Angular).
+
+== Installation
+
+To start making tests the installation of vitest is required:
+
+With _npm_:
+
+[source,cli]
+----
+npm install -D vitest
+----
+
+With _yarn_:
+
+[source,cli]
+----
+yarn add -D vitest
+----
+
+== Creating a easy test
+
+The Api of vitest can be accessed anywhere in the code by import. Basic tests are structured all the same:
+
+`[source, typescript]`
+----
+import { expect, test } from 'vitest'
+
+test('should work as expected', () => {
+  expect(Math.sqrt(4)).toBe(2)
+})
+----
+Example from https://vitest.dev/api/\#test
+
+The test() method requires a name for the test and a callback functions with _exepectaions_. An timout is optionall.
+
+In these callback functions there has to be expect() methods these are used in a declarative programming style.
+
+For more complex tests are bench() methods. These are manly used for measuring performence. (bench from benchmark).
+
+
+`[source, typescript]`
+----
+import { bench } from 'vitest'
+
+bench('normal sorting', () => {
+  const x = [1, 5, 4, 2, 3]
+  x.sort((a, b) => {
+    return a - b
+  })
+}, { time: 1000 })
+----
+Example from https://vitest.dev/api/\#bench
+
+=== Suits
+
+With many different test there could be a easy chaos finding and correcting certain tests. For this challenge vitest came up with describe methods. These packs of tests are called a *Suite*
+
+Example from https://vitest.dev/api/\#describe :
+`[source, typescript]`
+----
+import { describe, expect, test } from 'vitest'
+
+const person = {
+  isActive: true,
+  age: 32,
+}
+
+describe('person', () => {
+  test('person is defined', () => {
+    expect(person).toBeDefined()
+  })
+
+  test('is active', () => {
+    expect(person.isActive).toBeTruthy()
+  })
+
+  test('age limit', () => {
+    expect(person.age).toBeLessThanOrEqual(32)
+  })
+})
+----
+
+As JUnit/XUnit vitest has also tearDown() and setUp() functions.
+
