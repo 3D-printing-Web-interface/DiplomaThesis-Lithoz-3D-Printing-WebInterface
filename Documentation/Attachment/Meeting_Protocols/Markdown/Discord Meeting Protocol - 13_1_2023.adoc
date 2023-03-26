@@ -1,0 +1,30 @@
+= Discord Meeting Protocol - 13.1.2023
+
+Start : 16:00 +
+End : 16:30
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+- Richard Gradischnegg
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Bernhard Siegl
+
+== Topics
+=== Showing off
+- responsivness
+- gray buttons when disconnected
+- gray, green numbers
+
+=== Issues
+- docker issues, cannot execute main.ts
+
+
+=== Next-Steps
+- merge on dev
+- 3d viewer
+- daily feedback with toDo list to work down via discord
+- focus on basic things

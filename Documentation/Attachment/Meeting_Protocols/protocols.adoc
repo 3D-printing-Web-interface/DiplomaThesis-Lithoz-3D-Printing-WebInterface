@@ -1,0 +1,26 @@
+== Meeting protocols
+
+include::Markdown/Physical Meeting Protocol - 28_09_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 13_10_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 20_10_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 27_10_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 02_11_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 24_11_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 1_12_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 12_12_2022.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 13_1_2023.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 19_1_2023.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 26_1_2023.adoc[leveloffset=+1]
+<<<
+include::Markdown/Discord Meeting Protocol - 03_2_2023.adoc[leveloffset=+1]
+<<<

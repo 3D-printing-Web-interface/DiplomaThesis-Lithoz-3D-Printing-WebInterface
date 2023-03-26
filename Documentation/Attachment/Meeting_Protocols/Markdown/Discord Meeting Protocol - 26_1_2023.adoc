@@ -1,0 +1,29 @@
+= Discord Meeting Protocol - 26.1.2023
+
+Start: 16:00 +
+End: 16:30
+ 
+== Participants
+- Reiner Bachleitner 
+- Roland Fischer 
+- Richard Gradischnegg
+
+=== Team
+- Philipp Cserich 
+- Thomas Boigner 
+- Bernhard Siegl 
+- Fabian Marutschek
+ 
+== Topics
+- Cypress Testing with Cucumber
+- Open points
+  
+== Findings
+- Backend endpoint is missing
+- Can not connect to layer view
+- Flexbox vs v-Grid
+- Button calls resume
+ 
+== Next-Steps
+- Add Cypress Tests
+- Keep using V-Grid instead of flexbox

@@ -2,7 +2,7 @@
 
 The following diplomathesis,  is related to the project "Lithoz 3D printing web interface" which implemented a controlling unit for proprietary printing hardware of the company Lithoz in the year of 2022/23. The project has been implemented in the javascript framework Vue.js, with a fully functional printer connectivity over MQTT and HTTP. The following thesis topics have been chosen in the context of the project. Because of that, every topic will feature project specific examples to visualize and explain them in a more realistic setup.
 
-==== The topics are spread as following.
+== The topics are spread as following.
 
 **Cserich Philipp** - UI & UX
 

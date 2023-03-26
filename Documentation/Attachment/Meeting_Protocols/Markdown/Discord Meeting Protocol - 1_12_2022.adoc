@@ -1,0 +1,27 @@
+= Discord Meeting Protocol - 01.12.2022
+
+Start: 16:00 +
+End: 16:30
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Fabian Maurutschek
+
+== Topics
+- i18n translation
+- Anydesk connection
+
+== Findings
+- Rows in den ParameterForms zu Hoch
+- Layer ranges nicht ausklappbar
+- immer anzeigen
+- keypad in Firefox geht nicht (größe der buttons)
+- Layer Range auswählbar machen
+
+== Next-Steps
+- parameter integration

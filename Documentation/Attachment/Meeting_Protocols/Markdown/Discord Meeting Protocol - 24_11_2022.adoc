@@ -1,0 +1,18 @@
+= Discord Meeting Protocol - 24.11.2022
+
+Start: 4:00pm +
+End: 4:20pm
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Bernhard Siegl
+
+== Topics
+=== going trough
+- talking about issues we have with proxys
+- port issues from our side

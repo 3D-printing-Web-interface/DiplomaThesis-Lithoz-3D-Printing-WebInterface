@@ -1,0 +1,23 @@
+= Discord Meeting Protocol - 19.1.2023
+
+Start : 16:00 +
+End : 16:30
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+- Richard Gradischnegg
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Bernhard Siegl
+- Fabian Marutschek
+
+== Topics
+=== Showing off
+- 3d viewer
+- heating
+- exposure
+
+- showcase of their new updates

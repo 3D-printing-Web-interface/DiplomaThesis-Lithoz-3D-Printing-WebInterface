@@ -2,7 +2,7 @@
 
 Die folgende Diplomarbeit, bezieht sich auf das im Jahre 2022/23 durchgeführte Projekt "Lithoz 3D printing web interface", welches die Implementierung einer Controlling Unit für den 3D Druck mit firmenspezifischer Druckerhardware der Firma Lithoz beinhaltet. Dabei wurde eine auf dem Framework Vue.js basierende Website, mit vollständiger Verbindung per MQTT und HTTP umgesetzt. Die Kapitel dieser Arbeit wurden sorgfältig an die Anforderungen des vorliegenden Projekts angepasst. Aufgrund dessen, werden behandelte Themen mit einer Referenz auf ein zugehöriges Beispiel im Projekt verweisen.
 
-==== Die Themenaufteilung der Arbeit, ist wie folgt.
+== Die Themenaufteilung der Arbeit, ist wie folgt.
 
 **Cserich Philipp** - UI & UX
 

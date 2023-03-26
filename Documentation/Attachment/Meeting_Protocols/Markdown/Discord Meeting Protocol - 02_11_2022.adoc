@@ -1,0 +1,32 @@
+= Discord Meeting Protocol - 02.11.2022
+
+Start: 13:30 +
+End: 14:30
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+- Richard Gradischnegg
+- Michael Gollner
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Fabian Maurutschek
+- Bernhard Siegl
+
+== Topics
+- MQTT + HTTP Connection
+
+== Issues
+- Version
+- Issues 
+- Heute Projektformularfixen
+- MQTT 
+- Gelbe hinterlegung der ausgewählten Felder
+
+== Feedback
+- Sofort melden bei problemen
+
+== Outcome 
+- Milestone vorstellung des Produkts FREITAG

@@ -1,0 +1,38 @@
+= Discord Meeting Protocol - 20.10.2022
+
+Start 16:00 +
+End 16:30
+
+== Participants
+- Reiner Bachleitner
+- Michael Gollner
+- Richard Gradischnegg
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Fabian Maurutschek
+- Bernhard Siegl
+
+== Predefined topics
+- Responsiveness (Lithoz 1 & 2 Größem)
+- HTTP fetch (Fabian)
+- Expertview view
+- 3D viewer start Three.js
+- Icons richtig eingefügt
+- Size of all panels is now the same (full page components)
+- Routing gefixt
+
+== Issues
+- Numpad bug
+
+== Discussing
+- mqtt explorer showcase
+- Vue Axios/Http requests
+- tcp tunnel to remote pc
+- Check which mqtt confluence pages we have
+- sdl loader
+
+== Outcome
+- reworking requests
+- lock svg

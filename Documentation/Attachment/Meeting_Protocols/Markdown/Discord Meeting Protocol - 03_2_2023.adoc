@@ -1,0 +1,28 @@
+= Meeting Protocol - 3.2.2023
+
+Start: 13:30 +
+End: 15:00
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer 
+- Richard Gradischnegg
+- Michael Gollner
+- Christian Aumüller
+=== Team
+- Philipp Cserich
+- Bernhard Siegl
+- Fabian Maurutschek
+- Thomas Boigner
+
+== Topics
+- presentation of our progress
+- we will need the mock server in the future
+
+== Findings
+- live viewer doesn't work
+- expert buttons don't work
+
+== Next-Steps
+- Clean up
+- new Issues 

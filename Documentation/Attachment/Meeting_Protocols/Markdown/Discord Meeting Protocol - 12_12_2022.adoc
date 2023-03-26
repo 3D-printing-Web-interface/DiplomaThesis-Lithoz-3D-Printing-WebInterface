@@ -1,0 +1,27 @@
+= Discord Meeting Protocol - 12.12.2022
+
+Start : 16:00 +
+End : 16:35
+
+== Participants
+Raina Bachleitner
+Roland fischer
+
+=== Team
+Fabian Maurutschek
+Cserich Philipp
+
+== Topics
+- 3d viewer start
+- MQTT connection 
+- layer view question
+- UI Change showcase
+
+=== Findings
+Eigene stl daten zur testung des 3d viewers :
+Stl posten - get stls id
+
+=== Next steps
+- Perfecting UI
+- Implementing 3D Viewer
+- Finishing mockup removal 

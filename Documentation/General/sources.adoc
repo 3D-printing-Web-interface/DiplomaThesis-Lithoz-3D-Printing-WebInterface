@@ -46,7 +46,7 @@ last accessed 2019-01-01
 
 - [1] https://en.wikipedia.org/wiki/3D_rendering
 last accessed 2023-03-26
-- [2] https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory
+- [2] https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory 
 last accessed 2023-03-26
 - [3] https://en.wikipedia.org/wiki/Polygonal_modeling
 last accessed 2023-03-26
@@ -79,7 +79,7 @@ last accessed 2023-03-26
 
 === Pictures
 
-- [1] first digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
+- [1] first  digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
 
 == Testing & Quality Assurance (Fabian Maurutschek)
 
@@ -114,7 +114,7 @@ last accessed 2023-03-26
 - [] https://www.hivemq.com/blog/introducing-the-mqtt-security-fundamentals/
 last accessed 2023-03-25
 
-== Pictures
+=== Pictures
 - [] https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F10%2FIot-MQTT.jpg&f=1&nofb=1&ipt=7c24aab7226503db6a35ea522b67496ee3879ce54538da6a3ff9b0d32f3c22af&ipo=images
 - [] https://mqtt.org/assets/img/mqtt-publish-subscribe.png
 - [] https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png

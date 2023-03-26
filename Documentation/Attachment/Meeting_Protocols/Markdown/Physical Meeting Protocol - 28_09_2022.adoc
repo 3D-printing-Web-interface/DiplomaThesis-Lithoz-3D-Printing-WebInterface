@@ -1,0 +1,48 @@
+= Physical Meeting Protocol - 28.09.2022
+Start: 13:20 +
+End: 14:30
+
+== Participants
+- Reiner Bachleitner
+- Michael Gollner
+- Richard Gradischnegg
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Fabian Maurutschek
+- Bernhard Siegl
+
+== Showcase - New's
+- Model Viewer Pop-Up
+- Button size
+- formularcomponents -> Coat
+- Option Menu -> Toggle Parameters
+- Fine Tuning with Rows etc.
+
+== Issues
+- Scaling and buttons are cut off
+- generally scaleability
+- formularcomponent: when something changed from the default value - put it on
+- bold
+
+== Features to try
+- css grid/columns
+- Focus on
+- full hd grid layout
+- expand collapse formularcomponents
+
+== Others
+- 4.11.2022 - Intern Presentation / Quality Gateway
+
+== We get
+- backend connection overview / API
+- MQQT to get a status (GET)
+- HTTP to execute (POST)
+- remote connectivity to a host in their network for exploring
+- (we can load everything as a json)
+- centralize the HTTP requests (because they could change)
+
+== Next up
+- Three Discord Meetings till Quality Gateway to ensure prgress Thursday 4pm every week
+- till 4th November(expect first week)

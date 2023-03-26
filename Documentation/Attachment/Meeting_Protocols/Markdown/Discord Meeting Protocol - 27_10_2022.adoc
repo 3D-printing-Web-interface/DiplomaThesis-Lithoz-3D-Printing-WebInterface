@@ -1,0 +1,34 @@
+= Discord Meeting Protocol - 27.10.2022
+
+Start: 16:00 +
+End: 16:30
+
+== Participants
+- Reiner Bachleitner
+- Roland Fischer
+- Richard Gradischnegg
+- Michael Gollner
+
+=== Team
+- Philipp Cserich
+- Thomas Boigner
+- Fabian Maurutschek
+- Bernhard Siegl
+
+== Topics
+- Bugfixes
+- 3D Viewer toggleable
+- Fabian auswahl job
+- MQTT problems
+- http endpoint explanations
+
+== Findings
+- Multiple tcp tunnels are a premium feature of AnyDesk
+- AnyDesk Version lower than 7.1 allows multiple tcp tunnels => try to downgrade
+- Responses of the Http requests => new Issue
+- opening a job should load the job settings in the tune parameters panel
+- commands => implement all from the pdf - especially: light on/off
+- projects/{id} should load the lists of the tune parameters panel
+
+== Next-Steps
+- New Issues describe the goals until next Wednesday
