@@ -1,3 +1,3 @@
-= Diplom Arbeit / Diploma Thesis: "Lithoz 3D printing Web interface"
-Boigner Thomas; Cserich Philipp; Maurutschek Fabian; Siegl Bernhard
+= Diplom Arbeit / Diploma Thesis: "Lithoz 3D Printing Web Interface"
+Cserich Philipp; Boigner Thomas; Maurutschek Fabian; Siegl Bernhard
 :description: The document's description. 
