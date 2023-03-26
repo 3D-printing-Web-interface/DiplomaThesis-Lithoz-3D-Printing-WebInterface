@@ -75,9 +75,13 @@ last accessed 2023-03-16
 last accessed 2023-03-25
 - [] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
 last accessed 2023-03-25
+- [] Cypress Documentaion https://docs.cypress.io/guides/getting-started/opening-the-app
+last accessed 2023-03-25
 - [] Cocumber API https://www.baeldung.com/cucumber-rest-api-testing
 last accessed 2023-03-25
 - Test driven Development https://en.wikipedia.org/wiki/Test-driven_development
+last accessed 2023-03-25
+- Behavior Driven Development https://de.wikipedia.org/wiki/Behavior_Driven_Development
 last accessed 2023-03-25
 
 == MQTT and HTTP (Bernhard Siegl)

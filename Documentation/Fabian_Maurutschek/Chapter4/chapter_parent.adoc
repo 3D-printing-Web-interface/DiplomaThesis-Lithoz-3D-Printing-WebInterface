@@ -4,11 +4,105 @@ The project uses Cypress to virtualise actions (button clicks, key inputs, ...) 
 
 == Adding cypress and configuartion
 
+Installing cypress is one of the easy tasks:
+
+Depending on your package manager just add the cypres module in your project.
+
+With _npm_:
+
+[source,cli]
+----
+npm install cypress --save-dev
+----
+
+With _yarn_:
+
+[source,cli]
+----
+yarn add cypress --dev
+----
+
+The first thing you have to do is to open cypress. To do that you have to run the following command:
+
+Using npx from npm (npm > v5.2):
+
+[source,cli]
+----
+npx cypress open
+----
+
+With _yarn_:
+
+[source,cli]
+----
+yarn run cypress open
+----
+
 == Testing Types
+
+The are two different types of testing with cypress:
+
+* End-to-End Testing (E2E)
+* Component Testing
+
+both can be used to test certain aspects of the project.
+
+> In the end, you will probably have a combination of both types of tests for your app, but how do you choose right now?
+
+Source: https://docs.cypress.io/guides/core-concepts/testing-types
+
 
 === E2E Testing
 
+Ent-to-End Testing is the _new_ type what made cypress special that it has been chosen by the team. It is working with a virtual browser which is testing your webapp like a real user (clickling URLs, links and buttons).
+
+This type tests the whole funytionality inclusive HTTP Requests, asynchronous methods/imports and or other certain integration-features.
+
+> * Benefits of end-to-end tests:
+** Ensure your app is functioning as a cohesive whole
+** Tests match the user experience
+** Can be written by developers or QA Teams
+** Can be used for integration testing as well
+
+> * Considerations for end-to-end tests:
+** More difficult to set up, run, and maintain
+** Provision testing infrastructure in CI
+** Testing certain scenarios require more setup
+
+> * Common scenarios for end-to-end tests:
+** Validating critical workflows like authentication and purchasing
+** Ensuring data is persisted and displayed through multiple screens
+** Running Smoke Tests and System Checks before deployment
+
+Source (All of the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
+
 === Component Testing
+
+On the other hand cypress have the component testing. Components are parts of the website rangin from small imput fields and text to large panels containing different other nested components.
+
+Every component can be _mounted_ and tested. That means while testing only the component will be rendered and loaded. (Not the whole application as in E2E)
+
+Component Tests are compareable to unit tests. They are made for a specific part of a programm in that case a component. The difference to E2E is that integration features are not checked and the programm could still not work even the tests are succeeding.
+
+
+> * Benefits of component tests:
+** Easier to test components in isolation
+** Fast and reliable
+** Easy to set up specific scenarios in tests
+** Don't rely on any external system to run
+
+> * Considerations for component tests:
+** Do not ensure overall app quality
+** Do not call into external APIs/Services
+** Usually written by developers working on the component
+
+> * Common scenarios for component tests:
+** Testing a date picker works properly for a variety of scenarios
+** That a form shows and hides specific sections based on input
+** Testing components coming out of a design system
+** Testing logic not tied to a component (like unit tests!)
+
+Source (All of the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
 == Core Concepts of Cypress
 
@@ -17,6 +111,8 @@ The project uses Cypress to virtualise actions (button clicks, key inputs, ...) 
 == Cockumber API
 
 Additionally to Cypress we use a plugin or add-on _TODO_
+
+My schlong is so long it touches your bellybutton from inside >;)
 
 LOL
 

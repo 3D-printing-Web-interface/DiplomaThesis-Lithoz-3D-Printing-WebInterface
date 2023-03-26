@@ -7,9 +7,9 @@ Test driven development is trying to achive clean and reliable code. The main di
 
 1. In TDD the test hast to be written first. Keep in mind what goal is going to be achived when the testcase is completed. It has to be set correctly and must fail at start.
 
-2. Afterwards the code is going to be simple and short programmed. The simpler the code is the better the output (Do not exaggerate it has to be short and mudlar). If all tests of that code are succeding you can go to the next step.
+2. Afterwards the code is going to be simple and short programmed. The simpler the code is the better the output (Do not exaggerate it has to be short and modular). If all tests of that code are succeding you can proceed to the next step.
 
-3. Refractor the code with different and new tests. Ensure that the test cases are passing and the functionallity is the same or better.
+3. Refactor the code with different and new tests. Ensure that the test cases are passing and the functionality is the same or better.
 
 
 > * Examples of refractoring:
@@ -23,5 +23,5 @@ Source: https://en.wikipedia.org/wiki/Test-driven_development
 
 Keep in mind that test driven development is not the standard and best style to develop on projects. It could be not perfect for every group/team also it is more common used in agile development.
 
-== Section
+== Behaviour Driven Development
 
