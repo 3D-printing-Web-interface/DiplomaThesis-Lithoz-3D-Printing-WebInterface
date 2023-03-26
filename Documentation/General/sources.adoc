@@ -101,6 +101,7 @@ last accessed 2023-03-25
 - [] https://www.emqx.com/en/blog/mqtt-5-introduction-to-publish-subscribe-model
 - [] https://www.rfc-editor.org/rfc/rfc1945.html
 - [] https://cedalo.com/blog/http-vs-mqtt-for-iot/
+- [] https://www.hivemq.com/blog/introducing-the-mqtt-security-fundamentals/
 last accessed 2023-03-25
 
 == Pictures
