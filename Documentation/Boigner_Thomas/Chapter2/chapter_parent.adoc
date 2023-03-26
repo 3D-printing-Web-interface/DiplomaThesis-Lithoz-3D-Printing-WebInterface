@@ -4,7 +4,7 @@
 
 == Important terms
 
- In the following section some of the most important terms associated with 3D rendering will be explained. These terms are needed in order to understand the basic principals of rendering.
+In the following section some of the most important terms associated with 3D rendering will be explained. These terms are needed in order to understand the basic principals of rendering.
 
 === Vertex
 
