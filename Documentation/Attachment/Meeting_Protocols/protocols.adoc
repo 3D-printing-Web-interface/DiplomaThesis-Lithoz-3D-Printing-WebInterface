@@ -1,5 +1,20 @@
 == Meeting protocols
 
+- Physical Meeting Protocol - **28.09.2022**
+- Discord Meeting Protocol - **13.10.2022**
+- Discord Meeting Protocol - 20.10.2022
+- Discord Meeting Protocol - 27.10.2022
+- Discord Meeting Protocol - 02.11.2022
+- Discord Meeting Protocol - 24.11.2022
+- Discord Meeting Protocol - 01.12.2022
+- Discord Meeting Protocol - 12.12.2022
+- Discord Meeting Protocol - 13.1.2023
+- Discord Meeting Protocol - 19.1.2023
+- Discord Meeting Protocol - 26.1.2023
+- Meeting Protocol - 3.2.2023
+
+<<<
+
 include::Markdown/Physical Meeting Protocol - 28_09_2022.adoc[leveloffset=+1]
 <<<
 include::Markdown/Discord Meeting Protocol - 13_10_2022.adoc[leveloffset=+1]

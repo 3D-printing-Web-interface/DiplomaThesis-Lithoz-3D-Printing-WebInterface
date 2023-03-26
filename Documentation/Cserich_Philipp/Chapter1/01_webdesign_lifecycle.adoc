@@ -60,7 +60,7 @@ The more user inclusive development "Star Lifecycle", includes its users in all 
 - Requirements specification
 - Prototyping
 
-image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=4in,star-model,title="Star Lifecycle footnote:[https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png]"]
+image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=3in,align=center,star-model,title="Star Lifecycle footnote:[https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png]"]
 
 
 

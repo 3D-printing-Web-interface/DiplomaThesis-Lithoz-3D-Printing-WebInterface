@@ -10,7 +10,7 @@ This definition is a good starting point for understanding the different aspects
 But there is not only a subjective aspect to color, but also a physical one. 
 Therefore the distinction between **related** and **unrelated** colors is the first step in understanding color. Related colors are colors that are physically close to each other on the color wheel. These colors are perceived as similar and can be used to create a harmonious color scheme. Unrelated colors are colors that are physically far away from each other on the color wheel. These colors are perceived as different and can be used to create a contrasting color scheme. 
 
-image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,align=center,title="Color Wheel footnote:[reimagined - https://www.color-meanings.com/color-wheel/]""]
+image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=0.5in,color wheel,align=center,title="Color Wheel footnote:[reimagined - https://www.color-meanings.com/color-wheel/]""]
 
 ==== **Apply**
 
