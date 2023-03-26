@@ -1,0 +1,42 @@
+= EIDESSTATTLICHE ERKLÄRUNG
+
+***
+
+Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbständig 
+und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und 
+Hilfsmittel nicht benutzt und die den benutzten Quellen wörtlich und 
+inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.
+
+==== Wien, am 31.03.2023
+
+{empty} +
+{empty} +
+{empty} +
+
+---
+[.text-right]
+Cserich Philipp (Project Lead)
+
+{empty} +
+{empty} +
+{empty} +
+
+---
+[.text-right]
+Boigner Thomas
+
+{empty} +
+{empty} +
+{empty} +
+
+---
+[.text-right]
+Siegl Bernhard
+
+{empty} +
+{empty} +
+{empty} +
+
+---
+[.text-right]
+Maurutschek Fabian

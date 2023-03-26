@@ -10,6 +10,8 @@ include::General/cover.adoc[]
 //  Mathematical Equasions
 :stem:
 
+include::General/Eidesstaatliche.adoc[]
+
 include::General/preface.adoc[]
 
 <<<
