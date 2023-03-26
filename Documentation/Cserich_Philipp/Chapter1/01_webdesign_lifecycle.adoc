@@ -40,15 +40,13 @@ The Hoffer, George and Valaich SDLC is very detailed and complex, because it des
 
 The Hoffer, George, and Valaich SDLC has been greatly simplified by Whitten and Bentley. Although much less thorough, it is much simpler to understand and put into practice. This makes it much simpler to put into practice, but it also makes it much simpler to overlook crucial tasks.
 
-[https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false - Page 12 - User Centered Web Development]
-
 <<<
 
 The so called *"Frustration cycle"* describes the interchanging process of implementing and designing individual pages. This cycle should be kept as short as possible, because as the development progresses, more and more design problems will be discovered by implementation. If either of the processes takes too long, applying changes will get gradually more time expensive. 
 
-image::/Assets/Images/Cserich_Philipp/Design_Cycle_02.png[design_cycle]
+image::/Assets/Images/Cserich_Philipp/Design_Cycle_02.png[design_cycle,title="Design Cycle footnote:[Mocked up by Philipp Cserich]"]
 
-[1]This picture should visualize the above mentioned development cycle, which should be maintained as the main development strategy for the implementation process.
+This picture should visualize the above mentioned development cycle, which should be maintained as the main development strategy for the implementation process. 
 
 
 
@@ -62,8 +60,8 @@ The more user inclusive development "Star Lifecycle", includes its users in all 
 - Requirements specification
 - Prototyping
 
-image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=4in,star-model,title="Source - https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png"]
+image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=4in,star-model,title="Star Lifecycle footnote:[https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png]"]
 
-https://liacs.leidenuniv.nl/~verbeekfj/courses/hci/hci2014-09.pdf
+
 
 To make the star principle work, a deep user analysis has to be done. Consisting of Stakeholder analysis, Personas, User stories, User stories and problem statements, which are all used to create a very detailed user-profile. As each and every part of this User analysis is also an essential part in project management, the interconnection between development and project management is getting clearer. 

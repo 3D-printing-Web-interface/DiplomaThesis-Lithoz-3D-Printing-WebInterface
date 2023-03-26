@@ -10,22 +10,20 @@ This definition is a good starting point for understanding the different aspects
 But there is not only a subjective aspect to color, but also a physical one. 
 Therefore the distinction between **related** and **unrelated** colors is the first step in understanding color. Related colors are colors that are physically close to each other on the color wheel. These colors are perceived as similar and can be used to create a harmonious color scheme. Unrelated colors are colors that are physically far away from each other on the color wheel. These colors are perceived as different and can be used to create a contrasting color scheme. 
 
-image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,align=center]
+image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,align=center,title="Color Wheel footnote:[reimagined - https://www.color-meanings.com/color-wheel/]""]
 
 ==== **Apply**
 
 With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
 The image shows an example of a cancel button that is highlighted by using a contrasting color.
 
-image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in]
+image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in, title="Unrelated Color Example footnote:[mocked in figma by Cserich Philipp]"
 
 
 On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.
 In the following example, the textboxes are integrated into the scene by using related colors.
 
-image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in]
-
-Examples, mocked by Philipp Cserich (Figma)
+image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in,title="Related Color Example footnote:[mocked in figma by Cserich Philipp]"]
 
 ==== NCS - Natural Color System
 
@@ -33,11 +31,11 @@ Examples, mocked by Philipp Cserich (Figma)
 The NCS was developed 1981 in Sweden .
 It is used to describe colors for designers, architects and many more. It is one way to keep the exact definition of one color in the defined spectrum clear. Other metrics were mostly inaccurate at the time of development.
 
-image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=1 - NCS Notation]
+image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=NCS Notation footnote:[https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg]]
 
-image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space]
+image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space footnote:[https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg]]
 
-image::/Assets/Images/Cserich_Philipp/trangleandcircle_NCS.png[pdfwidth=3in,align=center,title=Color Triangle and Circle]
+image::/Assets/Images/Cserich_Philipp/trangleandcircle_NCS.png[pdfwidth=3in,align=center,title=Color Triangle and Circle footnote:[https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg & https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg]]
 
 The above visualized color space, defined by NCS, is a 3 Dimensional space, where every point represents one color in the system.
 Cutting the figure up in a horizontal and vertical pane, creates two 2-Dimensional spaces, that can be represented as a circle and a triangle. The NCS color circle, is the horizontal cut, which almost looks like the original color wheel. The NCS color triangle is the vertical cut and shows the gray scale as well as the saturation of the color.
@@ -58,9 +56,9 @@ HEX : **#fffdf6**
 
 The human anatomy behind the perception of color is mostly conceptionalized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
 
-image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in,align=center]
+image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in,align=center,title="Vision Processing footnote:[
+[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png]]
 
-[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png]
 
 The steps of processing can be grouped to sections. Consisting of:
 

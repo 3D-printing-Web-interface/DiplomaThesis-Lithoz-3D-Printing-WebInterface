@@ -31,6 +31,8 @@ last accessed 2019-01-01
 - [] Color Psychology - https://www.colorpsychology.org/
 - [] - Responsive web design - https://books.google.at/books?hl=de&lr=&id=fcfarreMQ9sC&oi=fnd&pg=PT12&dq=responsive+web+design&ots=Zubh0j-ROj&sig=TLn7Km6-b3fDRTWqni6e6szUgs0#v=onepage&q=responsive%20web%20design&f=false
 - [] - VUE3 MQ - https://vue3-mq.info/
+- [] https://liacs.leidenuniv.nl/~verbeekfj/courses/hci/hci2014-09.pdf
+- [] https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false
 
 
 === Pictures

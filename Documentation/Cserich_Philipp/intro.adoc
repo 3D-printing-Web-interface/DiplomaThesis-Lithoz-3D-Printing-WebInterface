@@ -1,4 +1,19 @@
 = UI & UX Development
+Project-specific scientific thesis for the diploma examination in 
+the department of HTL Spengergasse for 
+Computer Science and Information Technology
+
+**Author :** Cserich Philipp
+
+**Class :** 5BHIF
+
+**School year :** 2022/23
+
+**Supervisor :** Dipl.-Ing. Martin Schrutek
+
+**Date of submission :** 31.03.2023
+
+<<<
 
 include::abstract.adoc[]
 
