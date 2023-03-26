@@ -1,12 +1,12 @@
 = Cypress testing
 
-The project uses Cypress to virtualise actions (button clicks, key inputs, ...) the web interface and test certain features.
+The project uses Cypress to virtualize actions (button clicks, key inputs, ...) the web interface and test certain features.
 
-== Adding cypress and configuartion
+== Adding cypress and configuration
 
 Installing cypress is one of the easy tasks:
 
-Depending on your package manager just add the cypres module in your project.
+Depending on your package manager just add the cypress module in your project.
 
 With _npm_:
 
@@ -40,7 +40,7 @@ yarn run cypress open
 
 == Testing Types
 
-The are two different types of testing with cypress:
+There are two different types of testing with cypress:
 
 * End-to-End Testing (E2E)
 * Component Testing
@@ -54,9 +54,9 @@ Source: https://docs.cypress.io/guides/core-concepts/testing-types
 
 === E2E Testing
 
-Ent-to-End Testing is the _new_ type what made cypress special that it has been chosen by the team. It is working with a virtual browser which is testing your webapp like a real user (clickling URLs, links and buttons).
+Ent-to-End Testing is the _new_ type what made cypress special that it has been chosen by the team. It is working with a virtual browser which is testing your webapp like a real user (clicking URLs, links and buttons).
 
-This type tests the whole funytionality inclusive HTTP Requests, asynchronous methods/imports and or other certain integration-features.
+This type tests the whole functionality inclusive HTTP Requests, asynchronous methods/imports and or other certain integration-features.
 
 > * Benefits of end-to-end tests:
 ** Ensure your app is functioning as a cohesive whole
@@ -74,15 +74,15 @@ This type tests the whole funytionality inclusive HTTP Requests, asynchronous me
 ** Ensuring data is persisted and displayed through multiple screens
 ** Running Smoke Tests and System Checks before deployment
 
-Source (All of the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
+Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
 === Component Testing
 
-On the other hand cypress have the component testing. Components are parts of the website rangin from small imput fields and text to large panels containing different other nested components.
+On the other hand cypress have the component testing. Components are parts of the website ranging from small input fields and text to large panels containing different other nested components.
 
 Every component can be _mounted_ and tested. That means while testing only the component will be rendered and loaded. (Not the whole application as in E2E)
 
-Component Tests are compareable to unit tests. They are made for a specific part of a programm in that case a component. The difference to E2E is that integration features are not checked and the programm could still not work even the tests are succeeding.
+Component Tests are comparable to unit tests. They are made for a specific part of a program in that case a component. The difference to E2E is that integration features are not checked and the program could still not work even the tests are succeeding.
 
 
 > * Benefits of component tests:
@@ -102,18 +102,47 @@ Component Tests are compareable to unit tests. They are made for a specific part
 ** Testing components coming out of a design system
 ** Testing logic not tied to a component (like unit tests!)
 
-Source (All of the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
+Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
 == Core Concepts of Cypress
 
 
 
-== Cockumber API
+== Cucumber API
 
-Additionally to Cypress we use a plugin or add-on _TODO_
+Cucumber is a modern Behavior-Driven Development tool used in the 3D printing web interface for testing purposes.
 
-My schlong is so long it touches your bellybutton from inside >;)
+Features of cucumber:
 
-LOL
+> * Cross platform:
+* Automation
+* Plain Text
+* Shared Understanding
+* Automate
+* Reports
+* Integrations
 
+The biggest advantage of cucumber is the easy-to-understand text cases together with cypress:
 
+[source, cucumber]
+----
+Feature: Press Light Button
+    Scenario: opening App and press light btn
+        When I visit "localhost/hc"
+		Then I click onto the Lightbutton
+----
+
+These Features are going to be preprocessed by cypress:
+
+[source, typescript]
+----
+const { When, Then, Given } = require("@badeball/cypress-cucumber-preprocessor");
+
+When("I visit {string}", (url) => {
+	cy.visit("http://" + url);
+});
+
+Then("I click onto the Lightbutton", () => {
+	cy.get('[data-testid="light-button"]').click()
+});
+----

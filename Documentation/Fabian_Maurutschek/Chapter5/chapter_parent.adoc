@@ -6,7 +6,7 @@ Test
 
 > How do I become a good programmer?
 
-Many many aspects and much practise has to be done to write good and clean code. From naming conventions to domain design everything is important to become a good software engineer. Nobody is and can be perfect. Also there is always a way to improve.
+Many aspects and much practise have to be done to write good and clean code. From naming conventions to domain design everything is important to become a good software engineer. Nobody is and can be perfect. Also, there is always a way to improve.
 
 To improve the quality of code there are some simple aspects:
 
@@ -76,7 +76,7 @@ Learning to name variables properly is not an easy thing, because other team-mem
 
 === 3. Comments
 
-Additionally to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
+Additionally, to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
 
 - Comments that explain *WHAT* the code is doing.
 
@@ -86,7 +86,7 @@ Example
 
 [source,java]
 ----
-public int Calc(int number1, int number2){
+public int calc(int number1, int number2){
 	return number1 % number2;
 }
 ----
@@ -103,17 +103,17 @@ _Everybody knows what the modulo operator does. Do not comment such things reall
 
 === 4. Modularity
 
-Theoratically every programm can be writtin in one line in one class. But having all of the code in one _chunk_ with big projects and version management that will make life hard.
+Theoretically every program can be written in one line in one class. But having all the code in one _chunk_ with big projects and version management that will make life hard.
 
 The same goes for methods and classes:
 
-- Keep methods small, easy to understand and mudular (more useable)
+- Keep methods small, easy to understand and modular (more usable)
 
-That will help testing the method and it could be better extendable and refractorable afterwards.
+That will help testing the method, and it could be better extendable and refactorable afterwards.
 
 === 5. Exception & Error handling
 
-Do not see exceptions as bad inventaion! Proper use of errors and exceptions have a really good advatage if it is used whisely.
+Do not see exceptions as bad invention! Proper use of errors and exceptions have a fantastic advantage if it is used wisely.
 
 - Keep the messages understandable
 - Use the correct type of exception (NullReferenceE./NullPointerE., InvalidArgumentE.,...)
@@ -121,17 +121,17 @@ Do not see exceptions as bad inventaion! Proper use of errors and exceptions hav
 
 == Programming style
 
-There are two different types of code: Declarative (Fuctional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming stlye is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
+There are two different types of code: Declarative (Functional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming style is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
 
-> Declarative Programming is: *What* the programm has to do.
+> Declarative Programming is: *What* the program has to do.
 
-> Imperative Programming is: *How* the programm should do it.
+> Imperative Programming is: *How* the program should do it.
 
-In high level programming lanuages such as JAVA, C#, ... it is prefered to use the declarative Programming, while in more hardware-near programming imperative is more common.
+In high level programming languages such as JAVA, C#, ... it is preferred to use the declarative Programming, while in more hardware-near programming imperative is more common.
 
 === Imperative programming
 
-Making projects imperative is easier then declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
+Making projects imperative is easier than declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
 
 === Declarative programming
 
@@ -144,13 +144,13 @@ FROM myTable
 WHERE id = 34
 ----
 
-Everybody (Who knows SQL) is able to read that statement. Also it is easy to understand and tells exactly what to do.
+Everybody (Who knows SQL) is able to read that statement. Also, it is easy to understand and tells exactly what to do.
 
-It commands directly what the process has to do and not how to do it (for expample with for loops)
+It commands directly what the process has to do and not how to do it (for example with for loops)
 
 === Examples
 
-To better understand the difference of imperative and declarative programming there is a example provided in JAVA:
+To better understand the difference of imperative and declarative programming there is an example provided in JAVA:
 
 These examples provide the same return value.
 

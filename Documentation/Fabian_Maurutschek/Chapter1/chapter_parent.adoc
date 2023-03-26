@@ -4,13 +4,13 @@ Every software engineer/programmer had to test his/her programm. Even for small 
 
 == Most common used Frameworks and Libraries
 
-Depending on the technology which is used to create the programm there are several different testing solutions:
+Depending on the technology which is used to create the program there are several testing solutions:
 
 
 * Cypress
-** Generall frontend testing
+** General frontend testing
 ** Used in Javascript/Typescript applications
-** Virtualises a real broswer with events (click, keyinput,...)
+** Virtualizes a real browser with events (click, key input,...)
 
 * Vitest
 ** Used with vite
@@ -20,8 +20,8 @@ Depending on the technology which is used to create the programm there are sever
 * JUNIT (JAVA)
 ** Testing Java code
 ** JavaUnit tests
-** Has setup/tear down methods
-** Used with annotions
+** Has set up/tear down methods
+** Used with annotations
 
 * Pytest
 ** Testing in Python
@@ -33,6 +33,6 @@ Depending on the technology which is used to create the programm there are sever
 
 === Usage of testing technologies in the web interface
 
-At the beginning of the project it is decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration there were certain problemes encountering testing with Vitest. Due to asynchronos functions/events the unit-tests could not work properly and the team had to switch or testing framework/library to cypress with the cocumber API. _TODO_
+At the beginning of the project it is decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration there were certain problems encountering testing with Vitest. Due to asynchronous functions/events the unit-tests could not work properly and the team had to switch or testing framework/library to cypress with the cucumber API.
 
 

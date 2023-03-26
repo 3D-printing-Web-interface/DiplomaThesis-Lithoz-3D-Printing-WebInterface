@@ -58,14 +58,14 @@ test('should work as expected', () => {
 ----
 Example from https://vitest.dev/api/\#test
 
-The test() method requires a name for the test and a callback functions with _exepectaions_. An timout is optionall.
+The test() method requires a name for the test and a callback functions with _expectations_. A timout is optionally.
 
-In these callback functions there has to be expect() methods these are used in a declarative programming style.
+In these callback functions there has to be `expect()` methods these are used in a declarative programming style.
 
-For more complex tests are bench() methods. These are manly used for measuring performence. (bench from benchmark).
+For more complex tests are bench() methods. These are manly used for measuring performance. (bench from benchmark).
 
 
-`[source, typescript]`
+[source, typescript]
 ----
 import { bench } from 'vitest'
 
@@ -80,10 +80,10 @@ Example from https://vitest.dev/api/\#bench
 
 === Suits
 
-With many different test there could be a easy chaos finding and correcting certain tests. For this challenge vitest came up with describe methods. These packs of tests are called a *Suite*
+With many test there could be a easy chaos finding and correcting certain tests. For this challenge vitest came up with describe methods. These packs of tests are called a *Suite*
 
 Example from https://vitest.dev/api/\#describe :
-`[source, typescript]`
+[source, typescript]
 ----
 import { describe, expect, test } from 'vitest'
 
