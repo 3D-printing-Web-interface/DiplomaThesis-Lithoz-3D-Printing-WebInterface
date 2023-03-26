@@ -17,7 +17,7 @@ image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=1in,color wheel,a
 With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
 The image shows an example of a cancel button that is highlighted by using a contrasting color.
 
-image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in, title="Unrelated Color Example footnote:[mocked in figma by Cserich Philipp]"
+image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in, title="Unrelated Color Example footnote:[mocked in figma by Cserich Philipp]"]
 
 
 On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.

@@ -9,11 +9,11 @@ The implementation can split up to several steps:
 
 **Coding**
 
-    - **Design - UI/UX**
+    - **Design**
 
 Creating the HTML and CSS code for Pages and Elements. This is merely for positioning, sizing and styling. Usability is not one of the main concerns of this point. 
 
-    - **Functionality - UX**
+    - **Functionality**
 
 It has the purpose of filling the code with functionality. Connecting the dots between designs and including life into the site, making it interactive. 
 
