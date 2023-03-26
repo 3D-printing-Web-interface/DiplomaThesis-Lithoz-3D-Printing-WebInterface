@@ -1,5 +1,3 @@
-= Abstracts
-
 include::abstract_german.adoc[deutscher Abstract]
 
 include::abstract_english.adoc[english Abstract]
