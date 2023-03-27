@@ -1,7 +1,7 @@
 = 4.5 HTTP introduction
 The HTTP protocol is used to retrieve resources like HTML documents. It is a client-server protocol, requests are made by the recipient, which is in most cases the web browser, and it serves as the basis for all data communication on the Internet. The various sub-documents that are retrieved, such as text, layout descriptions, photos, videos, scripts, and more, are combined to form a complete document.
 
-image::/Assets/Images/Siegl_Bernhard/http-layers.png[title="HTTP layers footnote:[https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png]" ,80%,80%]
+image::/Assets/Images/Siegl_Bernhard/http-layers.png[title="HTTP layers ^[3]^"" ,80%,80%]
 
 
 The HTTP protocol, which was created in the early 1990s, has developed through time. It is an application layer protocol that is transmitted over TCP or over a TCP connection that is encrypted with TLS. It can be used to send material to servers, such as HTML form results, or to fetch not only hypertext pages but also images and videos. In order to instantly update Web pages, HTTP can also be used to fetch portions of documents.

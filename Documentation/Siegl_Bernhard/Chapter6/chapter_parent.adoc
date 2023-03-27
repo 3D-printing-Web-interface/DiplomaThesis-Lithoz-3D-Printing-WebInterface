@@ -1,5 +1,4 @@
 == 4.6 Conclusion
-
 We know that MQTT has a publish/subscribe architecture and we are familiar with the terms subscriber, publisher, broker and topic. We have a know that alternatives like RabbitMQ, XMPP and Kafka exist and have a general understanding of HTTP. We heard about basic security measurements in MQTT and HTTP, such as TLS and HTTPS, and why it is important to have security measurements at all.
 
 == 4.6.1 Lessons learned
