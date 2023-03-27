@@ -1,7 +1,7 @@
-= Correct and Clean Testing
+= 3.2 Correct and Clean Testing
 
 
-== Test Driven Development / Test Driven Design (TDD)
+== 3.2.1 Test Driven Development / Test Driven Design (TDD)
 
 Test driven development is trying to achieve clean and reliable code. The main difference is that the code is based on tests. Usually developers are writing the code first and afterwards testing it with unit/integration tests.
 
@@ -23,7 +23,7 @@ Source: https://en.wikipedia.org/wiki/Test-driven_development
 
 Keep in mind that test driven development is not the standard and best style to develop on projects. It could be not perfect for every group/team also it is more common used in agile development.
 
-== Behaviour Driven Development
+== 3.2.2 Behaviour Driven Development
 
 BDD is a development style that is designed to make the communication between stakeholders, team-members and other developers easier and more simple.
 
@@ -37,7 +37,7 @@ Focuses of Behaviour Driven Development:
 
 Source: https://en.wikipedia.org/wiki/Behavior-driven_development
 
-=== Issue and Description Structure
+=== 3.2.2.1 Issue and Description Structure
 
 Behaviour Driven Development has certain _keywords_ that are used in user stories, descriptions, bug issues and comments.
 

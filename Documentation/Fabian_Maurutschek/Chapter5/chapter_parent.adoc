@@ -1,124 +1,19 @@
-= Quality assurance techniques
+= 3.5 Quality assurance techniques
 
-== Writing clean code
+== 3.5.1 Continuous Software Development
 
-> How do I become a good programmer?
+Software projects have always ongoing updates and enhancements. To keep the software development team.
+ CSD includes the use of agile methods (Scrum Kanban Lean). Development These methods prioritize mutual flexibility and accountability for change. One of the biggest advantages of CSD is that it help teams to release software updates more often. That helps improve user satisfaction and accelerate the progress. By releasing updates at shorter intervals teams can also reduce occurrence of new bugs.
 
-Many aspects and much practise have to be done to write good and clean code. From naming conventions to domain design everything is important to become a good software engineer. Nobody is and can be perfect. Also, there is always a way to improve.
+=== 3.5.1.1 Continuous integration
 
-To improve the quality of code there are some simple aspects:
+CI is a software development technique that let developers merge code changes into a shared repository frequently.  An automated build process that compiles the code and launches a number of automated tests to look for mistakes, bugs and other problems. The development team is then updated on the outcomes of the build and tests.
 
-=== 1. Naming Conventions
+=== 3.5.1.2 Continuous delivery
 
-Certain programming languages have different ruiles of the naming conventions. But it is
+CD is a method of software development that attempts to effectively and reliably automate finished version of software to users. These are updates that are automatically tested and deployed with little assistance from humans. The code is automatically deployed to a staging environment for additional testing and validation after it passes automated tests. The code is automatically rolled into production and made available for user usage if it passes these tests.
 
-*Naming Conventions in JAVA*
-
-- Fields are small and in camel case with small leading letter
-
-[source,java]
-----
-private int myInt;
-public int myInt;
-----
-
-
-- Classes are in camel case with big leading letter
-[source,java]
-----
-public class MyInterestingClass{
-	...
-};
-----
-
-- Constants are capitalized
-[source,java]
-----
-public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
-----
-
-*Naming Conventions in C#*
-
-- Private attributes are leading with an underscore
-[source,Csharp]
-----
-private int _myInt;
-----
-
-- Properties and classes are in camel case with big leading letter
-[source,Csharp]
-----
-public class MyInterestingClass{
-	public int MyProp {get; set;} = 0;
-};
-----
-
-- Constants are capitalized
-[source,Csharp]
-----
-public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
-----
-
-=== 2. Variable Scope
-
-The first way to make code better readable is to name the variables legible. Avoid using simple letters or words for import variables.
-
-[source, java]
-----
-public class MyInterestingClass{
-	private int a;
-	private int thisVariableIsUsedForThat;
-}
-----
-
-Learning to name variables properly is not an easy thing, because other team-members have 0 relation to the own code.
-
-=== 3. Comments
-
-Additionally, to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
-
-- Comments that explain *WHAT* the code is doing.
-
-- Comments that explain *HOW* the code is working.
-
-Example
-
-[source,java]
-----
-public int calc(int number1, int number2){
-	return number1 % number2;
-}
-----
-
-Comment that explains *WHAT* the code is doing:
-
-`This method takes the modulo of number1 and number2.`
-
-Comments that explain *HOW* the code is working:
-
-`This method devides number1 and number2 and subtracts number1 with the result of the devision.`
-
-_Most developer know what the modulo operator does. Do not comment such things extra!_
-
-=== 4. Modularity
-
-Theoretically every program can be written in one line in one class. But having all the code in one _chunk_ with big projects and version management that will make life hard.
-
-The same goes for methods and classes:
-
-- Keep methods small, easy to understand and modular (more usable)
-
-That will help testing the method, and it could be better extendable and refactorable afterwards.
-
-=== 5. Exception & Error handling
-
-Do not see exceptions as bad invention! Proper use of errors and exceptions have a fantastic advantage if it is used wisely.
-
-- Keep the messages understandable
-- Use the correct type of exception (NullReferenceE./NullPointerE., InvalidArgumentE.,...)
-
-
-== Programming style
+== 3.5.2 Programming style
 
 There are two different types of code: Declarative (Functional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming style is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
 
@@ -128,11 +23,11 @@ There are two different types of code: Declarative (Functional) and Imperative C
 
 In high level programming languages such as JAVA, C#, ... it is preferred to use the declarative Programming, while in more hardware-near programming imperative is more common.
 
-=== Imperative programming
+=== 3.5.3 Imperative programming
 
 Making projects imperative is easier than declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
 
-=== Declarative programming
+=== 3.5.4 Declarative programming
 
 The most know declarative language is SQL it is also the best example.:
 
@@ -147,7 +42,7 @@ Everybody (Who knows SQL) is able to read that statement. Also, it is easy to un
 
 It commands directly what the process has to do and not how to do it (for example with for loops)
 
-=== Examples
+=== 3.5.5 Examples
 
 To better understand the difference of imperative and declarative programming there is an example provided in JAVA:
 

@@ -1,4 +1,4 @@
-= Vitest
+= 3.3 Vitest
 
 With vitest the 3D printing webinterface has used to test components of the application. Due to the integration of networking and asynchronous data-fetching it has been replaced with cypress.
 
@@ -23,10 +23,10 @@ Features of Vitest:
 
 Source: https://vitest.dev/guide/features.html
 
-== Vite
+== 3.3.1 Vite
 Vite is a newer build and development server management-tool especially used for JavaScript frameworks (React, Vue, Angular).
 
-== Installation
+== 3.3.2 Installation
 
 To start making tests the installation of vitest is required:
 
@@ -44,7 +44,7 @@ With _yarn_:
 yarn add -D vitest
 ----
 
-== Creating a easy test
+== 3.3.2 Creating a easy test
 
 The Api of vitest can be accessed anywhere in the code by import. Basic tests are structured all the same:
 
@@ -60,7 +60,7 @@ Example from https://vitest.dev/api/\#test
 
 The test() method requires a name for the test and a callback functions with _expectations_. A timout is optionally.
 
-In these callback functions there has to be `expect()` methods these are used in a declarative programming style.
+In these callback functions there has to be _expect()_ methods these are used in a declarative programming style.
 
 For more complex tests are bench() methods. These are manly used for measuring performance. (bench from benchmark).
 
@@ -78,7 +78,7 @@ bench('normal sorting', () => {
 ----
 Example from https://vitest.dev/api/\#bench
 
-=== Suits
+=== 3.3.2.1 Suits
 
 With many test there could be a easy chaos finding and correcting certain tests. For this challenge vitest came up with describe methods. These packs of tests are called a *Suite*
 

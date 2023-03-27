@@ -1,4 +1,4 @@
-= Testing and Quality Assurance
+= 3. Testing and Quality Assurance
 
 Project-specific scientific thesis for the diploma examination in
 the department of HTL Spengergasse for
@@ -26,3 +26,4 @@ include::Chapter4/chapter_parent.adoc[leveloffset=+1]
 <<<
 include::Chapter5/chapter_parent.adoc[leveloffset=+1]
 <<<
+include::sources.adoc[leveloffset=+1]

@@ -1,8 +1,8 @@
-= Cypress testing
+= 3.4 Cypress testing
 
 The project uses Cypress to virtualize actions (button clicks, key inputs, ...) the web interface and test certain features.
 
-== Adding cypress and configuration
+== 3.4.1 Adding cypress and configuration
 
 Installing cypress is one of the easy tasks:
 
@@ -38,7 +38,7 @@ With _yarn_:
 yarn run cypress open
 ----
 
-== Testing Types
+== 3.4.2 Testing Types
 
 There are two different types of testing with cypress:
 
@@ -52,7 +52,7 @@ both can be used to test certain aspects of the project.
 Source: https://docs.cypress.io/guides/core-concepts/testing-types
 
 
-=== E2E Testing
+=== 3.4.2.1 E2E Testing
 
 Ent-to-End Testing is the _new_ type what made cypress special that it has been chosen by the team. It is working with a virtual browser which is testing your webapp like a real user (clicking URLs, links and buttons).
 
@@ -76,7 +76,7 @@ This type tests the whole functionality inclusive HTTP Requests, asynchronous me
 
 Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
-=== Component Testing
+=== 3.4.2.2 Component Testing
 
 On the other hand cypress have the component testing. Components are parts of the website ranging from small input fields and text to large panels containing different other nested components.
 
@@ -104,7 +104,7 @@ Component Tests are comparable to unit tests. They are made for a specific part 
 
 Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
-== Cucumber API
+== 3.4.3 Cucumber API
 image::../../../Assets/Images/Fabian_Maurutschek/cucumber-open-icon.svg[]
 Cucumber is a modern Behavior-Driven Development tool used in the 3D printing web interface for testing purposes.
 

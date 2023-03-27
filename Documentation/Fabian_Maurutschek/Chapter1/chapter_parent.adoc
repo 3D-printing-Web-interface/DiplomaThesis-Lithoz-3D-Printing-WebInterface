@@ -1,8 +1,8 @@
-= Testing nowadays
+= 3.1 Testing nowadays
 
-Every software engineer/programmer had to test his/her programm. Even for small projects testing is nowadays required. Without any, developers can not find bugs or check if certain features are working. Every project have at least ine testing framework/library. Automatic tests help programmers to improve time that they dont have to test features manually. _TODO: rewrite + longer_
+Every software engineer/programmer had to test his/her programm. Even for small projects testing is nowadays required. Without any, developers can not find bugs or check if certain features are working. Every project have at least ine testing framework/library. Automatic tests help programmers to improve time that they dont have to test features manually.
 
-== Most common used Frameworks and Libraries
+== 3.1.1 Most common used Frameworks and Libraries
 
 Depending on the technology which is used to create the program there are several testing solutions:
 
@@ -31,8 +31,30 @@ Depending on the technology which is used to create the program there are severa
 ** Used in the .NET Foundation (C#, F#, VB.NET)
 ** Similar to JUNIT
 
-=== Usage of testing technologies in the web interface
+== 3.1.2 Usage of testing technologies in the web interface
 
 At the beginning of the project it is decided to use Vitest for testing panels and events. After the implementation of the MQTT/HTTP integration there were certain problems encountering testing with Vitest. Due to asynchronous functions/events the unit-tests could not work properly and the team had to switch or testing framework/library to cypress with the cucumber API.
 
+=== 3.1.3 Types of tests
 
+Programs do not need only unit tests to count
+
+=== 3.1.3.1 Unit tests
+
+Unit tests are the most basic ones. They are used for testing correctness of the code (Correctness according to the developers). There are different unit test layouts for every programming language.
+
+=== 3.1.3.2 Integration tests
+
+Tests that are used with other modules or more than simple code are called integration tests. These are testing connections between the database and the application. And for example if apis are working properly.
+
+=== 3.1.3.3 Performance testing
+
+Performance is a vital aspect for every at least big application. To test for example loading time or responsiveness these tests are used. Benchmark tests are a type of performance tests. These virtualize the users as if it would be in production.
+
+=== 3.1.3.4 Stress testing
+
+Stress tests are the big brother of performance tests. They will test the software as much as possible at the same time. The sense is to see at what point the software is overloaded/overwhelmed and how it reacts.
+
+=== 3.1.3.5 End-to-end tests
+
+E2E tests are large tests very a user is simulated in the complete application environment. They are very time-consuming and hard to maintain due to the big level parts they reach.
