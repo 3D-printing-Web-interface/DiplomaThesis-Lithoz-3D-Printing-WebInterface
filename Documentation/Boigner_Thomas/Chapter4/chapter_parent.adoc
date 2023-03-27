@@ -1,6 +1,6 @@
-= History of Computer Graphics
+= 2.4 History of Computer Graphics
 
-== 1940s and 1950s
+== 2.4.1 1940s and 1950s
 
 During the 1940s John Whitney, Sr, who is often credited as the father of computer animation, created a series of experiments together with his brother James. Those include the animated intros sequence from Alfred Hitchcock's film Vertigo, released in 1958.
 
@@ -8,7 +8,7 @@ In 1950 one of the first digital computers, the Standards Eastern Automatic Comp
 
 image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg["First Digital Image", title="first digital image^[1]^"]
 
-== 1960s
+== 2.4.2 1960s
 
 In 1960 the first first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
 
@@ -24,7 +24,7 @@ In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland t
 
 image::/Assets/Images/Boigner_Thomas/SketchpadI.jpg["Sketchpad I", title="UI of Sketchpad I ^[4]^"]
 
-== 1970s
+== 2.4.5 1970s
 
 In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
 
@@ -38,7 +38,7 @@ The invention of motion control photography allowed the simulation of camera mov
 
 image::/Assets/Images/Boigner_Thomas/Fractals.png["Fractals", title="Fractals Example^[5]^"]
 
-== 1980s
+== 2.4.6 1980s
 
 In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
 
@@ -50,7 +50,7 @@ Two other films that represent milestones in computer animation are _The Abyss_,
 
 image::Assets/Images/Boigner_Thomas/Quantel_Paintbox.jpg["Quantel Paintbox", title="Quantel Paintbox^[6]^"]
 
-== 1990s
+== 2.4.7 1990s
 
 At the beginning of the 1990s there was a large expansion of CGI media. Films such as _Terminator 2:Judgment Day_, Disney's _Beauty and the Beast_ and _Jurassic Park_ showed what is possible with CGI.
 
@@ -64,7 +64,7 @@ Another 3D technique developed in the 1990s were Machinimas, that allowed users 
 
 3D animation programs from the 1990s include Dynamation, Maya, 3D Studio and houdini.^[4]^^[6]^
 
-== 2000s
+== 2.4.8 2000s
 
 In the 2000s photorealism became the new goal of 3D rendering. One major breakthrough was the simulation of the reflectance field over the human face using the simplest of light stages.
 

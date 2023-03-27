@@ -1,43 +1,43 @@
-= 3D rendering techniques
+= 2.3 3D rendering techniques
 
 In this chapter we will take a closer look at some of the more advanced techniques used to create photorealistic 3D scenes.
 
-== Rasterization
+== 2.3.1 Rasterization
 
 Rasterization describes the process of displaying three-dimensional objects on a two-dimensional screen. To create the two-dimensional images the vertices of the meshes and polygons are taken and with the use the information that they save turned into pixels. Then a color is assigned to those pixels based on how the light hits it and a texture is applied.^[11]^
 
-== Direct & indirect lighting
+== 2.3.2 Direct & indirect lighting
 
 There are two types of lighting, direct and indirect lighting. Direct lighting is light that shines directly on a object, while indirect lighting bounces of another object before reaching the object it shines on. Indirect lighting requires more computing power to be calculated, because there are more possibilities where the light could be reflected before reaching an object.^[10]^
 
-== Global illumination
+== 2.3.3 Global illumination
 
 Global illumination is now the process of calculating both, indirect and direct lighting that is visible on surfaces in a scene. Because a lot of computing power is needed to achieve that, especially when the scene is rendered in real-time, the global illumination is limited to a subset of indirect lighting. 
 
 To combat the expense of rendering global illumination multiple shading techniques have been developed, among those are deferred and clustered shading that reduce the number of surface and light interactions.^[10]^
 
-== Path Tracing
+== 2.3.4 Path Tracing
 
 Path Tracing is a form of indirect lighting, that simulates random paths for each surface and the calculates if these paths reach other objects and contribute to the to the finished scene or not. Path Tracing is the most accurate and precise method of calculating indirect lighting, but at the same time very expansive to calculate.^[10][11]^
 
-== Ray Tracing
+== 2.3.5 Ray Tracing
 
 Ray Tracing is a form of Path Tracing, that needs less computing power. It traces the path of light from the standpoint of the camera, through the 2D plane and then back to the camera. Ray tracing can simulate all of the interactions the light may have with different objects, like being blocked by an object or passing through an transparent object. With special hardware it is even possible to render Ray Tracing in real time.^[11]^
 
 image::/Assets/Images/Boigner_Thomas/RayTracing.png["Ray Tracing", align=center, title="Ray Tracing^[2]^"]
 
-== Ray Casting
+== 2.3.6 Ray Casting
 
 Ray Casting describes the process of shooting out rays from the position of the camera to see if they intersect with any objects in the scene. If the ray hits an object, the distance of the gap between the object and the camera is calculated. This information is then used to determine the color of the pixel is illuminated. These rays can also bounce of objects and hit other objects.^[11]^
 
-== Radiosity
+== 2.3.7 Radiosity
 
 When simulating lighting with the Radiosity method the illumination values are stored on the surface of objects. To speed up the calculation stochastic methods were invented.^[14]^
 
-== Scanline Rendering
+== 2.3.8 Scanline Rendering
 
 Scanline Rendering works on a row-by-row basis, rather then a polygon-by-polygon or pixel-by-pixel basis. To render an image, all of the objects are sorted by their position on the y axis first and then drawn row by row using the data from their polygons that are in front of the sorted list. The polygons that are no longer in the visible area are then removed from the list. This reduces the amount of comparisons between edges that need to take place.^[12]^
 
-== The Z-Buffer
+== 2.3.9 The Z-Buffer
 
 The Z-Buffer is used to represent depth information in a scene. It compares the depth value of a object to the values of other objects it stored previously and replaces the stored value if the object is closer than the other objects. This value is then used by the rasterizer to calculate the color values of the object.^[13]^

@@ -1,12 +1,12 @@
-= Implementation of the 3D Viewer 
+= 2.7 Implementation of the 3D Viewer 
 
 The Lithoz 3D Printing Web Interface has an integrated 3D viewer that is build with the three.js. In this section explains the decisions and implementation behind it.  
 
-== Why Three.js
+== 2.7.2 Why Three.js
 
 Form to the other WebGL frameworks we discussed earlier game engines, such as Babylon.js, A-frame, PlayCanvas and Unity can be ruled out, because they include features that are not needed. Verge3D also includes a lot of features that are unnecessary for the 3D viewer, like the Blender and Maya integration. Another requirement is the support of stl files, because the 3D objects are transmitted in stl files from the backend. A-Frame for example does not support stl files and can not be used for the 3D viewer because of it.
 
-== Implementation
+== 2.7.3 Implementation
 
 Now lets take a look at the implementation:
 
@@ -165,7 +165,7 @@ function render() {
 
 When the 3D viewer is loaded into the HTML page the onMount() function is called this function then calls three functions. Those three functions are the init() function that initializes the scene and loads the stl file, the animate() function starts the animation loop and the onWindowResize() method handles the size of the canvas when the window size changes.
 
-=== init()
+=== 2.7.4 init()
 
 The init() method first initializes the camera, scene and renderer like we discussed in the last chapter. Then it needs to load the stl file, which it does by using an STLloader and calling the load() method. The load() method takes the return value from the getCurrentStlPath() method, which fetches the stl data from the backend, as an attribute. The returned data from the stl file is then passed into a new mesh and the mesh is rotated, because the data received from the backend is rotated in the wrong direction.
 
@@ -173,10 +173,10 @@ Then there is another 3D object instantiated, the layer plane, which indicates a
 
 After that there are two lights added to the scene and an orbit controller instantiated, that is used by the user of the 3D Printing Web Interface to rotate the camera around and zoom in and out. There is also a event listener added that is called when the window size changes and calls the onWIndowResize() method.
 
-=== animate()
+=== 2.7.5 animate()
 
 The animate() method is the animations loop and sets the layer plane at the correct position, according to the layer slider, which can be used by the users to select a specific layer. It then calls the render function, which updates the the orbit controller, rotates the camera to look at the 3D object and renders the scene.
 
-=== onWindowResize()
+=== 2.7.6 onWindowResize()
 
 This function resizes the aspect ratio of the camera back to the right size when the size of the window changes, updates the projection matrix, which is required to apply the changes and resizes the renderer.

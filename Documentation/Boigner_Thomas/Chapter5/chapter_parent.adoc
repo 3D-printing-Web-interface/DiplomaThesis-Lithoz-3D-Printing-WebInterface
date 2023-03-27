@@ -1,14 +1,14 @@
-= Modern 3D rendering APIs
+= 2.5 Modern 3D rendering APIs
 
-== OpenGL
+== 2.5.1 OpenGL
 
-=== What is OpenGL
+=== 2.5.1.1 What is OpenGL
 
 OpenGL serves as a interface to the graphics hardware and is developed by the Khronos Group. It provides around 700 distinct commands that are used to specify the objects and operations needed to produce interactive three-dimensional applications.^[7]^
 
 Because of its platform independence it provides only the most basic operations and excludes features such as windowing tasks and getting user inputs. OpenGl only provides the basic building blocks for 3D rendering, that the programmer can use to create their own implementations of higher-level commands. A library that provides these features would be the _OpenGL Utility Library_ (GLU).^[7]^
 
-=== How does OpenGL work? 
+=== 2.5.1.2 How does OpenGL work? 
 
 Steps used to create a scene using OpenGL:
 
@@ -27,7 +27,7 @@ Major graphics operations supported by OpenGL:
 * Conversion of mathematical descriptions of 3D objects and their color information to pixels on a 2D screen.
 
 
-== Vulkan
+== 2.5.1.3 Vulkan
 
 Vulkan is the successor of OpenGL and like OpenGL Vulkan is also a application interface used to communicate with the graphics processing unit (GPU). But unlike OpenGL Vulkan is very verbose and requires a lot of code to write any 3D application. Vulkan is designed to build the foundation of complex 3D rendering application, like game engines and large rendering packages.^[8]^ 
 
@@ -35,7 +35,7 @@ Compared to OpenGL the Vulkan drivers do not manage everything for the programme
 
 The architecture of Vulkan is split into a hierarchy of functionality that starts at the top level with multiple instances, which themselves contain multiple Vulkan-capable devices, that are separated into logical devices on which various queues, that perform the work that the application requests, are executed.^[8]^
 
-== WebGL
+== 2.5.1.2 WebGL
 
 WebGL makes it possible to render 2D and 3D graphics in a browser with the use of JavaScript. It is supported by any major browser. This allows developers to create more sophisticated user interfaces. WebGL makes 3D graphics accessible to more developers, because they are no longer required to build a stand-alone application using languages such as C or C++. Furthermore it is platform independent and can be run on PCs, laptops, tablets and Smartphones.^[9]^
 

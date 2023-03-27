@@ -1,8 +1,8 @@
-= Three.js
+= 2.6 Three.js
 
 Three.js is a JavaScript library that allows developers to display 3D graphics in the browser. Three.js is build on WebGL and provides developers with all the tools that they need to build 3D scenes in the browser. It was originally developed by Ricardo Cabello.^[15]^
 
-== Alternatives to Three.js
+== 2.6.1 Alternatives to Three.js
 Here are some of the alternatives to Three.js that also use WebGL:
 
 
@@ -16,7 +16,7 @@ Here are some of the alternatives to Three.js that also use WebGL:
 | Verge3D | Artist friendly framework with support for 3D modeling tools like Blender and Maya
 |=== 
 
-== Three.js basic example
+== 2.6.2 Three.js basic example
 
 Lets take a look at a basic three.js example:
 
