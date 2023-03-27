@@ -3,7 +3,7 @@ include::General/cover.adoc[]
 :preface-title: Preface
 :toc: center
 :toclevels: 1
-:source-highlighter: highlight.js
+:source-highlighter: 
 
 
 //Activating some features
