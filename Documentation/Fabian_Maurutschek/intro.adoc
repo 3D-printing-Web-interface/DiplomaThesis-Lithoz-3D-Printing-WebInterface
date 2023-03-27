@@ -16,14 +16,14 @@ Computer Science and Information Technology
 
 include::abstract.adoc[]
 <<<
-include::Chapter1/chapter_parent.adoc[leveloffset=+1]
+include::Chapter1/chapter_parent.adoc[]
 <<<
-include::Chapter2/chapter_parent.adoc[leveloffset=+1]
+include::Chapter2/chapter_parent.adoc[]
 <<<
-include::Chapter3/chapter_parent.adoc[leveloffset=+1]
+include::Chapter3/chapter_parent.adoc[]
 <<<
-include::Chapter4/chapter_parent.adoc[leveloffset=+1]
+include::Chapter4/chapter_parent.adoc[]
 <<<
-include::Chapter5/chapter_parent.adoc[leveloffset=+1]
+include::Chapter5/chapter_parent.adoc[]
 <<<
-include::sources.adoc[leveloffset=+1]
+include::sources.adoc[]

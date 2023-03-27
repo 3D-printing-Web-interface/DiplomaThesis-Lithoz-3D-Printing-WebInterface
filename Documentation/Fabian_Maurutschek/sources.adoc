@@ -1,116 +1,16 @@
-== 3.5.1 Writing clean code
+== Sources
 
-> How do I become a good programmer?
-
-Many aspects and much practise have to be done to write good and clean code. From naming conventions to domain design everything is important to become a good software engineer. Nobody is and can be perfect. Also, there is always a way to improve.
-
-To improve the quality of code there are some simple aspects:
-
-=== 1. Naming Conventions
-
-Certain programming languages have different ruiles of the naming conventions. But it is
-
-*Naming Conventions in JAVA*
-
-- Fields are small and in camel case with small leading letter
-
-[source,java]
-----
-private int myInt;
-public int myInt;
-----
-
-
-- Classes are in camel case with big leading letter
-[source,java]
-----
-public class MyInterestingClass{
-	...
-};
-----
-
-- Constants are capitalized
-[source,java]
-----
-public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
-----
-
-*Naming Conventions in C#*
-
-- Private attributes are leading with an underscore
-[source,Csharp]
-----
-private int _myInt;
-----
-
-- Properties and classes are in camel case with big leading letter
-[source,Csharp]
-----
-public class MyInterestingClass{
-	public int MyProp {get; set;} = 0;
-};
-----
-
-- Constants are capitalized
-[source,Csharp]
-----
-public final String PROGRAM_VERSION_ID = "0.1.0.DEV_BUILD.1"
-----
-
-=== 2. Variable Scope
-
-The first way to make code better readable is to name the variables legible. Avoid using simple letters or words for import variables.
-
-[source, java]
-----
-public class MyInterestingClass{
-	private int a;
-	private int thisVariableIsUsedForThat;
-}
-----
-
-Learning to name variables properly is not an easy thing, because other team-members have 0 relation to the own code.
-
-=== 3. Comments
-
-Additionally, to the Variable Scope comments are also a good aspect for better understanding and reading by team-members. Usually the content of comments are different:
-
-- Comments that explain *WHAT* the code is doing.
-
-- Comments that explain *HOW* the code is working.
-
-Example
-
-[source,java]
-----
-public int calc(int number1, int number2){
-	return number1 % number2;
-}
-----
-
-Comment that explains *WHAT* the code is doing:
-
-`This method takes the modulo of number1 and number2.`
-
-Comments that explain *HOW* the code is working:
-
-`This method devides number1 and number2 and subtracts number1 with the result of the devision.`
-
-_Most developer know what the modulo operator does. Do not comment such things extra!_
-
-=== 4. Modularity
-
-Theoretically every program can be written in one line in one class. But having all the code in one _chunk_ with big projects and version management that will make life hard.
-
-The same goes for methods and classes:
-
-- Keep methods small, easy to understand and modular (more usable)
-
-That will help testing the method, and it could be better extendable and refactorable afterwards.
-
-=== 5. Exception & Error handling
-
-Do not see exceptions as bad invention! Proper use of errors and exceptions have a fantastic advantage if it is used wisely.
-
-- Keep the messages understandable
-- Use the correct type of exception (NullReferenceE./NullPointerE., InvalidArgumentE.,...)
+- [] Declartaive vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
+last accessed 2023-03-25
+- [] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
+last accessed 2023-03-25
+- [] Cypress Documentaion https://docs.cypress.io/guides/getting-started/opening-the-app
+last accessed 2023-03-25
+- [] Cocumber API https://www.baeldung.com/cucumber-rest-api-testing
+last accessed 2023-03-25
+- Test driven Development https://en.wikipedia.org/wiki/Test-driven_development
+last accessed 2023-03-25
+- Behavior Driven Development https://de.wikipedia.org/wiki/Behavior_Driven_Development
+last accessed 2023-03-25
+- [] https://cucumber.io/docs/guides/
+last accessed 2023-03-26

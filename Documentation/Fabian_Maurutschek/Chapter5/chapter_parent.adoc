@@ -1,19 +1,19 @@
-= 3.5 Quality assurance techniques
+== 3.5 Quality assurance techniques
 
-== 3.5.1 Continuous Software Development
+=== 3.5.1 Continuous Software Development
 
 Software projects have always ongoing updates and enhancements. To keep the software development team.
  CSD includes the use of agile methods (Scrum Kanban Lean). Development These methods prioritize mutual flexibility and accountability for change. One of the biggest advantages of CSD is that it help teams to release software updates more often. That helps improve user satisfaction and accelerate the progress. By releasing updates at shorter intervals teams can also reduce occurrence of new bugs.
 
-=== 3.5.1.1 Continuous integration
+==== 3.5.1.1 Continuous integration
 
 CI is a software development technique that let developers merge code changes into a shared repository frequently.  An automated build process that compiles the code and launches a number of automated tests to look for mistakes, bugs and other problems. The development team is then updated on the outcomes of the build and tests.
 
-=== 3.5.1.2 Continuous delivery
+==== 3.5.1.2 Continuous delivery
 
 CD is a method of software development that attempts to effectively and reliably automate finished version of software to users. These are updates that are automatically tested and deployed with little assistance from humans. The code is automatically deployed to a staging environment for additional testing and validation after it passes automated tests. The code is automatically rolled into production and made available for user usage if it passes these tests.
 
-== 3.5.2 Programming style
+=== 3.5.2 Programming style
 
 There are two different types of code: Declarative (Functional) and Imperative Code. The code brings at the end the same result but the implementation is different. It depends on the project which programming style is better for development. But we can extract certain aspects in the later sections. The main difference is not easy to explain:
 
@@ -23,11 +23,11 @@ There are two different types of code: Declarative (Functional) and Imperative C
 
 In high level programming languages such as JAVA, C#, ... it is preferred to use the declarative Programming, while in more hardware-near programming imperative is more common.
 
-=== 3.5.3 Imperative programming
+==== 3.5.2.1 Imperative programming
 
 Making projects imperative is easier than declarative. The first code will be very simple and easy using basic _if_ and _for_ which is common for imperative programming.
 
-=== 3.5.4 Declarative programming
+==== 3.5.2.2 Declarative programming
 
 The most know declarative language is SQL it is also the best example.:
 
@@ -42,7 +42,7 @@ Everybody (Who knows SQL) is able to read that statement. Also, it is easy to un
 
 It commands directly what the process has to do and not how to do it (for example with for loops)
 
-=== 3.5.5 Examples
+==== 3.5.2.3 Examples
 
 To better understand the difference of imperative and declarative programming there is an example provided in JAVA:
 
