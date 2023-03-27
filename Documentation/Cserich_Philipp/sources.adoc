@@ -1,4 +1,4 @@
-== 1.10 Sources
+== 1.10 Sources - UI & UX Development
 
 - [1] Dont make me Think, a common sense approach to web usability,  Steve Krug, 2000, New Riders Publishing, ISBN 0-321-14653-0, http://www.sensible.com/dmmt.html
 last accessed 2019-01-01
