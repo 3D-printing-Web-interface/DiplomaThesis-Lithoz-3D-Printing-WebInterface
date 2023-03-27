@@ -16,11 +16,13 @@ Two vertices connected by a line are called an edge.^[2]^^[5]^
 
 === Triangles
 
-Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object.^[2]^^[5]^
+Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object. The resulting plane is called face no matter how many vertices the shape has.^[2]^^[5]^
 
 === Polygons
 
-A polygon has a varying amount of vertices and edges. Polygons are the building blocks of 3D objects.^[2]^^[5]^
+A polygon has a varying amount of vertices and edges. Polygons are the building blocks of surfaces, which then are combined to build 3D objects.^[2]^^[5]^
+
+image::/Assets/Images/Boigner_Thomas/vertices, edges, faces, polygons & surfaces.png["vertieces, edges, faces, polygons & surfaces", align=center, title="vertices, edges, faces, polygons & surfaces^[3]^"]
 
 === Framerate
 

@@ -22,7 +22,9 @@ Path Tracing is a form of indirect lighting, that simulates random paths for eac
 
 == Ray Tracing
 
-Ray Tracing is a form of Path Tracing, that needs less computing power. It traces the path of light from the standpoint of the camera, through the 2D plane and then back to the camera. Ray tracing can simulate all of the interactions the light may have with different objects, like being blocked by an object or passing through an transparent object. With special hardware it is even possible t^ render Ray Tracing in real time.^[11]^
+Ray Tracing is a form of Path Tracing, that needs less computing power. It traces the path of light from the standpoint of the camera, through the 2D plane and then back to the camera. Ray tracing can simulate all of the interactions the light may have with different objects, like being blocked by an object or passing through an transparent object. With special hardware it is even possible to render Ray Tracing in real time.^[11]^
+
+image::/Assets/Images/Boigner_Thomas/RayTracing.png["Ray Tracing", align=center, title="Ray Tracing^[2]^"]
 
 == Ray Casting
 

@@ -79,7 +79,17 @@ last accessed 2023-03-26
 
 === Pictures
 
-- [1] first  digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
+- [1] first digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
+- [2] Ray Tracing - https://miro.medium.com/v2/resize:fit:4800/format:webp/1*McfgLrDU0z3ETMyp0mygOg.png
+- [3] vertices, edges, faces, polygons & surfaces - https://en.wikipedia.org/wiki/Polygon_mesh#/media/File:Mesh_overview.svg
+- [4] UI of Sketchpad I - https://upload.wikimedia.org/wikipedia/en/7/7b/Sketchpad-Apple.jpg
+- [5] Fractals - https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Simple_Fractals.png/200px-Simple_Fractals.png
+- [6] Quantel Paintbox - https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Quantel_Paintbox_%281%29.jpg/220px-Quantel_Paintbox_%281%29.jpg
+- [7] Computer generated face comparison to real face - https://www.cartoonbrew.com/wp-content/uploads/2016/11/DocOck-RealVirtual.jpg
+
+=== Code
+
+- [1] Getting started with three.js - https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
 == Testing & Quality Assurance (Fabian Maurutschek)
 

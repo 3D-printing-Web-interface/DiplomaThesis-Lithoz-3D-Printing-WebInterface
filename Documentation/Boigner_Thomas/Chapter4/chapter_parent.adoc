@@ -6,7 +6,7 @@ During the 1940s John Whitney, Sr, who is often credited as the father of comput
 
 In 1950 one of the first digital computers, the Standards Eastern Automatic Computer(SEAC) operated by the National Bureau of Standards (NBS), started operation. Using this computer together with a drum scanner Russell Kirsch created the first digital image by scanning a photograph in 1957.^[4]^^[6]^
 
-image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg[align=center title=first digital image footnote:[https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg]]
+image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg["First Digital Image", title="first digital image^[1]^"]
 
 == 1960s
 
@@ -22,6 +22,8 @@ In the mid to late 60s a lot of new 3D computer graphic techniques were develope
 
 In 1968 Ivan Sutherland and David Evans founded the company Evans & Sutherland that went on to develop technologies such as Geometry Engines, Head-mounted displays, Frame buffers and Flight Simulators.^[4]^^[6]^
 
+image::/Assets/Images/Boigner_Thomas/SketchpadI.jpg["Sketchpad I", title="UI of Sketchpad I ^[4]^"]
+
 == 1970s
 
 In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
@@ -34,6 +36,8 @@ The development of "fractals" in 1975, algorithms that can create organic lookin
 
 The invention of motion control photography allowed the simulation of camera movements and other objects, allowing it to be duplicated on different pcs.^[4]^^[6]^
 
+image::/Assets/Images/Boigner_Thomas/Fractals.png["Fractals", title="Fractals Example^[5]^"]
+
 == 1980s
 
 In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
@@ -43,6 +47,8 @@ In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a miles
 Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
 
 3D animation programs from the 1980s include AutoCAD, PowerAnimator, Preview, Explore, Softimage 3D and Side Effects Software.^[4]^^[6]^
+
+image::Assets/Images/Boigner_Thomas/Quantel_Paintbox.jpg["Quantel Paintbox", title="Quantel Paintbox^[6]^"]
 
 == 1990s
 
@@ -65,4 +71,6 @@ In the 2000s photorealism became the new goal of 3D rendering. One major breakth
 In the 2000s the first fully virtual cinematography was produced. Those movies used CGI on such a high level that it became almost impossible to tell which scene was animated on a computer and which was not.
 
 3D animation programs from the 2000s include Blender, Poser and Pointstream Software.^[4]^^[6]^
+
+image::Assets/Images/Boigner_Thomas/ComputerGeneratedFace.jpg["Computer generated face comparison to real face", title="Computer generated face comparison to real face^[7]^"]
 

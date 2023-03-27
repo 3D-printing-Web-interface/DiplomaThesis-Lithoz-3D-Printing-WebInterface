@@ -20,7 +20,7 @@ Here are some of the alternatives to Three.js that also use WebGL:
 
 Lets take a look at a basic three.js example:
 
-[source, HTML]
+[source, HTML, title="Getting started with three.js^[1]^"]
 ----
 <!DOCTYPE html>
 <html>

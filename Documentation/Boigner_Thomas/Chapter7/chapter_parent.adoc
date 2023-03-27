@@ -1,6 +1,6 @@
 = Implementation of the 3D Viewer 
 
-The Lithoz 3D printing Web interface has an integrated 3D viewer that is build with the three.js. In this section explains the decisions and implementation behind it.  
+The Lithoz 3D Printing Web Interface has an integrated 3D viewer that is build with the three.js. In this section explains the decisions and implementation behind it.  
 
 == Why Three.js
 
