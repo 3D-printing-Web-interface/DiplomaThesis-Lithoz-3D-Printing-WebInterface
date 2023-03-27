@@ -1,4 +1,4 @@
-= MQTT and HTTP
+= 4 MQTT and HTTP
 
 Project-specific scientific thesis for the diploma examination in 
 the department of HTL Spengergasse for 
@@ -14,7 +14,7 @@ Computer Science and Information Technology
 
 **Date of submission :** 31.03.2023
 
-== Abstract
+== 4.1 Abstract
 
 Here you will find out what MQTT and HTTP is and how it works, what MQTT alternatives exists and I will also go further into details according to the security measurements in MQTT.
 

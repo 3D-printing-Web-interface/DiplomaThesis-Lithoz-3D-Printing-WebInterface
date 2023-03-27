@@ -1,6 +1,6 @@
-= 4.1 MQTT introduction
+= 4.2 MQTT introduction
 
-== 4.1.1 MQTT - Machine to Machine Communication
+== 4.2.1 MQTT - Machine to Machine Communication
 MQTT also known as "Message Queuing Telemetry Transport", is a lightweight standard OASIS messaging protocol for the Internet of Things (IoT). 
 
 The protocol uses publish/subscribe architecture which allows a device to receive and send data. The publisher sends messages to the broker and the broker passes the message on to all of the topics, subscribers.
@@ -13,7 +13,7 @@ image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[title="MQTT introduction footnote:
 
 <<<
 
-== 4.1.2 Advantages of MQTT over other protocols
+== 4.2.2 Advantages of MQTT over other protocols
 === Minimal Client requirements
 Clients require minimal recourses so they can be easily installed on small micro-controllers
 
@@ -43,7 +43,7 @@ QoS 1 delivers messages much faster than QoS 2.
 ====  When should we use QoS 2?
 This service level is for critical applications that need every message exactly one time.
 
-=== 4.1.1 Security 
+=== 4.2.1 Security 
 The traffic is being encrypted by using TSL and for authentication purposes it uses modern protocols, such as OAuth.
 
 ==== What is TSL? 
@@ -53,11 +53,11 @@ I will go further into detail in the next topic "http".
 
 <<<
 
-== 4.1.3 MQTT Broker Architecture (Public/Subscribe)
+== 4.2.3 MQTT Broker Architecture (Public/Subscribe)
 It basically works with a simple subscribe and public architecture.
 You can subscribe to a topic such as “temperature” in this case. Then the publisher “Temperature Sensor” informs any one that subscribed to the topic “temperature”, that the value of this topic changed. The MQTT Client that subscribed to the topic receives the value anytime it changes.
 
-=== 4.1.3.1 Terms 
+=== 4.2.3.1 Terms 
 ====  Publisher 
 Publishing messages to a topic is the publisher's responsibility. It does not need to worry about whether the subscribers are online when publishing a message because it can only send data to one topic at a time.
 
@@ -78,10 +78,10 @@ image::/Assets/Images/Siegl_Bernhard/mqtt-publish-subscribe.png[title="Publish/B
 
 <<<
 
-=== 4.1.3.2 MQTT Use Cases
+=== MQTT Use Cases
 There are several use-cases for the MQTT protocol. Especially in the sectors of logistics, automotive, manufacturing, oil & gas, transportation. It is also necessary in the smart home sector.
 
-== 4.1.4 MQTT code examples
+== 4.2.4 MQTT code examples
 
 Here is an example of how to subscribe to a specific given topic in type script.
 
@@ -110,7 +110,7 @@ mqttClient.on("connect", () => {
 	})
 ----
 
-=== 4.1.4.1 Why did we choose MQTT in our diploma project?
+=== Why did we choose MQTT in our diploma project?
 The answer is quite simple, our project partners provided the MQTT connection so this decision was out of our hands.
 
 
