@@ -8,11 +8,11 @@ The three pillars of information security confidentiality, integrity, and availa
 == 4.2.2 Security measure approaches
 The security in MQTT is split up in multiple layers. Each layer is responsible for different kinds of attack. 
 
-=== 4.2.2.1 Network layer
+=== Network layer
 Using a physically secure network or VPN for all client and broker communications is one way to offer a reliable and secure connection. The use of this approach is appropriate for gateway applications where the gateway connects to devices on the one hand and to the broker via a VPN on the other.
 
-=== 4.2.2.2 Transport layer
+=== Transport layer
 Transport encryption is frequently used with TLS/SSL when confidentiality is the main objective. This approach offers client-certificate authentication to confirm the identities of both parties and is a secure and tested mechanism to ensure that data cannot be accessed during transmission. In another post, we go into more detail on whether TLS is feasible on restricted devices.
 
-=== 4.2.2.3 Application layer
+=== Application layer
 Communication is encrypted and identities are verified at the transit level. A client identity and username/password credentials are provided by the MQTT protocol to authenticate devices at the application level. The protocol itself offers these characteristics. The particular broker implementation specifies the authorization or control of what each device is permitted to perform. In order to safeguard the transmitted data, payload encryption can also be used at the application level (without the need for full-fledged transport encryption).

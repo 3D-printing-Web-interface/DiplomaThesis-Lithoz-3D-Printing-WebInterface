@@ -14,13 +14,13 @@ image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[title="MQTT introduction footnote:
 <<<
 
 == 4.1.2 Advantages of MQTT over other protocols
-===  4.1.2.1 Minimal Client requirements
+=== Minimal Client requirements
 Clients require minimal recourses so they can be easily installed on small micro-controllers
 
-=== 4.1.2.2 Bi-directional Communication
+=== Bi-directional Communication
 Allows cloud to device and device to cloud communication. This helps of broadcasting so different groups of devices. 
 
-=== 4.1.2.3 Reliability 
+=== Reliability 
 MQTT has three different quality of service levels  
 
 - 0 : at most once

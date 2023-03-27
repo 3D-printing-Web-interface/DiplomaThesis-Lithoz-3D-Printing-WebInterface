@@ -22,7 +22,7 @@ A request consists of the following parameter:
 - Headers (additional information for the server)
 - Body (containing the resource request - media files, videos, images etc.)
 
-=== 4.4.1.1 Ports
+=== Ports
 80 : is the standard port for http
 
 443 : is the standard port for the more secure version HTTPS (Hyper Text Transfer Protocol Secure)
