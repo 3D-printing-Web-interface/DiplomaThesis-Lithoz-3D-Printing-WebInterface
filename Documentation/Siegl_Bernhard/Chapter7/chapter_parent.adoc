@@ -1,5 +1,5 @@
-== 4.7 Sources 
-=== MQTT and HTTP (Bernhard Siegl)
+= 4.7 Sources 
+== MQTT and HTTP (Bernhard Siegl)
 
 - [1] https://mqtt.org
 - [2] https://stackshare.io/mqtt/alternatives
@@ -15,13 +15,13 @@
 - [12] https://www.hivemq.com/blog/introducing-the-mqtt-security-fundamentals/
 last accessed 2023-03-25
 
-=== Pictures
+== Pictures
 - [1] https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F10%2FIot-MQTT.jpg&f=1&nofb=1&ipt=7c24aab7226503db6a35ea522b67496ee3879ce54538da6a3ff9b0d32f3c22af&ipo=images
 - [2] https://mqtt.org/assets/img/mqtt-publish-subscribe.png
 - [3] https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png
 last accessed 2023-03-25
 
-=== Code
+== Code
 - [1] This is a code snippet from our diploma project
 - [2] This is a code snippet from our diploma project
 last accessed 2023-03-25

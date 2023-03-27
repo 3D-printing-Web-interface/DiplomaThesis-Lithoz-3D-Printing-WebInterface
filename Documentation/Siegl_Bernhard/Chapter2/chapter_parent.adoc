@@ -17,7 +17,7 @@ image::/Assets/Images/Siegl_Bernhard/MQTT.jpg[title="MQTT introduction ^[1]^"" ,
 === Minimal Client requirements
 Clients require minimal recourses so they can be easily installed on small micro-controllers
 
-=== Bi-direc tional Communication
+=== Bi-directional Communication
 Allows cloud to device and device to cloud communication. This helps of broadcasting so different groups of devices. 
 
 === Reliability 
