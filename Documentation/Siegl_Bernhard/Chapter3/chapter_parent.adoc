@@ -1,18 +1,18 @@
-= MQTT Security
+= 4.2 MQTT Security
 
-== Why is security an important aspect for IoT devices?
+== 4.2.2 Why is security an important aspect for IoT devices?
 Security has an impact on us every day in our digital world. Security is important whether you make a bank transfer, buy something online, or view personal papers online. The fundamental idea behind the Internet of Things is to link things in order to increase comfort, boost productivity, or in some other way enhance both our personal and professional lives. Yet, connecting things like equipment, homes, and automobiles also exposes a lot of private information. You may, for instance, compile information about each household member's location. While it is helpful to be aware of what your family members are doing, it is not a good idea to tell a thief.
 
 The three pillars of information security confidentiality, integrity, and availability should be used to secure data because they are not intended for general consumption. An attacker can cause harm to real people when real machines are hacked. For instance, a hacker could remotely engage your car's brakes. Security is a topic that is becoming more and more important as the number of connected devices increases and the volume of data being collected daily rises.
 
-== Security measure approaches
+== 4.2.2 Security measure approaches
 The security in MQTT is split up in multiple layers. Each layer is responsible for different kinds of attack. 
 
-=== Network layer
+=== 4.2.2.1 Network layer
 Using a physically secure network or VPN for all client and broker communications is one way to offer a reliable and secure connection. The use of this approach is appropriate for gateway applications where the gateway connects to devices on the one hand and to the broker via a VPN on the other.
 
-=== Transport layer
+=== 4.2.2.2 Transport layer
 Transport encryption is frequently used with TLS/SSL when confidentiality is the main objective. This approach offers client-certificate authentication to confirm the identities of both parties and is a secure and tested mechanism to ensure that data cannot be accessed during transmission. In another post, we go into more detail on whether TLS is feasible on restricted devices.
 
-=== Application layer
+=== 4.2.2.3 Application layer
 Communication is encrypted and identities are verified at the transit level. A client identity and username/password credentials are provided by the MQTT protocol to authenticate devices at the application level. The protocol itself offers these characteristics. The particular broker implementation specifies the authorization or control of what each device is permitted to perform. In order to safeguard the transmitted data, payload encryption can also be used at the application level (without the need for full-fledged transport encryption).

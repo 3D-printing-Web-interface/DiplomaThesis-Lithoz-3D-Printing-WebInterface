@@ -1,4 +1,4 @@
-= HTTP introduction
+= 4.4 HTTP introduction
 The HTTP protocol is used to retrieve resources like HTML documents. It is a client-server protocol, requests are made by the recipient, which is in most cases the web browser, and it serves as the basis for all data communication on the Internet. The various sub-documents that are retrieved, such as text, layout descriptions, photos, videos, scripts, and more, are combined to form a complete document.
 
 image::/Assets/Images/Siegl_Bernhard/http-layers.png[title="HTTP layers footnote:[https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png]" ,80%,80%]
@@ -8,7 +8,7 @@ The HTTP protocol, which was created in the early 1990s, has developed through t
 
 <<<
 
-== How does HTTP work?
+== 4.4.1 How does HTTP work?
 First of all, let us talk about the HTTP request/response pair. Normally the requesting client is the user himself or to be more precise the browser that they are using (such as Chrome, Edge and so on). Document exchange is the foundation of HTTP.  The browser then makes a text-based website document request. The document includes every piece of media, that will be seen on the website. The browser must send a separate request for each media file. This process also applies to any design-related information such as CSS files, JavaScript, etc. 
 
 As a result, each session starts with a request from the client to the entity that keeps the resource, often the server (plus any additional requests for media files, etc.). The URL helps to identify the server.
@@ -22,14 +22,14 @@ A request consists of the following parameter:
 - Headers (additional information for the server)
 - Body (containing the resource request - media files, videos, images etc.)
 
-=== Ports
+=== 4.4.1.1 Ports
 80 : is the standard port for http
 
 443 : is the standard port for the more secure version HTTPS (Hyper Text Transfer Protocol Secure)
 
 <<<
 
-== What is the difference between TLS and HTTPS?
+== 4.4.2 What is the difference between TLS and HTTPS?
 Hypertext Transfer Protocol Secure (HTTPS, the secure version of HTTP) and Transport Layer Security (TLS) are two terminologies that are commonly mixed up and used interchangeably. They are two separate methods, though, and they have different goals. Data that is communicated over the internet is kept secure throughout conversation thanks to the cryptographic technology known as TLS. It is in charge of confirming the legitimacy of the websites you visit and guaranteeing the security and integrity of the data supplied and received. Contrarily, HTTPS is an application layer protocol that secures data sent over the internet. A secure connection between two endpoints is made possible by the combination of HTTP and TLS.
 
 The security protocol uses encryption to safeguard data being sent over the internet. By building a secure tunnel for data exchange, it is in charge of establishing a secure connection between two destinations. It accomplishes this by encrypting the data sent across the connection and authenticating the endpoints identities using public key cryptography. Email, FTP, and online browsing are just a few examples for the apps that employ the TLS protocol.
@@ -40,7 +40,7 @@ TLS and HTTPS are both vital technologies for safeguarding data that is transfer
 
 <<<
 
-== MQTT vs HTTP Request and Response
+== 4.4.3 MQTT vs HTTP Request and Response
 Due to its simplicity and ease of use, HTTP is a widely used communication protocol on the World Wide Web. It can be utilized in a range of businesses, including the Internet of Things (IoT) sector, and it is not client-specific. IoT allows for the remote monitoring and control of equipment through the use of HTTP connections between IoT devices and web servers.
 
 The adoption of HTTP in IoT applications is constrained despite its ease of use and quick development cycle. One drawback is that, from a protocol standpoint, HTTP messages have more network overhead than MQTT. Additionally, because HTTP is a stateless protocol, the server cannot recover from unexpected disconnections and does not keep track of the client's state when processing requests. And finally, whereas MQTT may deliver real-time updates through subscribers, the HTTP request-response mechanism necessitates polling to retrieve updates.
