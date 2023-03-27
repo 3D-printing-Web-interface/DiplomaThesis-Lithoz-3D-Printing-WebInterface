@@ -1,5 +1,5 @@
 
-== Visual Design
+== 1.6 Visual Design
 
 An applications visual appeal can be split up into several parts. The most important ones are:
 
@@ -21,7 +21,7 @@ The Page Layout is the implicit Object arrangement and positioning of elements. 
 
 Action - Reaction
 
-=== Languages
+=== 1.6.1 Languages
 
 The languages used to implement visual tweaks are:
 
@@ -31,14 +31,14 @@ The languages used to implement visual tweaks are:
 - CSS
 - SCSS
 
-==== HTML
+==== 1.6.1.1 HTML
 
 HTML also known as Hypertext Markup Language is the World wide web's standard markup language. HTML was developed by the World Wide Web Consortium in 1989 to semantically describe scientific documents for exchange on the Internet. But its purpose has changed since the start. HTMLs general design enabled it to be adapted over the years. It is now the most common language for describing a web page's structure and serves as the foundation for the modern web.
 The newest version HTML 5.2 has been released in 2017 by W3C and WHATWG which continuously work on updating the language.
 
 <<<
     
-==== CSS / SCSS
+==== 1.6.1.2 CSS / SCSS
 
 **CSS**
 Cascading Style Sheets are used to describe the look of Web pages including coloring of elements, fonts and alignment. The presentation of a document can be controlled for every size and format by CSS. This results in configurable varying layouts for different devices.
@@ -94,7 +94,7 @@ Modern web pages try to avoid spending time on custom css classes but rather use
 
 <<<
 
-=== Typography
+=== 1.6.2 Typography
 Psychological definition of colours and how to emphasize that in your code
 
 There are several ways to implement typography in projects. 

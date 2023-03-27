@@ -1,4 +1,4 @@
-== WebDesign Lifecycle 
+== 1.2 WebDesign Lifecycle 
 
 - Differences in UI and UX development
 

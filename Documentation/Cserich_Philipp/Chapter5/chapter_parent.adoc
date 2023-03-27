@@ -1,5 +1,5 @@
 
-== Responsiveness and platform-independency
+== 1.9 Responsiveness and platform-independency
 Responsive Web Design (RWD) is an approach for designing and developing websites that ensures the layout, images, and other elements adjust themselves to look good on various devices and screen sizes. Fluid Grids are one way to ensure scaling according to the current screen size. They use relative units like percentages to define an elements width. Images often stretch or overflow on page sizes, that do not fit their current size. Flexible images are used to avoid this problem. They ensure image scale and resizing proportionally, and prevent them from overflowing their containing element. And lastly, Media Queries are used to apply CSS rules only if certain conditions are met. They are implemented by defining the viewport size, and to apply different styles for different screen sizes.
 
 Vue.js has an extra library, named vue3-mq, that tries to solve the same problem. It wraps up the elements that will be shown in a specific size and only displays them when reaching the predefined value.

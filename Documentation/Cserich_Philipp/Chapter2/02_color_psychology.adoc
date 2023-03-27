@@ -1,5 +1,5 @@
 
-=== Colors equal decisions
+=== 1.6.3 Colors equal decisions
 Psychological definition of colours and how to emphasize that in your code - Psychological aspect + Code recommendation
 
 CIE S 017/E:2020 -  *International Lighting Vocabulary* (2011 | 2013 | 2022)
@@ -12,7 +12,7 @@ Therefore the distinction between **related** and **unrelated** colors is the fi
 
 image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=0.5in,color wheel,align=center,title="Color Wheel footnote:[reimagined - https://www.color-meanings.com/color-wheel/]""]
 
-==== **Apply**
+==== 1.6.3.1 **Apply**
 
 With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
 The image shows an example of a cancel button that is highlighted by using a contrasting color.
@@ -25,7 +25,7 @@ In the following example, the textboxes are integrated into the scene by using r
 
 image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in,title="Related Color Example footnote:[mocked in figma by Cserich Philipp]"]
 
-==== NCS - Natural Color System
+==== 1.6.3.2 NCS - Natural Color System
 
 
 The NCS was developed 1981 in Sweden .
@@ -42,7 +42,7 @@ Cutting the figure up in a horizontal and vertical pane, creates two 2-Dimension
 
 
 
-==== HEX & RGB Colors
+==== 1.6.3.3 HEX & RGB Colors
 
 In the digital world, colors are represented by a combination of red, green and blue values. The format of these values can differ in many ways, but the most common ones are HEX and RGB. With HEX standing for Hexadecimal, as the values are represented by hexadecimal numbers. And RGB standing for Red, Green and Blue values.
 
@@ -52,7 +52,7 @@ RGB : **rgb(255, 253, 246)**
 
 HEX : **#fffdf6**
 
-==== Human Color Processing
+==== 1.6.3.4 Human Color Processing
 
 The human anatomy behind the perception of color is mostly conceptionalized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
 
@@ -72,7 +72,7 @@ As vision processing takes place in several of stages at a time this model is ju
 
 Every step is influenced by the higher-order psychological processes, such as memories, prejudice and personal experiences. This means that even if the reception of color is a physical process, psychological factors are evenly important and can be used to influence and predict the users actions.
 
-==== Conclusion and Usage
+==== 1.6.3.5 Conclusion and Usage
 
 All of these detail help to understand that design is not only making something look good, but rather creating an experience. Influencing behaviour and emotions are just one part of the journey that should be delivered in the best possible way.
 

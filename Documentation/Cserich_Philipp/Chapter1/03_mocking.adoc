@@ -1,4 +1,4 @@
-== Mocking
+== 1.4 Mocking
 
 Mocking is the process of creating a design prototype of an application. It is used to explore the design of the application without the implementation effort . Mocking is a very important step in the design process, since it allows to create many different design ideas in a short period of time.
 This way, the apps visual structure can be improved before creating the production ready product.

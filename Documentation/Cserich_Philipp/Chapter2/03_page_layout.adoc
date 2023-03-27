@@ -1,6 +1,7 @@
 <<<
 
-=== Page Layout
+=== 1.6.4 Page Layout
+
 The following components are often required for a web page layout:
 
 
@@ -39,7 +40,7 @@ const topLeftPanel = shallowRef<any | undefined>(MachineDescription)
 The JavaScript framework Vue.js, streamlines the process of creating user interfaces by grouping your code into reusable components. You can develop a component for each in Vue.js.
 
 
-==== Visual Hierarchy
+==== 1.6.4.1 Visual Hierarchy
 
 Visual hierarchy is the concept of organizing and prioritizing design elements in a way that guides the user's attention and understanding of the content. In the book "Refactoring UI" visual hierarchy is emphasized as a crucial aspect of effective user interface design.
 

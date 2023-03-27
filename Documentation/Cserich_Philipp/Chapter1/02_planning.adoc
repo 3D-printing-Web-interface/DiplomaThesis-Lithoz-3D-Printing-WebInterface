@@ -1,4 +1,4 @@
-== Planning
+== 1.3 Planning
 
 > What do you need before starting to design?
 ~Reference~ ~-~ ~Refactoring~ ~UI~ ~[1]~
