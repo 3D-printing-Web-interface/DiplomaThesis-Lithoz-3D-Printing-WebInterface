@@ -87,7 +87,7 @@ Here is an example of how to subscribe to a specific given topic in type script.
 
 - The "machineStateTopic" variable stores the path for the machine.
 
-[source, typescript]
+[source, typescript, title="Subscribe ^[1]^"]
 ----
 export function startMQTTInformationHandling(){
 	mqttClient?.subscribe(machineStateTopic + "/#", (err, granted) => {
@@ -101,7 +101,7 @@ export function startMQTTInformationHandling(){
 
 - Here is the implementation of what happens on a specific event such as "connect", "error", "close", "offline". In this case we call the method "createConnectionModal()" which creates the modal with the given context.
 
-[source, typescript]
+[source, typescript, title="Event Handling ^[2]^"]
 ----
 mqttClient.on("connect", () => {
 		if(applicationConfig.modalOptions.showConnectionSuccess)

@@ -1,22 +1,6 @@
-== 4.6 Sources 
-=== MQTT and HTTP (Bernhard Siegl)
+== 4.6 Conclusion
 
-- [1] https://mqtt.org
-- [2] https://stackshare.io/mqtt/alternatives
-- [3] https://ieeexplore.ieee.org/abstract/document/4554519
-- [4] https://www.rabbitmq.com
-- [5] https://xmpp.org
-- [6] https://kafka.apache.org
-- [7] https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/
-- [8] https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-- [9] https://www.emqx.com/en/blog/mqtt-5-introduction-to-publish-subscribe-model
-- [10] https://www.rfc-editor.org/rfc/rfc1945.html
-- [11] https://cedalo.com/blog/http-vs-mqtt-for-iot/
-- [12] https://www.hivemq.com/blog/introducing-the-mqtt-security-fundamentals/
-last accessed 2023-03-25
+We know that MQTT has a publish/subscribe architecture and we are familiar with the terms subscriber, publisher, broker and topic. We have a know that alternatives like RabbitMQ, XMPP and Kafka exist and have a general understanding of HTTP. We heard about basic security measurements in MQTT and HTTP, such as TLS and HTTPS, and why it is important to have security measurements at all.
 
-=== Pictures
-- [1] https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F10%2FIot-MQTT.jpg&f=1&nofb=1&ipt=7c24aab7226503db6a35ea522b67496ee3879ce54538da6a3ff9b0d32f3c22af&ipo=images
-- [2] https://mqtt.org/assets/img/mqtt-publish-subscribe.png
-- [3] https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png
-last accessed 2023-03-25
+== 4.6.1 Lessons learned
+Overall I learned a lot about MQTT and HTTP in general. Especially my understanding of how the MQTT architecture works and how to implement it. Now I am more confident towards MQTT and more open for new technologies.
