@@ -1,9 +1,9 @@
-= 4.3 Alternatives to MQTT
+= 4.4 Alternatives to MQTT
 
-== 4.3.1 RabbitMQ
+== 4.4.1 RabbitMQ
 It is one the most deployed open source message broker around the world. RabbitMQ has a similar purpose as the MQTT protocol.
 
-=== 4.3.1.1 Features
+=== 4.4.1.1 Features
 
 ==== Asynchronous Messaging 
 Supports multiple messaging protocols, delivery acknowledgement, message queuing, flexible routing to queues, multiple exchange type.
@@ -25,12 +25,12 @@ Persistence, delivery acknowledgements, publisher confirms, and high availabilit
 
 <<<
 
-== 4.3.2 XMPP
+== 4.4.2 XMPP
 Extensible Messaging and Presence Protocol (XMPP) is a collection of open standards for instant messaging, presence, group chat, phone and video conversations, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.
 
 In order to provide an open, decentralized alternative to the closed instant messaging services available at the time, XMPP was initially created in the Jabber open-source community. Over these services, XMPP has a number of significant advantages.
 
-=== 4.3.2 Features
+=== 4.4.2.1 Features
 
 ==== Open
 The XMPP protocols are free to use and easy understandable.
@@ -55,10 +55,10 @@ You can create and distribute real-time apps and services from a variety of busi
 
 <<<
 
-== 4.3.3 Kafka
+== 4.4.3 Kafka
 Several businesses use Apache Kafka it is an open-source distributed event streaming platform, for mission-critical applications, high-performance data pipelines, streaming analytics, and data integration.
 
-=== 4.3.3.1 Core capabilities
+=== 4.4.3.1 Core capabilities
 
 ==== High throughput
 Send messages using a cluster of devices with latencies as low as 2ms at network-limited throughput.

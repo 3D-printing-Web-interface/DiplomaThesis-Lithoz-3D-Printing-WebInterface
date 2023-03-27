@@ -43,7 +43,7 @@ QoS 1 delivers messages much faster than QoS 2.
 ====  When should we use QoS 2?
 This service level is for critical applications that need every message exactly one time.
 
-=== 4.2.1 Security 
+=== 4.2.2.1 Security 
 The traffic is being encrypted by using TSL and for authentication purposes it uses modern protocols, such as OAuth.
 
 ==== What is TSL? 

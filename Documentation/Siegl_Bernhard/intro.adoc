@@ -1,4 +1,4 @@
-= 4 MQTT and HTTP
+= 4. MQTT and HTTP
 
 Project-specific scientific thesis for the diploma examination in 
 the department of HTL Spengergasse for 
