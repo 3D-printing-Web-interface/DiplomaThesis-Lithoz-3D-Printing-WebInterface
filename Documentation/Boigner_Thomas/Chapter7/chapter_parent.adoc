@@ -12,31 +12,6 @@ Now lets take a look at the implementation:
 
 [source, HTML]
 ----
-<template>
-<div id="3dViewer" style="height: 42vh; width: 60vw">
-
-</div>
-</template>
-<script setup lang="ts">
-import * as THREE from 'three';
-import {Mesh, Vector3} from 'three';
-import {STLLoader} from "three/examples/jsm/loaders/STLLoader";
-import {onMounted, ref} from "vue";
-import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
-import {getCurrentSTLPath} from "@/store/DataStates";
-import {applicationConnected, generalState, webState} from "@/store/GeneralStates";
-import {preparedRunState} from "@/store/DataStates";
-
-var layerMesh: Mesh
-var box: THREE.Box3
-
-let container: HTMLElement | null,
-	camera: THREE.PerspectiveCamera,
-	cameraTarget: THREE.Vector3,
-	scene: THREE.Scene,
-	renderer: THREE.WebGLRenderer,
-	controls: OrbitControls;
-
 onMounted(() => {
 	webState.value.loadingImage = true;
 	console.debug("Loading 3D Viewer")
@@ -45,7 +20,14 @@ onMounted(() => {
 	onWindowResize();
 	console.debug("Finished loading 3D Viewer")
 })
+----
 
+When the 3D viewer is loaded into the HTML page the onMount() function is called this function then calls three functions. Those three functions are the init() function that initializes the scene and loads the stl file, the animate() function starts the animation loop and the onWindowResize() method handles the size of the canvas when the window size changes.
+
+=== 2.7.3.1 init()
+
+[source, HTML]
+----
 function init() {
 	container = document.getElementById( '3dViewer' );
 
@@ -120,32 +102,18 @@ function init() {
 	container?.appendChild( renderer.domElement );
 	window.addEventListener( 'resize', onWindowResize );
 }
+----
 
-function addShadowedLight( x: number, y: number, z: number, color: THREE.ColorRepresentation | undefined, intensity: number | undefined ) {
+The init() method first initializes the camera, scene and renderer like we discussed in the last chapter. Then it needs to load the stl file, which it does by using an STLloader and calling the load() method. The load() method takes the return value from the getCurrentStlPath() method, which fetches the stl data from the backend, as an attribute. The returned data from the stl file is then passed into a new mesh and the mesh is rotated, because the data received from the backend is rotated in the wrong direction.
 
-	const directionalLight = new THREE.DirectionalLight( color, intensity );
-	directionalLight.position.set( x, y, z );
-	scene.add( directionalLight );
+Then there is another 3D object instantiated, the layer plane, which indicates at which layer the printing process currently is. The plane is then, together with the object loaded from the stl, added to the scene.
 
-	directionalLight.castShadow = true;
+After that there are two lights added to the scene and an orbit controller instantiated, that is used by the user of the 3D Printing Web Interface to rotate the camera around and zoom in and out. There is also a event listener added that is called when the window size changes and calls the onWIndowResize() method.
 
-	const d = 1;
-	directionalLight.shadow.camera.left = - d;
-	directionalLight.shadow.camera.right = d;
-	directionalLight.shadow.camera.top = d;
-	directionalLight.shadow.camera.bottom = - d;
-	directionalLight.shadow.camera.near = 1;
-	directionalLight.shadow.camera.far = 4;
-	directionalLight.shadow.bias = - 0.002;
+=== 2.7.3.2 animate()
 
-}
-
-function onWindowResize() {
-	camera.aspect = window.innerWidth / window.innerHeight;
-	camera.updateProjectionMatrix();
-	renderer.setSize( container?.clientWidth ?? 0, container?.clientHeight ?? 0);
-}
-
+[source, HTML]
+----
 function animate() {
 	requestAnimationFrame( animate );
 	if(layerMesh && box){
@@ -159,24 +127,21 @@ function render() {
 	controls.update();
 	renderer.render( scene, camera );
 }
-
-</script>
 ----
-
-When the 3D viewer is loaded into the HTML page the onMount() function is called this function then calls three functions. Those three functions are the init() function that initializes the scene and loads the stl file, the animate() function starts the animation loop and the onWindowResize() method handles the size of the canvas when the window size changes.
-
-=== 2.7.4 init()
-
-The init() method first initializes the camera, scene and renderer like we discussed in the last chapter. Then it needs to load the stl file, which it does by using an STLloader and calling the load() method. The load() method takes the return value from the getCurrentStlPath() method, which fetches the stl data from the backend, as an attribute. The returned data from the stl file is then passed into a new mesh and the mesh is rotated, because the data received from the backend is rotated in the wrong direction.
-
-Then there is another 3D object instantiated, the layer plane, which indicates at which layer the printing process currently is. The plane is then, together with the object loaded from the stl, added to the scene.
-
-After that there are two lights added to the scene and an orbit controller instantiated, that is used by the user of the 3D Printing Web Interface to rotate the camera around and zoom in and out. There is also a event listener added that is called when the window size changes and calls the onWIndowResize() method.
-
-=== 2.7.5 animate()
 
 The animate() method is the animations loop and sets the layer plane at the correct position, according to the layer slider, which can be used by the users to select a specific layer. It then calls the render function, which updates the the orbit controller, rotates the camera to look at the 3D object and renders the scene.
 
-=== 2.7.6 onWindowResize()
+
+
+=== 2.7.3.3 onWindowResize()
+
+[source, HTML]
+----
+function onWindowResize() {
+	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.updateProjectionMatrix();
+	renderer.setSize( container?.clientWidth ?? 0, container?.clientHeight ?? 0);
+}
+----
 
 This function resizes the aspect ratio of the camera back to the right size when the size of the window changes, updates the projection matrix, which is required to apply the changes and resizes the renderer.
