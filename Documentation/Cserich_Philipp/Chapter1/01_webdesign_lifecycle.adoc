@@ -44,7 +44,7 @@ The Hoffer, George, and Valaich SDLC has been greatly simplified by Whitten and 
 
 The so called *"Frustration cycle"* describes the interchanging process of implementing and designing individual pages. This cycle should be kept as short as possible, because as the development progresses, more and more design problems will be discovered by implementation. If either of the processes takes too long, applying changes will get gradually more time expensive. 
 
-image::/Assets/Images/Cserich_Philipp/Design_Cycle_02.png[design_cycle,title="Design Cycle footnote:[Mocked up by Philipp Cserich]"]
+image::/Assets/Images/Cserich_Philipp/Design_Cycle_02.png[design_cycle,title="Design Cycle ^[1]^"]
 
 This picture should visualize the above mentioned development cycle, which should be maintained as the main development strategy for the implementation process. 
 
@@ -60,7 +60,7 @@ The more user inclusive development "Star Lifecycle", includes its users in all 
 - Requirements specification
 - Prototyping
 
-image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=3in,align=center,star-model,title="Star Lifecycle footnote:[https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png]"]
+image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=3in,align=center,star-model,title="Star Lifecycle ^[2]^"]
 
 
 

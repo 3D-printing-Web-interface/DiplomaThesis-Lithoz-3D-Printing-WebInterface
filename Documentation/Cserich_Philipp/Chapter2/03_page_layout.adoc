@@ -18,7 +18,7 @@ Especially for highly dynamic websites, footers or headers may not be required. 
 The dynamic component renderering can be achieved by using the "component" element, and referring to a variable that will be changed in state when an action is triggered.
 
 
-[source,html]
+[source,html,title="Vue.js html example ^[6]^"]
 ----
     <v-col cols="12">
 		<component :is="topLeftPanelSmall"
@@ -30,7 +30,7 @@ The dynamic component renderering can be achieved by using the "component" eleme
 	</v-col>
 ----
 
-[source,javascript]
+[source,javascript,title="Vue.js js example ^[7]^"]
 ----
 //Define the component variable :
 const topLeftPanel = shallowRef<any | undefined>(MachineDescription)

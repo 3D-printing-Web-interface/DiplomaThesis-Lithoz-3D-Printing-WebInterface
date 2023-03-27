@@ -31,10 +31,26 @@ The languages used to implement visual tweaks are:
 - CSS
 - SCSS
 
+<<<
+
 ==== 1.6.1.1 HTML
 
 HTML also known as Hypertext Markup Language is the World wide web's standard markup language. HTML was developed by the World Wide Web Consortium in 1989 to semantically describe scientific documents for exchange on the Internet. But its purpose has changed since the start. HTMLs general design enabled it to be adapted over the years. It is now the most common language for describing a web page's structure and serves as the foundation for the modern web.
 The newest version HTML 5.2 has been released in 2017 by W3C and WHATWG which continuously work on updating the language.
+
+[source,html,title="HTML example ^[1]^"]
+----
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 title="I'm a header">The title Attribute</h2>
+
+<p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+
+</body>
+</html>
+----
 
 <<<
     
@@ -43,7 +59,7 @@ The newest version HTML 5.2 has been released in 2017 by W3C and WHATWG which co
 **CSS**
 Cascading Style Sheets are used to describe the look of Web pages including coloring of elements, fonts and alignment. The presentation of a document can be controlled for every size and format by CSS. This results in configurable varying layouts for different devices.
 
-[source,css]
+[source,css,title="CSS example ^[2]^"]
 ----
 body {
   background-color: #ffffff;
@@ -59,7 +75,7 @@ body {
 SCSS is a CSS preprocessor. It is a scripting language that is compiled into CSS. SCSS has been developed to extend the CSS language, adding nested rules, variables, mixins, selector inheritance, and more. organizing and maintaining stylesheets is way faster and easier than its predecessor CSS, as it completely removes the repetitiveness of CSS code.
 
 
-[source,scss]
+[source,scss,title="SCSS example 1 ^[3]^"]
 ----
 $font-stack: Arial, sans-serif;     
 $primary-color: #333333;
@@ -74,10 +90,12 @@ body {
 }
 ----
 
+<<<
+  
 Additionally SCSS is able to interpret multiple line comments and nested design configurations, which are not supported by the base css language.
 Therefore, an example for a **nav ul** class would the following:
 
-[source,scss]
+[source,scss,title="SCSS example 2^[4]^]
 ----
 nav {
   background-color:#333;
@@ -95,7 +113,7 @@ Modern web pages try to avoid spending time on custom css classes but rather use
 <<<
 
 === 1.6.2 Typography
-Psychological definition of colours and how to emphasize that in your code
+Psychological definition of colors and how to emphasize that in your code
 
 There are several ways to implement typography in projects. 
 With the most common being:
@@ -107,14 +125,14 @@ With the most common being:
 
 These implementations are not recommended as they are not scalable and can lead to a lot of code duplication.
 It is recommended to use these techniques only when using a font that sticks to **one** component.
-As this is a very specific edge case, it only applies to a few cases where it is more important to keep the font semantically seperate from the rest of the application.
+As this is a very specific edge case, it only applies to a few cases where it is more important to keep the font semantically separate from the rest of the application.
 
 
 - global definition
 
 *Defining the font in a global css file, provides a more scalable solution. It reduces code duplication and makes it easier to change the font in the future. Making it the best solution for projects with one or two universally used fonts.*
 
-[source,css]
+[source,css,title="Typography example ^[5]^"]
 ====
 html {
     font-family: 'Lato', serif;

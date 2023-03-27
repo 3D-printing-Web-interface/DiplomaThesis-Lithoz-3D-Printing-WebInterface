@@ -35,16 +35,47 @@ last accessed 2019-01-01
 
 === Picture Sources
 
-- [1] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg
-- [2] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg
-- [3] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg
-- [4] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg
+- [1] mocked by Cserich Philipp
+- [2] https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png
+- [3] Reimagined picture from Refactoring UI - Chapter (Start with a feature, not a layout) - https://www.refactoringui.com/book
+- [4] Reimagined picture of the Lithoz 3D printing project webpage
+- [5] Reimagined - https://www.color-meanings.com/color-wheel/
+- [6] Unrelated Color Example, mocked by Cserich Philipp
+- [7] Related Color Example, mocked by Cserich Philipp
+
+- [8] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg
+- [9] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg
+- [10] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg
+- [10] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg
+- [11] https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png
 
 === Table Sources
 
-- [1] Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/
-- [2] Figma | The all-in-one design tool built for collaboration - https://www.figma.com/collaboration/
-- [3] Adobe XD - https://www.adobe.com/sg/products/xd/switcher.html
+- [1] 
+Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/ - 
+Figma | The all-in-one design tool built for collaboration - https://www.figma.com/ collaboration/ - Adobe XD - https://www.adobe.com/sg/products/xd/switcher.html
+
+<<<
 
 === Code Sources
 
+- [1] https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title
+- [2] CSS example from Cserich Philipp
+- [3] SCSS example from Cserich Philipp
+- [4] SCSS example from Cserich Philipp
+- [5] Typography example from "Lithoz 3D Printing Web Interface" diploma project
+- [6] Vue.js html example from "Lithoz 3D Printing Web Interface"
+- [7] Vue.js js example from "Lithoz 3D Printing Web Interface"
+- [8] Bootstrap example, changed from https://www.w3schools.com/
+- [9] https://vuetifyjs.com/en/getting-started/installation/
+- [10] https://vuetifyjs.com/en/getting-started/installation/
+- [11] Vuetify example from "Lithoz 3D Printing Web Interface" diploma project
+- [12] Tailwind installation - https://tailwindcss.com/docs/installation
+- [13] Tailwind config - https://tailwindcss.com/docs/installation
+- [14] Tailwind import - https://tailwindcss.com/docs/installation
+- [15] Tailwind example - https://tailwindcss.com/docs/flex
+- [16] MUI installation - https://mui.com/system/getting-started/installation/
+- [17] MUI installation - https://mui.com/system/getting-started/installation/
+- [18] MUI btn example - https://mui.com/
+- [19] MQResponsive usage 1 from "Lithoz 3D Printing Web Interface" diploma project
+- [20] MQResponsive usage 1 from "Lithoz 3D Printing Web Interface" diploma project

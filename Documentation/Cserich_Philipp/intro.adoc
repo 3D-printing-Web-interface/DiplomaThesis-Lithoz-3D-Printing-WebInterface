@@ -1,4 +1,4 @@
-= 1 UI & UX Development
+= 1. UI & UX Development
 Project-specific scientific thesis for the diploma examination in 
 the department of HTL Spengergasse for 
 Computer Science and Information Technology

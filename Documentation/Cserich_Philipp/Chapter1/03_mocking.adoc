@@ -11,7 +11,7 @@ There are several tools to choose from, when creating a mockup.
 
 The most popular ones are Adobe XD, Figma and Sketch.
 
-[%header,cols="1,6,5,4"]
+[%header,cols="1,6,5,4",title="Mocking Tools ^[1]^"]
 |===
 | **Nr** 
 | **Name** 

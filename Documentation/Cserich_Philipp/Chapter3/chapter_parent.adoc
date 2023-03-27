@@ -18,7 +18,7 @@ There are two separate ways to use Bootstrap in your project.
 . Include via links in your HTML file
 *Bootstrap requires the usage of an HTML5 doctype, for complete usage of their features.*
 
-[source, html]
+[source, html, title="Bootstrap example ^[8]^"]
 ----
   <head>
     <meta charset="utf-8">
@@ -42,12 +42,12 @@ Vuetify is an UI library designed to be used in Vue.js projects. Since it is a n
  
 The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
-[source, terminal]
+[source, terminal, title="Vuetify installation 1 ^[9]^"]
 ----
 > yarn add vuetify@^3.1.11
 ----
 
-[source, terminal]
+[source, terminal,title="Vuetify installation 2 ^[10]^"]
 ----
 > npm install vuetify@^3.1.11
 ----
@@ -56,11 +56,10 @@ Vuetify is used such as implementing normal HTML elements, mostly starting with 
 An example for such a component can be found in the project "Lithoz 3D printing web interface" as quoted below.
 
 
-[source, html]
+[source, html,title="Vuetify usage ^[11]^"]
 ----
 <template>
-    <v-col col="5"
-		   :style="`cursor: ${cursorRef}`"
+    <v-col col="5" :style="`cursor: ${cursorRef}`"
            style="display: flex;justify-content: center;align-items: center;">
         <v-btn :disabled="!buttonGenerallyEnabled || disabled"
                width="100%"
@@ -83,7 +82,7 @@ An example for such a component can be found in the project "Lithoz 3D printing 
 === 1.7.3 Tailwind CSS
 Tailwind is an open source css framework, that is used to create designs faster. In contrast to other frameworks, it does not provide any prebuilt components. Instead, it provides a set of utility classes that can be used to mix and match for the styling of HTML elements. This allows for a lot of flexibility and customization. This concept is called *"utility-first"*.
 
-[source,terminal]
+[source,terminal,title="Tailwind installation ^[12]^"]
 ----
 > npm install -D tailwindcss
 > npx tailwindcss init
@@ -91,7 +90,7 @@ Tailwind is an open source css framework, that is used to create designs faster.
 
 Adding your own template files can be achieved by adding the paths of those files into the tailwind.config.js file.
 
-[source,js]
+[source,js,title="Tailwind config ^[13]^"]
 ----
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -105,7 +104,7 @@ module.exports = {
 
 After configuring and installing tailwind, it has to be imported into your main html file.
 
-[source,html]
+[source,html,title="Tailwind import ^[14]^"]
 ----
 @tailwind base;
 @tailwind components;
@@ -114,18 +113,12 @@ After configuring and installing tailwind, it has to be imported into your main 
 
 An example of tailwinds flexible classes, is the following code snippet. It creates a flexbox with three elements. The first element has a fixed width of 14rem, while the other two elements have a flexible width. The "flex-initial" class indicates that the element is able to shrink dependent on the available space in the flexbox, but is not able to grow.
 
-[source,html]
+[source,html,title="Tailwind example ^[15]^"]
 ----
 <div class="flex">
-  <div class="flex-none w-14 h-14">
-    01
-  </div>
-  <div class="flex-initial w-64 ...">
-    02
-  </div>
-  <div class="flex-initial w-32 ...">
-    03
-  </div>
+  <div class="flex-none w-14 h-14">01</div>
+  <div class="flex-initial w-64 ...">02</div>
+  <div class="flex-initial w-32 ...">03</div>
 </div>
 ----
 
@@ -133,21 +126,21 @@ An example of tailwinds flexible classes, is the following code snippet. It crea
 
 Material UI is a UI library made for the React framework. It is a very popular library, that is used by many companies. It is also very well documented and has a lot of prebuilt components. MUI is based on the material design guidelines, which are a set of guidelines for the design of websites and applications. The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
-[source, terminal]
+[source, terminal, title="MUI installation 1 ^[16]^"]
 ----
 npm install @mui/material @emotion/react @emotion/styled
 ----
 
-[source, terminal]
+[source, terminal, title="MUI installation 2 ^[17]^"]
 ----
 yarn add @mui/material @emotion/react @emotion/styled
 ----
 
 These commands just include the default library. There are also versions online that automatically include styled components, icons and other libraries. These can be found on the official website of MUI.
 
-MUIs usage is very similar to bootstrap. It is based on preconfigured CSS classes. These can be used to style your HTML elements, regardless of the framework you are using. An official example of such a component can be found quoted below.
+MUIs usage is very similar to bootstrap. It is based on reconfigured CSS classes. These can be used to style your HTML elements, regardless of the framework you are using. An official example of such a component can be found quoted below.
 
-[source, js]
+[source, js, title="MUI usage ^[18]^"]
 ----
 import * as React from 'react';
 import Button from '@mui/material/Button';

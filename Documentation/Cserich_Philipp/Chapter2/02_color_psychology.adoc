@@ -10,20 +10,20 @@ This definition is a good starting point for understanding the different aspects
 But there is not only a subjective aspect to color, but also a physical one. 
 Therefore the distinction between **related** and **unrelated** colors is the first step in understanding color. Related colors are colors that are physically close to each other on the color wheel. These colors are perceived as similar and can be used to create a harmonious color scheme. Unrelated colors are colors that are physically far away from each other on the color wheel. These colors are perceived as different and can be used to create a contrasting color scheme. 
 
-image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=0.5in,color wheel,align=center,title="Color Wheel footnote:[reimagined - https://www.color-meanings.com/color-wheel/]""]
+image::/Assets/Images/Cserich_Philipp/color_wheel.png[pdfwidth=0.5in,color wheel,align=center,title="Color Wheel ^[5]^" ]
 
 ==== 1.6.3.1 **Apply**
 
 With this knowledge, you can now start to apply this to your applications elements. Outstanding elements such as cancel buttons or alert messages can be shown by using unrelated or contrasting colors, which will make them stand out from the rest of the Webpage.
 The image shows an example of a cancel button that is highlighted by using a contrasting color.
 
-image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in, title="Unrelated Color Example footnote:[mocked in figma by Cserich Philipp]"]
+image::/Assets/Images/Cserich_Philipp/unrelated_color_example.png[pdfwidth=2in, title="Unrelated Color Example ^[6]^"]
 
 
 On the other hand, elements that are not as important can be shown by using related or harmonious colors, which will make them blend in with the rest of the Webpage in a natural way.
 In the following example, the textboxes are integrated into the scene by using related colors.
 
-image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in,title="Related Color Example footnote:[mocked in figma by Cserich Philipp]"]
+image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in,title="Related Color Example ^[7]^"]
 
 ==== 1.6.3.2 NCS - Natural Color System
 
@@ -31,11 +31,11 @@ image::/Assets/Images/Cserich_Philipp/related_color_example.png[pdfwidth=2in,tit
 The NCS was developed 1981 in Sweden .
 It is used to describe colors for designers, architects and many more. It is one way to keep the exact definition of one color in the defined spectrum clear. Other metrics were mostly inaccurate at the time of development.
 
-image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=NCS Notation footnote:[https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg]]
+image::/Assets/Images/Cserich_Philipp/NCS-Notation.jpg[pdfwidth=2.5in,align=center,title=NCS Notation ^[8]^]
 
-image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space footnote:[https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg]]
+image::/Assets/Images/Cserich_Philipp/Colour-Space_NCS.jpg[pdfwidth=3in,align=center,title=Color Space ^[9]^]
 
-image::/Assets/Images/Cserich_Philipp/trangleandcircle_NCS.png[pdfwidth=3in,align=center,title=Color Triangle and Circle footnote:[https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg & https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg]]
+image::/Assets/Images/Cserich_Philipp/trangleandcircle_NCS.png[pdfwidth=3in,align=center,title=Color Triangle and Circle ^[10]^]
 
 The above visualized color space, defined by NCS, is a 3 Dimensional space, where every point represents one color in the system.
 Cutting the figure up in a horizontal and vertical pane, creates two 2-Dimensional spaces, that can be represented as a circle and a triangle. The NCS color circle, is the horizontal cut, which almost looks like the original color wheel. The NCS color triangle is the vertical cut and shows the gray scale as well as the saturation of the color.
@@ -54,10 +54,9 @@ HEX : **#fffdf6**
 
 ==== 1.6.3.4 Human Color Processing
 
-The human anatomy behind the perception of color is mostly conceptionalized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
+The human anatomy behind the perception of color is mostly conceptualized as several stages of vision-processing. These stages include the light stimulus, the retina, the lateral geniculate nucleus, the subortical structures and the visual cortex, until lastly, a colored picture is constructed.
 
-image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in,align=center,title="Vision Processing footnote:[
-[https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png]]
+image::/Assets/Images/Cserich_Philipp/vision-process.png[pdfwidth=2in,align=center,title="Vision Processing ^[11]^]
 
 
 The steps of processing can be grouped to sections. Consisting of:
@@ -72,8 +71,10 @@ As vision processing takes place in several of stages at a time this model is ju
 
 Every step is influenced by the higher-order psychological processes, such as memories, prejudice and personal experiences. This means that even if the reception of color is a physical process, psychological factors are evenly important and can be used to influence and predict the users actions.
 
+<<<
+
 ==== 1.6.3.5 Conclusion and Usage
 
-All of these detail help to understand that design is not only making something look good, but rather creating an experience. Influencing behaviour and emotions are just one part of the journey that should be delivered in the best possible way.
+All of these detail help to understand that design is not only making something look good, but rather creating an experience. Influencing behavior and emotions are just one part of the journey that should be delivered in the best possible way.
 
 Correctly using colors like red can have strong impact on what feelings will be emitted by the user. Especially strong colors like red have an important meaning and origin. Keeping the example RED, which is the color of Power, Love, Danger and Passion, evokes really strong feelings and emotions. Looking at a red button, instantly catches the eyes attention not only because of its brightness and the saturation level but rather, because the brain is trained associate it with strong interconnected emotions. When used right, red buttons can imitate the feeling of danger, trying to warn the user and keeping them away from the awaited "threat". This colors impulsive and aggressive nature is also used in marketing to attract attention and to create a sense of urgency.

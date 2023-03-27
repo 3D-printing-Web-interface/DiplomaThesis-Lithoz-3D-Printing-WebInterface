@@ -4,7 +4,7 @@ Responsive Web Design (RWD) is an approach for designing and developing websites
 
 Vue.js has an extra library, named vue3-mq, that tries to solve the same problem. It wraps up the elements that will be shown in a specific size and only displays them when reaching the predefined value.
 
-[source,html]
+[source,html,title="MQResponsive usage 1 ^[19]^"]
 ----
 		<MqResponsive target="desktop" style="height:100%">
             <JobDescriptionContent @start-application="$emit('start-application')"
@@ -21,7 +21,7 @@ Vue.js has an extra library, named vue3-mq, that tries to solve the same problem
         </MqResponsive>
 ----
 
-[source,javascript]
+[source,javascript, title="MQResponsive usage 2 ^[20]^"]
 ----
 import {MqResponsive, updateBreakpoints} from "vue3-mq";
 
