@@ -1,0 +1,48 @@
+= Sources - 3D Rendering
+
+- [1] https://en.wikipedia.org/wiki/3D_rendering
+last accessed 2023-03-26
+- [2] https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory 
+last accessed 2023-03-26
+- [3] https://en.wikipedia.org/wiki/Polygonal_modeling
+last accessed 2023-03-26
+- [4] https://www.explainthatstuff.com/computer-graphics.html
+last accessed 2023-03-26
+- [5] https://www.techspot.com/article/1857-how-to-3d-rendering-vertex-processing/
+last accessed 2023-03-26
+- [6] https://en.wikipedia.org/wiki/History_of_computer_animation
+last accessed 2023-03-26
+- [7] https://books.google.at/books?hl=en&lr=&id=xPu3mN2FPl4C&oi=fnd
+last accessed 2023-03-26
+- [8] https://books.google.at/books?hl=en&lr=&id=XVBxDQAAQBAJ&oi=fnd
+last accessed 2023-03-26
+- [9] https://www.google.at/books/edition/WebGL_Programming_Guide/3c-jmWkLNwUC?hl=en
+last accessed 2023-03-26
+- [10] https://blogs.nvidia.com/blog/2022/08/04/direct-indirect-lighting/
+last accessed 2023-03-26
+- [11] https://developer.nvidia.com/discover/ray-tracing
+last accessed 2023-03-26
+- [12] https://handwiki.org/wiki/Scanline_rendering
+last accessed 2023-03-26
+- [13] https://handwiki.org/wiki/Z-buffering
+last accessed 2023-03-26
+- [14] https://www.cg.tuwien.ac.at/research/rendering/rays-radio/
+last accessed 2023-03-26
+- [15] https://threejs.org/
+last accessed 2023-03-26
+- [16] https://en.wikipedia.org/wiki/List_of_WebGL_frameworks
+last accessed 2023-03-26
+
+== Pictures
+
+- [1] first digital image - https://en.wikipedia.org/wiki/Digital_image#/media/File:NBSFirstScanImage.jpg
+- [2] Ray Tracing - https://miro.medium.com/v2/resize:fit:4800/format:webp/1*McfgLrDU0z3ETMyp0mygOg.png
+- [3] vertices, edges, faces, polygons & surfaces - https://en.wikipedia.org/wiki/Polygon_mesh#/media/File:Mesh_overview.svg
+- [4] UI of Sketchpad I - https://upload.wikimedia.org/wikipedia/en/7/7b/Sketchpad-Apple.jpg
+- [5] Fractals - https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Simple_Fractals.png/200px-Simple_Fractals.png
+- [6] Quantel Paintbox - https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Quantel_Paintbox_%281%29.jpg/220px-Quantel_Paintbox_%281%29.jpg
+- [7] Computer generated face comparison to real face - https://www.cartoonbrew.com/wp-content/uploads/2016/11/DocOck-RealVirtual.jpg
+
+== Code
+
+- [1] Getting started with three.js - https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
