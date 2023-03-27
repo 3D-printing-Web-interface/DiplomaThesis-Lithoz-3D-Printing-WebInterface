@@ -12,7 +12,7 @@ title-page:
   margin: [center]
   align: center
   logo:
-    image: image:Images/lithoz.svg[pdfwidth=2.5in,align=center]
+    image: image:Images/Spengergasse.png[pdfwidth=2in]
 
 font:
   catalog:
@@ -46,7 +46,7 @@ footer:
       content: 'Page - {page-number}'
   verso:
     left:
-      content: 'image:Images/lithoz.svg[pdfwidth=1in] X image:Images/PWI.png[pdfwidth=1in]'
+      content: image:Images/PWI.png[pdfwidth=0.8in]'
     right:
       content: 'Page - {page-number}'
 

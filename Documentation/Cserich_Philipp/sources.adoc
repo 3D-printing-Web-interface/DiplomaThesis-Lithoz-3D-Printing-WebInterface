@@ -1,0 +1,50 @@
+== 1.10 Sources
+
+- [1] Dont make me Think, a common sense approach to web usability,  Steve Krug, 2000, New Riders Publishing, ISBN 0-321-14653-0, http://www.sensible.com/dmmt.html
+last accessed 2019-01-01
+- [2] Refactoring UI, Adam Wathan & Steve Schoger, https://www.refactoringui.com/
+last accessed 2019-01-01
+- [3] About Face, The Essentials of Interaction Design, Fourth Edition, https://www.amazon.de/About-Face-Essentials-Interaction-Design/dp/1118766571
+last accessed 2019-01-01
+- [4] Adobe XD - Web design guidelines https://xd.adobe.com/ideas/principles/web-design/web-page-design/
+last accessed 2019-01-01
+- [5] UX Design.cc https://uxdesign.cc/content-strategy-in-ux-design-c2e41d19d447
+last accessed 2019-01-01
+- [6] Beautiful interfaces. From user experience to user interface design (tandfonline.com) - https://www.tandfonline.com/doi/epdf/10.1080/14606925.2017.1352649?needAccess=true&role=button
+- [7] Handbook of Color Psychology - Google Books - https://books.google.at/books?hl=de&lr=&id=9I69CwAAQBAJ&oi=fnd&pg=PT38&dq=color+theory+and+psychology&ots=9fHnOMsu72&sig=Y3eNzrytMgwIBUfqNXYmLO9eNuI#v=onepage&q=color%20theory%20and%20psychology&f=false
+- [8] Bootstrap · The most popular HTML, CSS, and JS library in the world. (getbootstrap.com) - https://getbootstrap.com/
+- [9] Tailwind CSS - Rapidly build modern websites without ever leaving your HTML. - https://tailwindcss.com/
+- [10] MUI: The React component library you always wanted - https://mui.com/
+- [11] Vuetify — A Vue Component Framework (vuetifyjs.com) - https://vuetifyjs.com/en/
+- [12] Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/
+- [13] Figma | The all-in-one design tool built for collaboration - https://www.figma.com/collaboration/
+- [14] HTML Standard (whatwg.org) - https://html.spec.whatwg.org/multipage/
+- [15] HTML & CSS - W3C - https://www.w3.org/standards/webdesign/htmlcss
+- [16] Introduction | Vue.js (vuejs.org) - https://vuejs.org/guide/introduction.html#what-is-vue
+- [17] Cascading Style Sheets (w3.org) - https://www.w3.org/Style/CSS/
+- [18] Sass: Syntax (sass-lang.com) - https://sass-lang.com/documentation/syntax
+- [19] The definitive guide to SCSS - LogRocket Blog - https://blog.logrocket.com/the-definitive-guide-to-scss/
+- [20] NCS color specification - https://ncscolour.com/de/ncs/
+- [21] Color meaning and symbolism: How to use the power of color (canva.com) - https://www.canva.com/learn/color-meanings-symbolism/
+- [22] Color Psychology - https://www.colorpsychology.org/
+- [23] - Responsive web design - https://books.google.at/books?hl=de&lr=&id=fcfarreMQ9sC&oi=fnd&pg=PT12&dq=responsive+web+design&ots=Zubh0j-ROj&sig=TLn7Km6-b3fDRTWqni6e6szUgs0#v=onepage&q=responsive%20web%20design&f=false
+- [24] - VUE3 MQ - https://vue3-mq.info/
+- [25] https://liacs.leidenuniv.nl/~verbeekfj/courses/hci/hci2014-09.pdf
+- [26] https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false
+
+
+=== Picture Sources
+
+- [1] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg
+- [2] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg
+- [3] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg
+- [4] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg
+
+=== Table Sources
+
+- [1] Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/
+- [2] Figma | The all-in-one design tool built for collaboration - https://www.figma.com/collaboration/
+- [3] Adobe XD - https://www.adobe.com/sg/products/xd/switcher.html
+
+=== Code Sources
+

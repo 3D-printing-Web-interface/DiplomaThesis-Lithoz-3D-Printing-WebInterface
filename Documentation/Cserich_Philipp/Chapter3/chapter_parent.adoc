@@ -5,7 +5,7 @@ In the world of web design, there are many ways to utilize on existing Design Sy
 === 1.7.1 Bootstrap
 Bootstrap is the most well known and used UI library in the world.
 
-==== 1.7.1.1 Installation
+==== Installation
 There are two separate ways to use Bootstrap in your project. 
 
 . Installing the newest version of Bootstrap - **5.3.0-alpha1**
@@ -30,7 +30,7 @@ There are two separate ways to use Bootstrap in your project.
 
 You can also download the Bootstrap CSS file and include it into the project. This allows for individual changes in the Bootstrap config.
 
-==== 1.7.1.2 Usage 
+==== Usage 
 
 Bootstrap is all about preconfigured CSS classes. These can be used to style your HTML elements, regardless of the framework you are using. 
 
