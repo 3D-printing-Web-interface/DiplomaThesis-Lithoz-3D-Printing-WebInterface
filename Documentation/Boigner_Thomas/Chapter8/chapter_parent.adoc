@@ -1,0 +1,6 @@
+= 2.8 Conclusion
+
+3D rendering has become one of the most polarizing topics in the computer industry over the last 30 years. Knowing how to render good 3D graphics can be an essential skill in the modern world. In the future programmers and graphic designers will never stop to improve the quality of 3D models until photorealism is achieved and it is possible to create worlds that are not distinguishable from real life. 
+
+== 2.8.1 Lessons Learned
+The implementation of the 3D viewer taught me the basic principals of 3D rendering as well as some background knowledge to it, like what the modern rendering APIs are or when 3D rendering was invented. I learned something about more advanced rendering techniques like Path- and Ray Tracing or Scanline Rendering. And finally I learned something about the JavaScript framework three.js and how it can be used to render 3D graphics in the browser.

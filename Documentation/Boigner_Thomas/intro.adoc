@@ -29,5 +29,7 @@ include::Chapter6/chapter_parent.adoc[leveloffset=+1]
 <<<
 include::Chapter7/chapter_parent.adoc[leveloffset=+1]
 <<<
+include::Chapter8/chapter_parent.adoc[leveloffset=+1]
+<<<
 include::sources.adoc[leveloffset=+1]
 <<<
