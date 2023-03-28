@@ -13,9 +13,9 @@ The following components are often required for a web page layout:
 
 4. Footer: The bottom portion of the page that includes less significant items like copyright information and secondary navigation.
 
-Especially for highly dynamic websites, footers or headers may not be required. One example being the Lihtoz 3D printing web interface, where header and footer do not exist. The main content area is the only area that is used, by switching out the rendered components when an action is triggered.
+Especially for highly dynamic websites, footers or headers may not be required. One example being the Lithoz 3D printing web interface, where header and footer do not exist. The main content area is the only area that is used, by switching out the rendered components when an action is triggered.
 
-The dynamic component renderering can be achieved by using the "component" element, and referring to a variable that will be changed in state when an action is triggered.
+The dynamic component rendering can be achieved by using the "component" element, and referring to a variable that will be changed in state when an action is triggered.
 
 
 [source,html,title="Vue.js html example ^[6]^"]

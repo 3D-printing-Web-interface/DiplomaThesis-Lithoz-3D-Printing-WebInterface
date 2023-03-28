@@ -1,6 +1,6 @@
 == 1.7 UI Component Libraries & UI Frameworks
 
-In the world of web design, there are many ways to utilize on existing Design Systems. One of which are UI Component Libraries and Frameworks. These are pre-built components that can be used to build out your website. They are usually built with a specific framework in mind, but can be mostly used in any framework of your choice.
+In the world of web design, there are many ways to utilize on existing design systems. One of which are UI Component libraries and frameworks. These are pre-built components that can be used to build out your website. They are usually built with a specific framework in mind, but can be mostly used in any framework of your choice.
 
 === 1.7.1 Bootstrap
 Bootstrap is the most well known and used UI library in the world.
@@ -38,7 +38,7 @@ Bootstrap is all about preconfigured CSS classes. These can be used to style you
 
 === 1.7.2 Vuetify
 
-Vuetify is an UI library designed to be used in Vue.js projects. Since it is a newer library, it is not as well known than bootstrap , material UI or tailwind CSS. However, it is a very powerful library that can be used to create beautiful and responsive websites. It is also very easy to use and has a lot of prebuilt components. The bad side about its newest version "vuetify 3", is its lack of documentation. Not all functions and components are fully documented, and some of them are even unfinished. However, the company behind vuetify is very active and is constantly working on improving the library.
+Vuetify is an UI library designed to be used in Vue.js projects. Since it is a newer library, it is not as well known than bootstrap , material UI or tailwind CSS. However, it is a very powerful library that can be used to create beautiful and responsive websites. It is also very easy to use and has a lot of prebuilt components. The bad side about its newest version "Vuetify 3", is its lack of documentation. Not all functions and components are fully documented, and some of them are even unfinished. However, the company behind Vuetify is very active and is constantly working on improving the library.
  
 The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
@@ -102,7 +102,7 @@ module.exports = {
 }
 ----
 
-After configuring and installing tailwind, it has to be imported into your main html file.
+After configuring and installing tailwind, it has to be imported into your main HTML file.
 
 [source,html,title="Tailwind import ^[14]^"]
 ----
@@ -124,7 +124,7 @@ An example of tailwinds flexible classes, is the following code snippet. It crea
 
 === 1.7.4 MUI - Material UI
 
-Material UI is a UI library made for the React framework. It is a very popular library, that is used by many companies. It is also very well documented and has a lot of prebuilt components. MUI is based on the material design guidelines, which are a set of guidelines for the design of websites and applications. The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
+Material UI is a UI library made for the react framework. It is a very popular library, that is used by many companies. It is also very well documented and has a lot of prebuilt components. MUI is based on the material design guidelines, which are a set of guidelines for the design of websites and applications. The library can be installed via npm or yarn. It is a package that needs to be added through one of the following commands.
 
 [source, terminal, title="MUI installation 1 ^[16]^"]
 ----
