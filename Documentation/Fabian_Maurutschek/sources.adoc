@@ -1,4 +1,4 @@
-== 3.7 Sources
+== 3.7 Sources - Testing and Quality Assurance 
 
 - [1] Declarative vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
 last accessed 2023-03-25

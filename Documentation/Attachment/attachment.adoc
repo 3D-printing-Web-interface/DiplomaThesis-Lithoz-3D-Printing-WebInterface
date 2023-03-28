@@ -36,4 +36,4 @@ image::/Assets/pdfs/Final_Presentation.pdf[pages=2..4;6..19]
 
 include::Meeting_Protocols/protocols.adoc[leveloffset+=1]
 
-image::/Assets/pdfs/Clockify_Time_Report.pdf[pages=1..10]
+image::/Assets/pdfs/Clockify_Time_Report.pdf[]
