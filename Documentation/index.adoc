@@ -17,8 +17,6 @@ image::/Assets/pdfs/kooperationsvereinbarung.pdf[pages=1..3]
 image::/Assets/pdfs/Rechtliche_Abklärung.pdf[pages=1]
 
 
-include::General/preface.adoc[]
-
 <<<
 include::General/abstract.adoc[]
 

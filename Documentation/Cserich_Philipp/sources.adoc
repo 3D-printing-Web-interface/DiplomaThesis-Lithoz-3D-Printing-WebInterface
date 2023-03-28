@@ -1,81 +1,101 @@
 == 1.10 Sources - UI & UX Development
 
 - [1] Dont make me Think, a common sense approach to web usability,  Steve Krug, 2000, New Riders Publishing, ISBN 0-321-14653-0, http://www.sensible.com/dmmt.html
-last accessed 2019-01-01
+last accessed 20.12.2023
 - [2] Refactoring UI, Adam Wathan & Steve Schoger, https://www.refactoringui.com/
-last accessed 2019-01-01
+last accessed 24.12.2023
 - [3] About Face, The Essentials of Interaction Design, Fourth Edition, https://www.amazon.de/About-Face-Essentials-Interaction-Design/dp/1118766571
-last accessed 2019-01-01
+last accessed 20.12.2023
 - [4] Adobe XD - Web design guidelines https://xd.adobe.com/ideas/principles/web-design/web-page-design/
-last accessed 2019-01-01
+last accessed 23.12.2023
 - [5] UX Design.cc https://uxdesign.cc/content-strategy-in-ux-design-c2e41d19d447
-last accessed 2019-01-01
+last accessed 20.12.2023
 - [6] Beautiful interfaces. From user experience to user interface design (tandfonline.com) - https://www.tandfonline.com/doi/epdf/10.1080/14606925.2017.1352649?needAccess=true&role=button
+last accessed 21.12.2023
 - [7] Handbook of Color Psychology - Google Books - https://books.google.at/books?hl=de&lr=&id=9I69CwAAQBAJ&oi=fnd&pg=PT38&dq=color+theory+and+psychology&ots=9fHnOMsu72&sig=Y3eNzrytMgwIBUfqNXYmLO9eNuI#v=onepage&q=color%20theory%20and%20psychology&f=false
+last accessed 23.12.2023
 - [8] Bootstrap · The most popular HTML, CSS, and JS library in the world. (getbootstrap.com) - https://getbootstrap.com/
+last accessed 25.12.2023
 - [9] Tailwind CSS - Rapidly build modern websites without ever leaving your HTML. - https://tailwindcss.com/
+last accessed 22.12.2023
 - [10] MUI: The React component library you always wanted - https://mui.com/
+last accessed 20.12.2023
 - [11] Vuetify — A Vue Component Framework (vuetifyjs.com) - https://vuetifyjs.com/en/
+last accessed 18.12.2023
 - [12] Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/
+last accessed 21.12.2023
 - [13] Figma | The all-in-one design tool built for collaboration - https://www.figma.com/collaboration/
+last accessed 20.12.2023
 - [14] HTML Standard (whatwg.org) - https://html.spec.whatwg.org/multipage/
+last accessed 26.12.2023
 - [15] HTML & CSS - W3C - https://www.w3.org/standards/webdesign/htmlcss
+last accessed 20.12.2023
 - [16] Introduction | Vue.js (vuejs.org) - https://vuejs.org/guide/introduction.html#what-is-vue
+last accessed 23.12.2023
 - [17] Cascading Style Sheets (w3.org) - https://www.w3.org/Style/CSS/
+last accessed 20.12.2023
 - [18] Sass: Syntax (sass-lang.com) - https://sass-lang.com/documentation/syntax
-- [19] The definitive guide to SCSS - LogRocket Blog - https://blog.logrocket.com/the-definitive-guide-to-scss/
+last accessed 22.12.2023
+- [19] The definitive guide to SCSS - LogRocket Blog - https://blog.logrocket.com/the-definitive-guide-to-scss/ last accessed 24.12.2023
 - [20] NCS color specification - https://ncscolour.com/de/ncs/
+last accessed 22.12.2023
 - [21] Color meaning and symbolism: How to use the power of color (canva.com) - https://www.canva.com/learn/color-meanings-symbolism/
+last accessed 22.12.2023
 - [22] Color Psychology - https://www.colorpsychology.org/
+last accessed 25.12.2023
 - [23] - Responsive web design - https://books.google.at/books?hl=de&lr=&id=fcfarreMQ9sC&oi=fnd&pg=PT12&dq=responsive+web+design&ots=Zubh0j-ROj&sig=TLn7Km6-b3fDRTWqni6e6szUgs0#v=onepage&q=responsive%20web%20design&f=false
+last accessed 26.12.2023
 - [24] - VUE3 MQ - https://vue3-mq.info/
+last accessed 26.12.2023
 - [25] https://liacs.leidenuniv.nl/~verbeekfj/courses/hci/hci2014-09.pdf
+last accessed 26.12.2023
 - [26] https://books.google.at/books?hl=de&lr=&id=wrIkWmtt-soC&oi=fnd&pg=PR3&dq=Web+development&ots=TOxeylnmwn&sig=sFPtE1clsTorABfMQCcaJmASVbw#v=onepage&q&f=false
+last accessed 24.12.2023
 
 
 === Picture Sources
 
-- [1] mocked by Cserich Philipp
-- [2] https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png
-- [3] Reimagined picture from Refactoring UI - Chapter (Start with a feature, not a layout) - https://www.refactoringui.com/book
-- [4] Reimagined picture of the Lithoz 3D printing project webpage
-- [5] Reimagined - https://www.color-meanings.com/color-wheel/
-- [6] Unrelated Color Example, mocked by Cserich Philipp
-- [7] Related Color Example, mocked by Cserich Philipp
+- [1] mocked by Cserich Philipp - last accessed 22.12.2023
+- [2] https://cdn.sketchbubble.com/pub/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/s/t/star-model-mc-slide3.png - last accessed 20.12.2023
+- [3] Reimagined picture from Refactoring UI - Chapter (Start with a feature, not a layout) - https://www.refactoringui.com/book - last accessed 25.12.2023
+- [4] Reimagined picture of the Lithoz 3D printing project webpage - last accessed 20.12.2023
+- [5] Reimagined - https://www.color-meanings.com/color-wheel/ - last accessed 25.12.2023
+- [6] Unrelated Color Example, mocked by Cserich Philipp - last accessed 21.12.2023
+- [7] Related Color Example, mocked by Cserich Philipp - last accessed 23.12.2023
 
-- [8] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg
-- [9] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg
-- [10] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg
-- [10] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg
-- [11] https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png
+- [8] NCS Notation - https://ncscolour.com/wp-content/uploads/2021/08/NCS-Notation_1024x327-1.jpg - last accessed 20.12.2023
+- [9] Color Space - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Space_1024x327.jpg - last accessed 18.12.2023
+- [10] Color Triangle - https://ncscolour.com/wp-content/uploads/2021/08/Colour-Triangle_1024x327.jpg  - last accessed 24.12.2023
+- [10] Color Circle -https://ncscolour.com/wp-content/uploads/2021/08/Colour-Circle-1024x327-1.jpg - last accessed 21.12.2023
+- [11] https://www.color-meanings.com/wp-content/uploads/human-color-vision-process-1024x968.png - last accessed 23.12.2023
 
 === Table Sources
 
 - [1] 
 Sketch · Design, collaborate, prototype and handoff - https://www.sketch.com/ - 
-Figma | The all-in-one design tool built for collaboration - https://www.figma.com/ collaboration/ - Adobe XD - https://www.adobe.com/sg/products/xd/switcher.html
+Figma | The all-in-one design tool built for collaboration - https://www.figma.com/ collaboration/ - Adobe XD - https://www.adobe.com/sg/products/xd/switcher.html - last accessed 19.12.2023
 
 <<<
 
 === Code Sources
 
-- [1] https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title
+- [1] https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title - last accessed 19.12.2023
 - [2] CSS example from Cserich Philipp
 - [3] SCSS example from Cserich Philipp
 - [4] SCSS example from Cserich Philipp
 - [5] Typography example from "Lithoz 3D Printing Web Interface" diploma project
 - [6] Vue.js html example from "Lithoz 3D Printing Web Interface"
 - [7] Vue.js js example from "Lithoz 3D Printing Web Interface"
-- [8] Bootstrap example, changed from https://www.w3schools.com/
-- [9] https://vuetifyjs.com/en/getting-started/installation/
-- [10] https://vuetifyjs.com/en/getting-started/installation/
+- [8] Bootstrap example, changed from https://www.w3schools.com/ - last accessed 27.12.2023
+- [9] https://vuetifyjs.com/en/getting-started/installation/ - last accessed 27.12.2023
+- [10] https://vuetifyjs.com/en/getting-started/installation/ - last accessed 27.12.2023
 - [11] Vuetify example from "Lithoz 3D Printing Web Interface" diploma project
-- [12] Tailwind installation - https://tailwindcss.com/docs/installation
-- [13] Tailwind config - https://tailwindcss.com/docs/installation
-- [14] Tailwind import - https://tailwindcss.com/docs/installation
-- [15] Tailwind example - https://tailwindcss.com/docs/flex
-- [16] MUI installation - https://mui.com/system/getting-started/installation/
-- [17] MUI installation - https://mui.com/system/getting-started/installation/
-- [18] MUI btn example - https://mui.com/
+- [12] Tailwind installation - https://tailwindcss.com/docs/installation - last accessed 27.12.2023
+- [13] Tailwind config - https://tailwindcss.com/docs/installation - last accessed 27.12.2023
+- [14] Tailwind import - https://tailwindcss.com/docs/installation - last accessed 27.12.2023
+- [15] Tailwind example - https://tailwindcss.com/docs/flex - last accessed 27.12.2023
+- [16] MUI installation - https://mui.com/system/getting-started/installation/ - last accessed 26.12.2023
+- [17] MUI installation - https://mui.com/system/getting-started/installation/ - last accessed 26.12.2023
+- [18] MUI btn example - https://mui.com/ - last accessed 26.12.2023
 - [19] MQResponsive usage 1 from "Lithoz 3D Printing Web Interface" diploma project
 - [20] MQResponsive usage 1 from "Lithoz 3D Printing Web Interface" diploma project
