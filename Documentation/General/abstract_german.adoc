@@ -11,3 +11,7 @@ Die folgende Diplomarbeit, bezieht sich auf das im Jahre 2022/23 durchgeführte 
 **Maurutschek Fabian** - Quality Assurance
 
 **Siegl Bernhard** - MQTT and HTTP
+
+---
+
+**Dipl.-Ing. Martin Schrutek** - _Supervisor_

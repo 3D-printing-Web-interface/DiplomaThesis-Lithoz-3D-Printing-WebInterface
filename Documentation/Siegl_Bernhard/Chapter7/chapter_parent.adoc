@@ -1,5 +1,4 @@
-= 4.7 Sources 
-== MQTT and HTTP (Bernhard Siegl)
+= 4.7 Sources - MQTT and HTTP 
 
 - [1] https://mqtt.org
 - [2] https://stackshare.io/mqtt/alternatives

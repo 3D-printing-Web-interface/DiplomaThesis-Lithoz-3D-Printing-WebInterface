@@ -11,3 +11,7 @@ The following diplomathesis,  is related to the project "Lithoz 3D printing web 
 **Maurutschek Fabian** - Quality Assurance
 
 **Siegl Bernhard** - MQTT and HTTP 
+
+---
+
+**Dipl.-Ing. Martin Schrutek** - _Supervisor_

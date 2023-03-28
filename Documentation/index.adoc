@@ -31,12 +31,28 @@ include::Fabian_Maurutschek/intro.adoc[]
 include::Siegl_Bernhard/intro.adoc[]
 
 <<<
-    
-include::General/sources.adoc[]
-<<<
 
 include::Attachment/attachment.adoc[]
 
-    
+<<<
 
+= Additional Sources and Information
+
+**Writing Tools**
+
+- asciidoctor, MIT License
+- asciidoctor-pdf, MIT License
+- docker-asciidoctor, MIT License
+
+**Mocking Tools**
+
+- Figma
+
+**Font**
+
+- Lato, SIL Open Font License
+
+**Source Code**
+
+- Our source code code is not publicly available, due to our client's request. 
 

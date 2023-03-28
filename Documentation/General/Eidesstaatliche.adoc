@@ -31,7 +31,7 @@ Boigner Thomas
 
 ---
 [.text-right]
-Siegl Bernhard
+Maurutschek Fabian
 
 {empty} +
 {empty} +
@@ -39,4 +39,4 @@ Siegl Bernhard
 
 ---
 [.text-right]
-Maurutschek Fabian
+Siegl Bernhard
