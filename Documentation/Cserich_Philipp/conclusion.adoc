@@ -1,0 +1,5 @@
+== 1.11 Conclusion
+This diploma thesis was about connecting the dots. Creating a greater sense of knowledge for the world of Web development. It should have helped to understand what effort and thought must be put into projects like the related diploma thesis project.
+
+== 1.11.1 Lessons learned
+Overall, the topics covered, the research and the project were part of my great through the vast world about web development. The gathered knowledge is a great base for future projects and can be used in various project cases.
