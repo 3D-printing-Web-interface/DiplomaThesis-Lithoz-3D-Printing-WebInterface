@@ -1,10 +1,10 @@
 = 2.3 3D rendering techniques
 
-In this chapter we will take a closer look at some of the more advanced techniques used to create photorealistic 3D scenes.
+This chapter will take a closer look at some of the more advanced techniques used to create photorealistic 3D scenes.
 
 == 2.3.1 Rasterization
 
-Rasterization describes the process of displaying three-dimensional objects on a two-dimensional screen. To create the two-dimensional images the vertices of the meshes and polygons are taken and with the use the information that they save turned into pixels. Then a color is assigned to those pixels based on how the light hits it and a texture is applied.^[11]^
+Rasterization describes the process of displaying three-dimensional objects on a two-dimensional screen. To create the two-dimensional images the vertices of the meshes and polygons are taken and with the use the information that they save turned into pixels. Then a color is assigned to those pixels, based on how the light hits it and a texture is applied.^[11]^
 
 == 2.3.2 Direct & indirect lighting
 
@@ -12,7 +12,7 @@ There are two types of lighting, direct and indirect lighting. Direct lighting i
 
 == 2.3.3 Global illumination
 
-Global illumination is now the process of calculating both, indirect and direct lighting that is visible on surfaces in a scene. Because a lot of computing power is needed to achieve that, especially when the scene is rendered in real-time, the global illumination is limited to a subset of indirect lighting. 
+Global illumination is now the process of calculating both, indirect and direct lighting that is visible on all surfaces in a scene. Because a lot of computing power is needed to achieve that, especially when the scene is rendered in real-time, the global illumination is often limited to a subset of indirect lighting. 
 
 To combat the expense of rendering global illumination multiple shading techniques have been developed, among those are deferred and clustered shading that reduce the number of surface and light interactions.^[10]^
 

@@ -16,7 +16,7 @@ Two vertices connected by a line are called an edge. In the table example the ed
 
 === Triangles
 
-Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object. The resulting plane is called face no matter how many vertices the shape has. The table 3D object would consist of multiple triangles which for the surfaces of the object.^[2]^^[5]^
+Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object. The resulting plane is called face no matter how many vertices or edges the shape has. The table 3D object would consist of multiple triangles which for the surfaces of the object.^[2]^^[5]^
 
 === Polygons
 
@@ -26,7 +26,7 @@ image::/Assets/Images/Boigner_Thomas/vertices, edges, faces, polygons & surfaces
 
 === Framerate
 
-The Framerate describes the amount of images of the 3D models that can be rendered per second. It is measured in frames per second (fps). The frame rate usually depends on the power of the hardware that is used and the complexity of the 3D model that is rendered.^[1]^
+The Framerate describes the amount of images that can be rendered per second. It is measured in frames per second (fps). The frame rate usually depends on the power of the hardware that is used and the complexity of the 3D model that is rendered.^[1]^
 
 === Real-time rendering
 

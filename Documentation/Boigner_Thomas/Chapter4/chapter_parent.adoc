@@ -10,7 +10,7 @@ image::/Assets/Images/Boigner_Thomas/FirstDigitalImage.jpg["First Digital Image"
 
 == 2.4.2 1960s
 
-In 1960 the first first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
+In 1960 the first animation was created at the Swedish Royal Institute of Technology. It contains a 49 second long vector animation of a car traveling down a planned highway. 
 
 Meanwhile one of the first computer generated films, titled _A Two Gravity Gradient attitude control System_ was produced in 1963 by Edward Zajac at Bell Labs. Bell Labs also developed the Belflix animation system that was used to create dozens of animation films. This program didn't rely on raw programming alone, but provided support for simple prompts like draw a line, fill an area or zoom an area.
 
@@ -28,7 +28,7 @@ image::/Assets/Images/Boigner_Thomas/SketchpadI.jpg["Sketchpad I", title="UI of 
 
 In Britain the Atlas Computer Laboratory were responsible for a lot of innovation in the field of 3d animation in the late 60s and early 70s. They were responsible for the development of solid filled color rendering and the first animation computer program that lets the users create animations without requiring programming, called "Antics".
 
-The first feature film using digital animation was called "Westworld" and was released in 1973. The Sequel of the movie, called "Future World", released in 1976 then used wire frame imagery to create a computer generated hand and face. This technology was later used in the short film "Great" and the movie "Star Wars".
+The first feature film using digital animation was called _Westworld_ and was released in 1973. The Sequel of the movie, called _Future World_, released in 1976. This film used wire frame imagery to create a computer generated hand and face. This technology was later used in the short film "Great" and the movie "Star Wars".
 
 In 1974 Evans & Sutherland produced the first commercial framebuffer, that made 8-bit grayscale colors possible. The New York Institute of Technology Computer Graphics Lab (NYIT) then used 3 of these framebuffers to create their own 24-bit frame buffer that was capable of displaying true colors. In the late 70s personal computers like the Apple II made cheap framebuffers available for the average computer user.
 
@@ -40,9 +40,9 @@ image::/Assets/Images/Boigner_Thomas/Fractals.png["Fractals", title="Fractals Ex
 
 == 2.4.6 1980s
 
-In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their Sun workstations.
+In the 1980s many companies released their own systems that were capable of rendering 3D graphics, among them were Silicon Graphics, Inc (SGI) with their _Integrated Raster Imaging System (IRIS)_, Quantel with the _Paintbox_ and the _Quantel Mirage_ and Sun Microsystems with their _Sun_ workstations.
 
-In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a milestone in the industry for its use of 3D CGI. The CGI was mainly used to show digital terrain and vehicles such as Light Cycles, tanks and ships. After Tron _The Last Starfighter_ raised the bar in terms of 3D graphics, with a total of 27 minutes of CGI footage.
+In 1982 the _Walt Disney's Tron_ was released, this movie is regarded as a milestone in the industry for its use of 3D CGI. The CGI was mainly used to show digital terrain and vehicles such as Light Cycles, tanks and ships. After that Tron _The Last Starfighter_ raised the bar in terms of 3D graphics, with a total of 27 minutes of CGI footage.
 
 Two other films that represent milestones in computer animation are _The Abyss_, released in 1989, for including photo-realistic CGI and _The Great Mouse Detective_, released in 1986, which was the first Disney film to use extensive computer animation. 
 
@@ -58,7 +58,7 @@ The increase of computer power made a technique called flocking possible. Flocki
 
 In 1995 the first fully animated feature film _Toy Story_ was released. This movie was produced by Pixar and was a big commercial success.
 
-Motion capturing became a lot more common in the 90s. Motion capturing is used to capture the movement of real objects and use this data to create 3D animations. This technique is mainly used in CGI movie scenes and computer games. Another CGI technique developed in the 90s was Match moving that allowed for the tracking of positions across multiple frames. It is used to insert CGI elements at specific point and have it keep its correct position, rotation and scale through movement.
+Motion capturing became a lot more common in the 90s. Motion capturing is used to capture the movement of real objects and use this data to create 3D animations. This technique is mainly used in CGI movie scenes and computer games. Another CGI technique developed in the 90s was match moving that allowed for the tracking of positions across multiple frames. It is used to insert CGI elements at specific point and have it keep its correct position, rotation and scale through movement.
 
 Another 3D technique developed in the 1990s were Machinimas, that allowed users to create 3D animations using real-time rendering.
 

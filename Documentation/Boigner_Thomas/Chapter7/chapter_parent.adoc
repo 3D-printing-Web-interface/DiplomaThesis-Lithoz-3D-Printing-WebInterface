@@ -1,10 +1,10 @@
 = 2.7 Implementation of the 3D Viewer 
 
-The Lithoz 3D Printing Web Interface has an integrated 3D viewer that is build with the three.js. In this section explains the decisions and implementation behind it.  
+The Lithoz 3D Printing Web Interface has an integrated 3D viewer that is build with Three.js. This section explains the decisions and implementation behind it.  
 
 == 2.7.2 Why Three.js
 
-Form to the other WebGL frameworks we discussed earlier game engines, such as Babylon.js, A-frame, PlayCanvas and Unity can be ruled out, because they include features that are not needed. Verge3D also includes a lot of features that are unnecessary for the 3D viewer, like the Blender and Maya integration. Another requirement is the support of stl files, because the 3D objects are transmitted in stl files from the backend. A-Frame for example does not support stl files and can not be used for the 3D viewer because of it.
+From the other WebGL frameworks we discussed earlier, game engines, such as Babylon.js, A-frame, PlayCanvas and Unity can be ruled out, because they include features that are not needed. Verge3D also includes a lot of features that are unnecessary for the 3D viewer, like the Blender and Maya integration. Another requirement is the support for stl files, because the 3D objects are transmitted in stl files from the backend. A-Frame for example does not support stl files and can not be used for the 3D viewer because of it.
 
 == 2.7.3 Implementation
 
@@ -130,8 +130,6 @@ function render() {
 ----
 
 The animate() method is the animations loop and sets the layer plane at the correct position, according to the layer slider, which can be used by the users to select a specific layer. It then calls the render function, which updates the the orbit controller, rotates the camera to look at the 3D object and renders the scene.
-
-
 
 === 2.7.3.3 onWindowResize()
 
