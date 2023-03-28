@@ -6,16 +6,21 @@ Every software engineer/programmer had to test his/her programm. Even for small 
 
 Depending on the technology which is used to create the program there are several testing solutions:
 
+image::../../../Assets/Images/Fabian_Maurutschek/logos/cypress-logo.svg[width=100,alt="Cypress Logo", float="right"]
 
 * Cypress
 ** General frontend testing
 ** Used in Javascript/Typescript applications
 ** Virtualizes a real browser with events (click, key input,...)
 
+image::../../../Assets/Images/Fabian_Maurutschek/logos/vitest-logo.svg[width=90,alt="Vitest Image", float="right"]
+
 * Vitest
 ** Used with vite
 ** Frontend testing
 ** Used in Code
+
+image::../../../Assets/Images/Fabian_Maurutschek/logos/junit5-logo.png[width=100, alt="JUnit Logo", float="right"]
 
 * JUNIT (JAVA)
 ** Testing Java code
@@ -23,9 +28,12 @@ Depending on the technology which is used to create the program there are severa
 ** Has set up/tear down methods
 ** Used with annotations
 
+image::../../../Assets/Images/Fabian_Maurutschek/logos/pytest-logo.svg[width=100,alt="Pytest Logo", float="right"]
+
 * Pytest
 ** Testing in Python
-** _TODO_
+
+image::../../../Assets/Images/Fabian_Maurutschek/logos/xunit-logo.png[width=100,alt="XUnit Logo", float="right"]
 
 * XUNIT
 ** Used in the .NET Foundation (C#, F#, VB.NET)

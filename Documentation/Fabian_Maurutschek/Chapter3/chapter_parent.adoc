@@ -1,5 +1,7 @@
 == 3.3 Vitest
 
+image::../../../Assets/Images/Fabian_Maurutschek/logos/vitest-logo.svg[float = "right", width="100", alt="Vitest Logo"]
+
 With vitest the 3D printing webinterface has used to test components of the application. Due to the integration of networking and asynchronous data-fetching it has been replaced with cypress.
 
 Features of Vitest:

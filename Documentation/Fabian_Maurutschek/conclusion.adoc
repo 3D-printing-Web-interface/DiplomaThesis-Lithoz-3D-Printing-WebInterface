@@ -1,0 +1,8 @@
+== 3.6 Conclusion
+
+Testing is very important for any type of software. Without testing application can contain errors. There are a lot of many tools to create various types of tests depending on your technologies in use.
+
+Additionally, to testing quality assurance is also an important thing to have efficient development for a project. There different types to run quality assurance (For Example: Continuous Integration and Continuous Development)
+
+=== 3.6.1 Lessons Learned
+The correct use of cypress, vitest and cucumber api in the Lithoz 3d Printing Web Interface. Handling creating and automatic checks of the web application. Handling different challenges due to new integration features and further development. Importance of attendance on important meetings at start of the project. Dealing with the most unwanted topics in the diplome thesis.

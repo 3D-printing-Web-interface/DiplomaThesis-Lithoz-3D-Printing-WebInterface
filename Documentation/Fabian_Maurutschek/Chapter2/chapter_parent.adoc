@@ -39,7 +39,7 @@ Source: https://en.wikipedia.org/wiki/Behavior-driven_development
 
 ==== 3.2.2.1 Issue and Description Structure
 
-Behaviour Driven Development has certain _keywords_ that are used in user stories, descriptions, bug issues and comments.
+Behaviour Driven Development has certain _keywords_ that are used in user stories, descriptions, bug issues and comments. Also there is the ubiquitous language made from Eric Evans and is used commonly in DDD (Domain Driven Design)
 
 Keywords of Issues:
 

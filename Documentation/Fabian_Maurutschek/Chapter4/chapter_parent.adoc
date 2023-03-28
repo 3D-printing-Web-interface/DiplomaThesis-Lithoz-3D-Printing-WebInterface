@@ -1,5 +1,7 @@
 == 3.4 Cypress testing
 
+image::../../../Assets/Images/Fabian_Maurutschek/logos/cypress-logo.svg[width=100,alt="Cypress Logo"]
+
 The project uses Cypress to virtualize actions (button clicks, key inputs, ...) the web interface and test certain features.
 
 === 3.4.1 Adding cypress and configuration
@@ -105,7 +107,7 @@ Component Tests are comparable to unit tests. They are made for a specific part 
 Source (All the 3 above): https://docs.cypress.io/guides/core-concepts/testing-types
 
 === 3.4.3 Cucumber API
-image::../../../Assets/Images/Fabian_Maurutschek/cucumber-open-icon.svg[]
+image::../../../Assets/Images/Fabian_Maurutschek/cucumber-open-icon.svg["Cucumber APi", float="right"]
 Cucumber is a modern Behavior-Driven Development tool used in the 3D printing web interface for testing purposes.
 
 Features of cucumber:

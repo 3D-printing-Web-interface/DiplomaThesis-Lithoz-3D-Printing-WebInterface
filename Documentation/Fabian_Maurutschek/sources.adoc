@@ -1,16 +1,26 @@
-== Sources
+== 3.7 Sources
 
-- [] Declartaive vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
+- [1] Declartaive vs. Imperative programming https://dev.to/ruizb/declarative-vs-imperative-4a7l
 last accessed 2023-03-25
-- [] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
+- [2] Clean code writing https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code
 last accessed 2023-03-25
-- [] Cypress Documentaion https://docs.cypress.io/guides/getting-started/opening-the-app
+- [3] Cypress Documentaion https://docs.cypress.io/guides/getting-started/opening-the-app
 last accessed 2023-03-25
-- [] Cocumber API https://www.baeldung.com/cucumber-rest-api-testing
+- [4] Cucumber API https://www.baeldung.com/cucumber-rest-api-testing
 last accessed 2023-03-25
-- Test driven Development https://en.wikipedia.org/wiki/Test-driven_development
+- [5] Test driven Development https://en.wikipedia.org/wiki/Test-driven_development, https://www.agilealliance.org/glossary/tdd/, https://en.wikipedia.org/wiki/Test-driven_development
 last accessed 2023-03-25
-- Behavior Driven Development https://de.wikipedia.org/wiki/Behavior_Driven_Development
+- [6] Behavior Driven Development https://de.wikipedia.org/wiki/Behavior_Driven_Development
 last accessed 2023-03-25
-- [] https://cucumber.io/docs/guides/
+- [7] Cucumber API https://cucumber.io/docs/guides/
 last accessed 2023-03-26
+- [8] Continuous Improvement https://kanbanize.com/lean-management/improvement/what-is-continuous-improvement, https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/continuous-improvement-how-to-get-started last accessed 2023-03-28
+- [9] Continuous Delivery https://learn.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery, https://en.wikipedia.org/wiki/Continuous_delivery last accessed 2023-03-26
+
+=== 3.7.1 Pictures
+- Cypress Logo https://www.cypress.io/
+- JUnit Logo https://junit.org/junit5/
+- Pytest Logo https://docs.pytest.org/en/7.2.x/
+- XUnit https://www.vivekkaushik.co.in/Assets/resources/xunitLogo.png
+- Vitest https://vitest.dev/
+- Cucumber API https://cucumber.io/
