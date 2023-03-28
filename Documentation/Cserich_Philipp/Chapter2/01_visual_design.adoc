@@ -5,17 +5,17 @@ An applications visual appeal can be split up into several parts. The most impor
 
 - Typography
 
-Using different Fonts and sizes to emphasize different parts of the text 
-Typography is the art to emphasize on text. Highlighting, Quoting and maintaining text readability are the challenges typography faces.
+Using different fonts and sizes to emphasize different parts of the text 
+Typography is the art to emphasize on text. Highlighting, quoting and maintaining text readability are the challenges typography faces.
 
 - Colors
 
-Highlighting Elements & reflect the applications purpose
+Highlighting elements & reflect the applications purpose
 Making several peaces blend together to create one harmonious whole and creating a visual hierarchy 
 
 - Layout
 
-The Page Layout is the implicit Object arrangement and positioning of elements. The visual representation of the information must be ordered and spaced in a way that it is easy to read and understand. Creating a flow of information is the key to create an outstanding web layout for any project.
+The Page Layout is the implicit object arrangement and positioning of elements. The visual representation of the information must be ordered and spaced in a way that it is easy to read and understand. Creating a flow of information is the key to create an outstanding web layout for any project.
 
 - Motion
 
@@ -35,8 +35,8 @@ The languages used to implement visual tweaks are:
 
 ==== 1.6.1.1 HTML
 
-HTML also known as Hypertext Markup Language is the World wide web's standard markup language. HTML was developed by the World Wide Web Consortium in 1989 to semantically describe scientific documents for exchange on the Internet. But its purpose has changed since the start. HTMLs general design enabled it to be adapted over the years. It is now the most common language for describing a web page's structure and serves as the foundation for the modern web.
-The newest version HTML 5.2 has been released in 2017 by W3C and WHATWG which continuously work on updating the language.
+HTML also known as Hypertext Markup language is the World wide web's standard markup language. HTML was developed by the World Wide Web Consortium **(W3C)** in 1989 to semantically describe scientific documents for exchange on the internet. But its purpose has changed since the start. HTMLs general design enabled it to be adapted over the years. It is now the most common language for describing a web page's structure and serves as the foundation for the modern web.
+The newest version HTML 5.2 has been released in 2017 by **W3C** and **WHATWG** which continuously work on updating the language.
 
 [source,html,title="HTML example ^[1]^"]
 ----

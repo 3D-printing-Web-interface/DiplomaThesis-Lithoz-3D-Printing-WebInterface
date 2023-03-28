@@ -40,5 +40,3 @@ include::Chapter5/chapter_parent.adoc[]
 <<<
 
 include::conclusion.adoc[]
-
-include::sources.adoc[]

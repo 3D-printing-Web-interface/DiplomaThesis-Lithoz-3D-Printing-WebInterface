@@ -1,6 +1,6 @@
 
 === 1.6.3 Colors equal decisions
-Psychological definition of colours and how to emphasize that in your code - Psychological aspect + Code recommendation
+Psychological definition of colors and how to emphasize that in your code - Psychological aspect + Code recommendation
 
 CIE S 017/E:2020 -  *International Lighting Vocabulary* (2011 | 2013 | 2022)
 

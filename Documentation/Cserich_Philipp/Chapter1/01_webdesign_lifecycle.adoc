@@ -2,14 +2,14 @@
 
 - Differences in UI and UX development
 
-As many people are not fully aware of the differences between UI and UX, the seperation of the two is always a good starting point.
-While the User Experience (UX) is centered around features and the usability, the User Interface (UI) is about the feel and look of your product. UX has many centered topics included, one of which beeing UI, as the Interface is part of the products experience.
+As many people are not fully aware of the differences between UI and UX, the separation of the two is always a good starting point.
+While the User Experience (UX) is centered around features and the usability, the User Interface (UI) is about the feel and look of your product. UX has many centered topics included, one of which being UI, as the interface is part of the products experience.
 
 - User Experience includes the feel of the product.
 
-A Products User Experience is its greatest Asset. The general functionality is never enough to create great Web Pages. Without the right feel and an Intuitive Design, it can be really hard to deal with. This will scare new customers as their learning curve is way too steep in the beginning. 
+A products User Experience is its greatest asset. The general functionality is never enough to create great web pages. Without the right feel and an intuitive design, it can be really hard to deal with. This will scare new customers as their learning curve is way too steep in the beginning. 
 
-- Different Development Cycles
+- Different development cycles
 
 **Hoffer, George and Valaich SDLC**
 
@@ -18,7 +18,7 @@ A Companies needs and goals are defined too select a project path.
 2. Initiation and planning
 A detailed plan and a potential project is presented to the company. 
 3. Analysis
-Analysing the current state as well as proposing different replacements and new solutions.
+Analyzing the current state as well as proposing different replacements and new solutions.
 4. Logical design
 Describing the imagined system and its features.
 5. Physical design
@@ -27,7 +27,7 @@ The description is extended in technological specifications.
 This step includes the development, testing and implementation of the newly created system.
 7. Maintenance
 
-The Hoffer, George and Valaich SDLC is very detailed and complex, because it describes the whole process of creating a new system in great detail. On one hand, this is a great way to ensure that the system is well thought out and that no important steps are missed. On the other hand, it is very time consuming and can be very expensive. The clear seperation of steps makes it easier to trace problems and follow all of the progress.
+The Hoffer, George and Valaich SDLC is very detailed and complex, because it describes the whole process of creating a new system in great detail. On one hand, this is a great way to ensure that the system is well thought out and that no important steps are missed. On the other hand, it is very time consuming and can be very expensive. The clear separation of steps makes it easier to trace problems and follow all of the progress.
 
 
 **The Whitten and  Bentley SDLC**
@@ -64,4 +64,4 @@ image::/Assets/Images/Cserich_Philipp/star-model.png[pdfwidth=3in,align=center,s
 
 
 
-To make the star principle work, a deep user analysis has to be done. Consisting of Stakeholder analysis, Personas, User stories, User stories and problem statements, which are all used to create a very detailed user-profile. As each and every part of this User analysis is also an essential part in project management, the interconnection between development and project management is getting clearer. 
+To make the star principle work, a deep user analysis has to be done. Consisting of stakeholder analysis, personas, user stories, user stories and problem statements, which are all used to create a very detailed user-profile. As each and every part of this User analysis is also an essential part in project management, the interconnection between development and project management is getting clearer. 

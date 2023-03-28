@@ -34,7 +34,7 @@ The most popular ones are Adobe XD, Figma and Sketch.
 | Yes
 |=== 
 
-Figma in particular includes Wireframing, Prototyping, and Mocking in one combined online application.
+Figma in particular includes wireframing, prototyping, and mocking in one combined online application.
 Its powerful environment allows for easy mockup creations for several industries. The fact that it is free, makes it the most attractive option for most developers.
 With the great collaboration features and a series of ad-ons, it is an intuitive choice to create mocks in teams. 
 
