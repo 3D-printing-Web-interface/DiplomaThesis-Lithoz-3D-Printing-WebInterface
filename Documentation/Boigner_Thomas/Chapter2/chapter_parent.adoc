@@ -4,19 +4,19 @@
 
 == 2.2.1 Important terms
 
-In the following section some of the most important terms associated with 3D rendering will be explained. These terms are needed in order to understand the basic principals of rendering.
+In the following section some of the most important terms associated with 3D rendering will be explained. These terms are needed in order to understand the basic principals of rendering. It will explain it with the example of a simple 3D object of a table.
 
 === Vertex
 
-A Vertex is a point in a three-dimensional space. Vertices form the basis of a 3D object.^[2]^^[5]^
+A Vertex is a point in a three-dimensional space. Vertices form the basis of a 3D object. If we imagine a 3D object of a table the vertices would form the corners of the table.^[2]^^[5]^
 
 === Edge
 
-Two vertices connected by a line are called an edge.^[2]^^[5]^
+Two vertices connected by a line are called an edge. In the table example the edges connect the vertices and create the outline of the object.^[2]^^[5]^
 
 === Triangles
 
-Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object. The resulting plane is called face no matter how many vertices the shape has.^[2]^^[5]^
+Three edges form a triangle, the simples polygon. Multiple Triangles then form a 3D object. The resulting plane is called face no matter how many vertices the shape has. The table 3D object would consist of multiple triangles which for the surfaces of the object.^[2]^^[5]^
 
 === Polygons
 
@@ -45,7 +45,7 @@ Non-real-time rendering is used for non-interactive media, like feature film and
 
 === Reflection
 
-Reflections describe the appearance of a surface area and are the relationship between incoming and outgoing illumination on the surface of an object.^[2]^
+Reflections describe the appearance of a surface area and are the relationship between incoming and outgoing illumination on the surface of an object. If for example the table 3D object would have a surface that reflects light the reflection would have to be calculated for this surface.^[2]^
 
 === Shading
 
